@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/progressiveImage.component.jsx"],
+  "sourcesContent": ["import { useEffect, useState } from \"react\"\n\nconst ProgressiveImg = ({ placeholderSrc, src, ...props }) => {\n    const [imgSrc, setImgSrc] = useState(placeholderSrc || src);\n\n    useEffect(()=> {\n      const img = new Image();\n      img.src = src;\n      img.onload = () => {\n        setImgSrc(src);\n      }\n    }, [src]);\n\n    const customClass =\n      placeholderSrc && imgSrc === placeholderSrc ? \"loading\" : \"loaded\";\n    \n    return (    \n    <img\n      {...{ src: imgSrc, ...props }}\n      alt={props.alt || \"\"}\n      className={props.classTitle + ' ' + customClass}\n    />\n  );\n};\nexport default ProgressiveImg;"],
+  "mappings": ";;;;;;;AAAA,mBAAoC;AAiBhC;AAfJ,IAAM,iBAAiB,CAAC,EAAE,gBAAgB,KAAK,GAAG,MAAM,MAAM;AAC1D,QAAM,CAAC,QAAQ,SAAS,QAAI,uBAAS,kBAAkB,GAAG;AAE1D,8BAAU,MAAK;AACb,UAAM,MAAM,IAAI,MAAM;AACtB,QAAI,MAAM;AACV,QAAI,SAAS,MAAM;AACjB,gBAAU,GAAG;AAAA,IACf;AAAA,EACF,GAAG,CAAC,GAAG,CAAC;AAER,QAAM,cACJ,kBAAkB,WAAW,iBAAiB,YAAY;AAE5D,SACA;AAAA,IAAC;AAAA;AAAA,MACE,GAAG,EAAE,KAAK,QAAQ,GAAG,MAAM;AAAA,MAC5B,KAAK,MAAM,OAAO;AAAA,MAClB,WAAW,MAAM,aAAa,MAAM;AAAA;AAAA,IAHtC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAIA;AAEJ;AACA,IAAO,qCAAQ;",
+  "names": []
+}

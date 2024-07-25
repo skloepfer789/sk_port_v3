@@ -1,0 +1,123 @@
+.printRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: var(--mainGreen);
+    margin-bottom: 20vh;
+}
+
+.printImage {
+    width: 45%;
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    margin: 10px;
+}
+
+.printImage img {
+    width: 105%;
+    text-align: center;
+    transition: 1s;
+}
+
+.imageHeading {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    position: absolute;
+    top: 5;
+    left: 5;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    opacity: .7;
+}
+
+.unhovered {
+    display: none;
+}
+
+.printImage:hover {
+    z-index: 108;
+    transition: .25s;
+}
+
+.printImage img:hover {
+    width: 111%;
+    transition: 1s;
+}
+
+.spacerGreen {
+    background-color: var(--mainGreen);
+    height: 10vh;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 1450px) {
+    .printRow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 20vh;
+    }
+    .printImage {
+        width: 47%;
+        height: 300px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .printImage img {
+        width: 108%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .printRow {
+        width: 94vw;
+        margin-left: 3vw;
+        margin-bottom: 20vh;
+    }
+    .printImage {
+        width: 47%;
+        height: 250px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+    }
+    .printImage img {
+        height: 108%;
+        width: unset;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .printRow {
+        width: 94vw;
+        margin-left: 3vw;
+        margin-bottom: 20vh;
+        display: block;
+        background-color: var(--mainGreen);
+    }
+    .printImage {
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .printImage img {
+        height: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "about": [{
+        "title": "Enhance Printing - General Manager",
+        "date": "2019-Present",
+        "text": [
+            "Responsible for all graphic projects, including full brand packages, web design, and prepress work.", "Handled client relations, as well as promoting new services.",
+            "Took on new roles in accounts receivable and administration.",
+            "Oversaw expanding our brand to include digital marketing and web-based options.",
+            "Took numerous online courses to expand my capabilities, and extend the services we offered.",
+            "In my time with Enhance, we have seen our annual sales double."
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+        "title": "Enhance Printing - Graphic Design & Prepress",
+        "date": "2013-2019",
+        "text": [
+            "Managed and maintained customer project files.",
+            "Graphic design, including logo creation, recreation, and branded marketing materials.",
+            "Handled all prepress duties and managed the digital print side of production.",
+            "Took an expanded role in customer relations and sales.",
+            "Worked to expand our wide format offerings, including designing outdoor vinyl, banners, and vehicle wraps."
+        ],
+        "spaceClass": "breakLarge",
+        "final": false
+    }, {
+        "title": "PostNet - Lead Graphic Designer",
+        "date": "2012-2013",
+        "text": [
+            "Handled all print and design related work in a fast-paced, walk-in heavy environment.",
+            "Filled in with the shipping department as needed, learning much of the ins and outs and shipping.",
+            "Took the lead for all in-house marketing, including designs for community outreach and sponsorships."
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+        "title": "Citizen Printing - Internship",
+        "date": "2012",
+        "text": [
+            "Handled the update of a nation-wide manual for Idealease.",
+            "Contacted all branches to update company information and locations.",
+            "Created vector maps for all new locations, with a focus on accuracy and legibility.",
+            "Worked closely with the prepress department to finalize the artwork."
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+        "title": "Freelance Work",
+        "date": "2010-2012",
+        "text": [
+            "Created artwork for several local companies and startups, including brand identities, logos, and promotional materials.",
+            "Worked on diagrams for several machine training proposals, and ensure they were animation-ready.",
+            "Maintained relationships with my client."
+        ],
+        "spaceClass": "breakSmall",
+        "final": true
+    }],
+    "education": [{
+
+        "title": "Front Range Community College",
+        "date": "Class of 2011",
+        "text": [
+            "Associates of the Arts",
+            "Print and Presentation"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+
+        "title": "Selected Online Certifications",
+        "date": "",
+        "text": [
+            "Full Stack Web Development",
+            "Complete React Developer",
+            "PHP: How to Build and Ecommerce Store",
+            "Ultimate Web Designer & Developer",
+            "Building Responsive Websites With HTML & CSS"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }],
+    "skills": [{
+
+        "title": "Skills & Abilities",
+        "date": "",
+        "text": [
+            "Branding & Identity",
+            "Print and Presentation",
+            "Print Marketing",
+            "Web Design",
+            "Typography",
+            "Art Direction",
+            "Visual Communication",
+            "Interpersonal Communication",
+            "Creative Writing",
+            "3D Modeling"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+
+        "title": "Software",
+        "date": "",
+        "text": [
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Adobe InDesign",
+            "Adobe Premier",
+            "Microsoft Visual Studio Code",
+            "Blender",
+            "Unreal Engine"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+
+        "title": "Coding Languages & Frameworks",
+        "date": "",
+        "text": [
+            "HTML",
+            "CSS & SASS",
+            "Javascript",
+            "React JS",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "C++"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+
+        "title": "Workplace Philosophy",
+        "date": "",
+        "text": [
+            "Always Seeking Creative Soultions",
+            "Customer-First Mentality",
+            "Positive Outlook",
+            "Fast & Efficient Workflow",
+            "Great Client Relations",
+            "Quick & Willing Learner",
+            "Prioritizing Time Management",
+            "Multitaksking Without Sacrificing Quality"
+        ],
+        "spaceClass": "breakSmall",
+        "final": false
+    }, {
+
+        "title": "Personal Interests & Hobbies",
+        "date": "",
+        "text": [
+            "Family Time ",
+            "Game Development - Unreal Engine",
+            "Reading - Speculative Fiction and the Classics",
+            "Movies - Everything under the sun",
+            "Writing - Speculative Fiction",
+            "Gaming - Tabletop & Digital"
+        ],
+        "spaceClass": "breakSmall",
+        "final": true
+    }]
+}

@@ -1,0 +1,153 @@
+.mainMenuImage {
+    width: 22vw;
+    margin-top: 8vh;
+    margin-left: 75vw;
+    transition: 1.5s
+}
+
+.menuBackground {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+
+.menuList {
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 5vw;
+    padding: 0 5% 0 0;
+    width: 90vw;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.submenuBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -2vh;
+}
+
+.submenuList {
+    display: flex;
+    position: relative;
+    bottom: 10vh;
+    padding: 0 5% 0 0;
+    width: 100vw;
+    align-items: flex-end;
+}
+
+.menuItem {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: var(--orangeMain);
+    font-size: 60px;
+    text-transform: lowercase;
+    font-weight: 600;
+    padding: 20px 40px 0;
+    margin-right: 50px;
+    transition: .5s;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+}
+
+.active {
+    transition: 1.5s;
+}
+
+.bounding {
+    position: relative;
+}
+
+.highlightImage {
+    width: 100px;
+    position: absolute;
+    bottom: 40px;
+    left: 75px;
+    opacity: 40%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.offImage {
+    opacity: 0;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 1100px) {
+    .menuList {
+        margin-left: 5vw;
+        padding: 0 5% 0 0;
+        width: 90vw;
+    }
+    .submenuList {
+        margin-left: 10vw;
+        padding: 0 5% 0 0;
+        width: 90vw;
+    }
+    .menuItem {
+        font-size: 40px;
+        text-transform: lowercase;
+        font-weight: 800;
+        padding: 10px 20px 0;
+        margin-right: 1vw;
+    }
+    .highlightImage {
+        width: 80px;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+        opacity: 30%;
+        z-index: -1;
+        transition: .5s;
+    }
+    .offImage {
+        opacity: 0;
+        transition: .5s;
+    }
+    .mainMenuImage {
+        width: 40vw;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        transition: 1.5s
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .menuList {
+        margin-left: 5vw;
+        padding: 20px 10px 20px 0;
+        width: 90vw;
+        margin-bottom: 10vh;
+        display: block;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    .submenuList {
+        margin-left: 5vw;
+        padding: 20px 10px 20px 0;
+        width: 90vw;
+        margin-bottom: 10vh;
+        display: block;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    .menuItem {
+        padding: 10px 10px 18px;
+        writing-mode: unset;
+        text-orientation: unset;
+        margin-top: 35px;
+        font-weight: 600;
+    }
+    .highlightImage {
+        display: none;
+    }
+    .mainMenuImage {
+        display: none;
+    }
+}
