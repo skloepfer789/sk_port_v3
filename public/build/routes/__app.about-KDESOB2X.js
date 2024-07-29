@@ -25,7 +25,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-OYT3POM4.css";
+var about_styles_default = "/build/_assets/about.styles-GZIIXIVX.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -373,33 +373,28 @@ var About = () => {
           lineNumber: 121,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "aboutSpacer" }, void 0, false, {
-          fileName: "app/routes/__app.about.jsx",
-          lineNumber: 136,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "panel2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, false, {
-            fileName: "app/routes/__app.about.jsx",
-            lineNumber: 139,
-            columnNumber: 17
-          }, this) }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "panel2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "historyBox", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, false, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 138,
-            columnNumber: 15
+            columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, false, {
             fileName: "app/routes/__app.about.jsx",
-            lineNumber: 142,
-            columnNumber: 17
+            lineNumber: 140,
+            columnNumber: 19
           }, this) }, void 0, false, {
             fileName: "app/routes/__app.about.jsx",
-            lineNumber: 141,
-            columnNumber: 15
+            lineNumber: 139,
+            columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/__app.about.jsx",
           lineNumber: 137,
+          columnNumber: 15
+        }, this) }, void 0, false, {
+          fileName: "app/routes/__app.about.jsx",
+          lineNumber: 136,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
@@ -424,4 +419,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-OZK46TFD.js.map
+//# sourceMappingURL=/build/routes/__app.about-KDESOB2X.js.map

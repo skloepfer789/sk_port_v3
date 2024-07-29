@@ -133,13 +133,12 @@ const About = () => {
                   </div>
                 </div>
             </div>
-            <div className='aboutSpacer' />
             <div className='panel2'>
               <div className='historyBox'>
-                <h2 className='historyText'>Work History</h2>
-              </div>
-              <div className='aboutRow'>            
-                <Timeline aboutInfo={aboutInfo} selector='about' heightBlock='60vh' />            
+                  <h2 className='historyText'>Work History</h2>
+                <div className='aboutRow'>            
+                  <Timeline aboutInfo={aboutInfo} selector='about' heightBlock='60vh' />            
+                </div>
               </div>
             </div>
         </div>
