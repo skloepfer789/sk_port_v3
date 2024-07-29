@@ -155,7 +155,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/styles/global.styles.css
-var global_styles_default = "/build/_assets/global.styles-NYUXPGNA.css";
+var global_styles_default = "/build/_assets/global.styles-HFDEFQJD.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react_animated_cursor = __toESM(require("react-animated-cursor")), import_react_device_detect = require("react-device-detect"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -551,7 +551,7 @@ function MaskedImage(props) {
 var import_react6 = require("@remix-run/react"), import_react_animate_on_scroll = __toESM(require("react-animate-on-scroll"));
 
 // app/styles/menu.styles.css
-var menu_styles_default = "/build/_assets/menu.styles-JSN32KMP.css";
+var menu_styles_default = "/build/_assets/menu.styles-R2CYKEZH.css";
 
 // app/components/mainMenu.component.jsx
 var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), menuItems = [
@@ -2025,10 +2025,10 @@ __export(app_index_exports, {
 });
 
 // app/styles/landing.styles.css
-var landing_styles_default = "/build/_assets/landing.styles-B4VCAX5Z.css";
+var landing_styles_default = "/build/_assets/landing.styles-BEBRF5E6.css";
 
 // app/styles/hero.styles.css
-var hero_styles_default = "/build/_assets/hero.styles-DO6AKD65.css";
+var hero_styles_default = "/build/_assets/hero.styles-RJKX2MGS.css";
 
 // app/components/heroLogoSVG.component.jsx
 var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), HeroLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -2493,59 +2493,124 @@ function Index() {
       behavior: "smooth"
     });
   }, scrollRef = (0, import_react12.useRef)(null);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "scrolling", id: "container", ref: scrollRef, onWheel, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel1", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_jsx_dev_runtime14.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mainLanding scrolling", id: "container", ref: scrollRef, onWheel, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 50,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 51,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 52,
+          columnNumber: 17
+        }, this)
+      ] }, void 0, !0, {
         fileName: "app/routes/__app._index.jsx",
         lineNumber: 49,
-        columnNumber: 17
+        columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 55,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "intro", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+            fileName: "app/routes/__app._index.jsx",
+            lineNumber: 57,
+            columnNumber: 21
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
+            fileName: "app/routes/__app._index.jsx",
+            lineNumber: 58,
+            columnNumber: 21
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 56,
+          columnNumber: 17
+        }, this)
+      ] }, void 0, !0, {
         fileName: "app/routes/__app._index.jsx",
-        lineNumber: 50,
-        columnNumber: 17
+        lineNumber: 54,
+        columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, {}, void 0, !1, {
         fileName: "app/routes/__app._index.jsx",
-        lineNumber: 51,
-        columnNumber: 17
+        lineNumber: 61,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app._index.jsx",
       lineNumber: 48,
-      columnNumber: 13
+      columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
-        fileName: "app/routes/__app._index.jsx",
-        lineNumber: 54,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "intro", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mobile", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
-          lineNumber: 56,
-          columnNumber: 21
+          lineNumber: 65,
+          columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
-          lineNumber: 57,
-          columnNumber: 21
+          lineNumber: 66,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 67,
+          columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app._index.jsx",
-        lineNumber: 55,
-        columnNumber: 17
+        lineNumber: 64,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 70,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "intro", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+            fileName: "app/routes/__app._index.jsx",
+            lineNumber: 72,
+            columnNumber: 21
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
+            fileName: "app/routes/__app._index.jsx",
+            lineNumber: 73,
+            columnNumber: 21
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app._index.jsx",
+          lineNumber: 71,
+          columnNumber: 17
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/__app._index.jsx",
+        lineNumber: 69,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, {}, void 0, !1, {
+        fileName: "app/routes/__app._index.jsx",
+        lineNumber: 76,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app._index.jsx",
-      lineNumber: 53,
-      columnNumber: 13
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, {}, void 0, !1, {
-      fileName: "app/routes/__app._index.jsx",
-      lineNumber: 60,
-      columnNumber: 13
+      lineNumber: 63,
+      columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/__app._index.jsx",
@@ -2565,7 +2630,7 @@ __export(app_about_exports, {
 var import_react14 = require("react");
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-SWSRN7OH.css";
+var about_styles_default = "/build/_assets/about.styles-FW6CA2EI.css";
 
 // app/routes/__app.about.jsx
 var import_react15 = require("@remix-run/react");
@@ -2796,7 +2861,7 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
         lineNumber: 93,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutScrolling", id: "container", ref: scrollRef, onWheel, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutScrolling mainLanding", id: "container", ref: scrollRef, onWheel, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel1", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
@@ -2884,6 +2949,96 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
       ] }, void 0, !0, {
         fileName: "app/routes/__app.about.jsx",
         lineNumber: 94,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutMobile", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 122,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutText", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+              fileName: "app/routes/__app.about.jsx",
+              lineNumber: 125,
+              columnNumber: 21
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
+              "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 128,
+                columnNumber: 23
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 128,
+                columnNumber: 29
+              }, this),
+              "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 130,
+                columnNumber: 23
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 130,
+                columnNumber: 29
+              }, this),
+              "In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself Unreal Engine and Blender in the hopes of creating a video game of my own from the ground up."
+            ] }, void 0, !0, {
+              fileName: "app/routes/__app.about.jsx",
+              lineNumber: 126,
+              columnNumber: 23
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 124,
+            columnNumber: 21
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 123,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app.about.jsx",
+          lineNumber: 121,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutSpacer" }, void 0, !1, {
+          fileName: "app/routes/__app.about.jsx",
+          lineNumber: 136,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel2", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 139,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 138,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 142,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 141,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app.about.jsx",
+          lineNumber: 137,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/__app.about.jsx",
+        lineNumber: 120,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
@@ -3249,22 +3404,11 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), meta7 = () => [
   { rel: "stylesheet", href: menu_styles_default }
 ];
 function Menu() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "backgroundImg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("img", { className: "textureImg", src: "/images/texture-1874580_1920.jpg", alt: "grunge" }, void 0, !1, {
-      fileName: "app/routes/__app.menu.jsx",
-      lineNumber: 20,
-      columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/routes/__app.menu.jsx",
-      lineNumber: 19,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
-      fileName: "app/routes/__app.menu.jsx",
-      lineNumber: 23,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, !0, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
+    fileName: "app/routes/__app.menu.jsx",
+    lineNumber: 19,
+    columnNumber: 7
+  }, this) }, void 0, !1, {
     fileName: "app/routes/__app.menu.jsx",
     lineNumber: 17,
     columnNumber: 5
@@ -3587,7 +3731,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-E7LLUDKH.js", imports: ["/build/_shared/chunk-SYL4ZOYI.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UWDGYCIX.js", imports: ["/build/_shared/chunk-5SKTI2PH.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-6U7FXDEX.js", imports: ["/build/_shared/chunk-A6V6MQBL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-3D4SPSBG.js", imports: ["/build/_shared/chunk-L6ZX24UO.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BTMLLQPD.js", imports: ["/build/_shared/chunk-L6ZX24UO.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-3CMZHRUH.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-TX2TLNG4.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-OHF4ZNZB.js", imports: ["/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-XWTKYEGF.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-6W73JJWU.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-MDUEWVSL.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-5ILSVYJC.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a3c1a3f4", hmr: void 0, url: "/build/manifest-A3C1A3F4.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2TAEEUBI.js", imports: ["/build/_shared/chunk-2254ZGLD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-M36GBRLB.js", imports: ["/build/_shared/chunk-LPD6BGRT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-YJHD67TN.js", imports: ["/build/_shared/chunk-K5F7D4NB.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BUCNCQQ4.js", imports: ["/build/_shared/chunk-K5F7D4NB.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-SEMUUP5Z.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-VTAVFE7K.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-LS3VPNWV.js", imports: ["/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-5SW42ADT.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-WFTJUHSC.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-ILLSWMGD.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-SQHSC4H3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K7G7JE3K.js", "/build/_shared/chunk-2254ZGLD.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "fe5a66be", hmr: void 0, url: "/build/manifest-FE5A66BE.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -270,7 +270,7 @@ footer p {
     .logoHeading {
         width: 50vw;
         top: 6vh;
-        left: 25vw;
+        right: 0;
     }
     footer {
         padding: 0 10px 15px;

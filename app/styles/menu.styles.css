@@ -20,27 +20,9 @@
     left: 50px;
 }
 
-.menuListOriginal {
-    display: flex;
-    position: absolute;
-    bottom: 10vh;
-    margin-left: 5vw;
-    padding: 0 5% 0 0;
-    width: 90vw;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
 .submenuBox {
     display: flex;
     flex-direction: row;
-    position: relative;
-    bottom: -2vh;
-}
-
-.submenuBoxOriginal {
-    display: flex;
-    flex-direction: column;
     position: relative;
     bottom: -2vh;
 }
@@ -52,33 +34,12 @@
     align-items: flex-start;
 }
 
-.submenuListOriginal {
-    display: flex;
-    position: relative;
-    bottom: 10vh;
-    padding: 0 5% 0 0;
-    width: 100vw;
-    align-items: flex-end;
-}
-
 .menuItem {
     color: var(--orangeMain);
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 50px;
-    transition: .5s;
-}
-
-.menuItemOriginal {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    color: var(--orangeMain);
-    font-size: 60px;
-    text-transform: lowercase;
-    font-weight: 600;
-    padding: 20px 40px 0;
-    margin-right: 50px;
     transition: .5s;
 }
 
@@ -113,7 +74,7 @@
 @media only screen and (max-width: 1100px) {
     .menuList {
         margin-left: 5vw;
-        padding: 0 5% 0 0;
+        padding: 150px 5% 0 0;
         width: 90vw;
     }
     .submenuList {
@@ -128,30 +89,22 @@
         padding: 10px 20px 0;
         margin-right: 1vw;
     }
-    .highlightImage {
-        width: 80px;
-        position: absolute;
-        bottom: 20px;
-        left: 40px;
-        opacity: 30%;
-        z-index: -1;
-        transition: .5s;
-    }
     .offImage {
         opacity: 0;
         transition: .5s;
     }
     .mainMenuImage {
         width: 40vw;
-        margin-top: 5vh;
-        margin-left: 5vw;
+        margin-top: 15vh;
+        margin-left: 75vw;
         transition: 1.5s
     }
 }
 
 @media only screen and (max-width: 550px) {
     .menuList {
-        margin-left: 5vw;
+        margin-left: 0;
+        margin-right: 2vw;
         padding: 20px 10px 20px 0;
         width: 90vw;
         margin-bottom: 10vh;

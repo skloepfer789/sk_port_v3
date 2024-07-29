@@ -91,7 +91,33 @@ const About = () => {
       <div className={triggered ? `slider backgroundDark activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
         <PageHeader background='#35444F' setter={data_from_child} onClose={closeSlide} active='about' />       
-        <div className='aboutScrolling' id='container' ref={scrollRef} onWheel={onWheel}>
+        <div className='aboutScrolling mainLanding' id='container' ref={scrollRef} onWheel={onWheel}>
+            <div className='panel1' >
+                <img src='/images/SteveFlowChart.webp' className='aboutPic' />
+                <div className='introBox'>                    
+                    <div className='aboutText'>
+                    <h2>ABOUT ME</h2>
+                      <p>
+                      It’s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It’s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market. 
+                      <br/><br/>
+                      When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father. 
+                      <br/><br/>
+                      In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself Unreal Engine and Blender in the hopes of creating a video game of my own from the ground up. 
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div className='aboutSpacer' />
+            <div className='panel2'>
+              <div className='historyBox'>
+                <h2 className='historyText'>Work History</h2>
+              </div>
+              <div className='aboutRow'>            
+                <Timeline aboutInfo={aboutInfo} selector='about' heightBlock='60vh' />            
+              </div>
+            </div>
+        </div>
+        <div className='aboutMobile' >
             <div className='panel1' >
                 <img src='/images/SteveFlowChart.webp' className='aboutPic' />
                 <div className='introBox'>                    
