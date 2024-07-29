@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/__app.jsx"],
+  "sourcesContent": ["import { Outlet } from \"@remix-run/react\";\n\nimport Footer from '../components/footer.component';\nimport Background from \"../components/background.component\";\n\nexport const links = () => [\n];\n\nexport default function App() {\n    \n    return (\n    <>\n        <Outlet />\n        <Background />\n        \n    </>\n    );\n}\n\n//add footer back to bottom"],
+  "mappings": ";;;;;;;;;;AAWI;AANG,IAAM,QAAQ,MAAM,CAC3B;AAEe,SAAR,MAAuB;AAE1B,SACA,sFACI;AAAA,uDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,WAAQ;AAAA,IACR,mDAAC,gBAAD;AAAA;AAAA;AAAA;AAAA,WAAY;AAAA,OAFhB;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;",
+  "names": []
+}

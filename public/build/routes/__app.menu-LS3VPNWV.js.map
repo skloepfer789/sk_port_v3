@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/__app.menu.jsx"],
+  "sourcesContent": ["import styles from '../styles/menu.styles.css';\nimport MainMenu from '../components/mainMenu.component';\n\n//https://codesandbox.io/s/plx-framer-motion-demo-flyux?file=/src/intro.js\n\nexport const meta = () => {\n  return [{ title: \"New Remix App\" }];\n};\n\nexport const links = () => [\n{ rel: \"stylesheet\", href: styles }];\n\n\nexport default function Menu() {\n\n  return (\n    <div className='main'>\n      \n      <MainMenu scrolling={false} />\n              \n    </div>);\n\n}"],
+  "mappings": ";;;;;;;;;;AAkBM;AAbC,IAAM,OAAO,MAAM;AACxB,SAAO,CAAC,EAAE,OAAO,gBAAgB,CAAC;AACpC;AAEO,IAAM,QAAQ,MAAM;AAAA,EAC3B,EAAE,KAAK,cAAc,MAAM,oBAAO;AAAC;AAGpB,SAAR,OAAwB;AAE7B,SACE,mDAAC,SAAI,WAAU,QAEb,6DAAC,YAAS,WAAW,SAArB;AAAA;AAAA;AAAA;AAAA,SAA4B,KAF9B;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;",
+  "names": []
+}

@@ -247,6 +247,17 @@ li {
         align-items: flex-end;
         margin-right: 6vw;
     }
+    .panel1 {
+        display: block;
+    }
+    .aboutPic {
+        width: 60vw;
+        margin: 0 20vw;
+    }
+    .introBox {
+        width: 100vw;
+        padding: 0 35px;
+    }
     .menu {
         display: flex;
         flex-direction: column;
