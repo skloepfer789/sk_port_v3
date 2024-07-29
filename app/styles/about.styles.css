@@ -1,6 +1,16 @@
 .scrollbox {
     width: 60vw;
     padding-bottom: 20vh;
+    margin-top: 5vh;
+    margin-right: 20vw;
+}
+
+.aboutScrolling {
+    height: calc(100vh - 122px);
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .aboutRow {
@@ -20,32 +30,53 @@
     flex-direction: row;
 }
 
+.aboutSpacer {
+    width: 60px;
+    margin: 150px;
+}
+
 .aboutHeading {
     color: white;
     text-transform: uppercase;
     font-size: 60px;
     text-align: right;
     margin-right: 5vw;
-    margin-top: 25px;
+    margin-top: 50px;
+}
+
+.aboutPic {
+    height: 70vh;
+    margin-top: 10vh;
+    margin-left: 70px;
+    margin: 10vh, 15px 0, 50px;
 }
 
 .introBox {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     justify-content: flex-end;
-    width: 60%;
+    min-width: 50vw;
+    max-width: 65vw;
+    height: 100vh;
     color: white;
     margin: 0 auto 5vh;
 }
 
 .aboutText {
     margin-bottom: 12px;
+    margin-top: 50px;
     width: 80%;
     line-height: 30px;
     padding-bottom: 30px;
     opacity: .8;
     color: white;
+}
+
+.aboutPanel2 {
+    background-color: var(--orangeMain);
+    z-index: 5;
+    width: 100vw;
+    padding: 200px 50px 0;
 }
 
 .historyBox {
@@ -55,12 +86,16 @@
     justify-content: flex-end;
     width: 80%;
     color: white;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .historyText {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: uppercase;
+    margin-top: 5vh;
+    text-align: right;
 }
 
 .timeline {
@@ -75,7 +110,7 @@
 .bullet {
     position: absolute;
     left: 0;
-    background-color: var(--darkGray);
+    background-color: var(--orangeMain);
     z-index: 50;
     transform: translateX(-50%);
     cursor: pointer;
@@ -84,17 +119,19 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .activeBullet {
-    color: var(--blueMain);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .bulletActive-line {
     position: absolute;
     left: 0;
+    top: 10px;
     z-index: 40;
-    border-top: 1px solid var(--blueMain);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
     width: 100%;
     transform: translate(0, 15px);
 }
@@ -103,18 +140,19 @@
     width: 80%;
     padding: 20px;
     color: white;
-    border: 1px solid var(--blueMain);
-    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 18px;
     line-height: 30px;
     min-height: 50vh;
 }
 
 .breakSmall {
-    height: 12vh;
+    height: 10vh;
 }
 
 .breakLarge {
-    height: 25vh;
+    height: 20vh;
 }
 
 li {

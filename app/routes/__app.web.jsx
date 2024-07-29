@@ -68,9 +68,9 @@ const WebDesign = () => {
         page='web' 
         onReopen={onReopen}
       />
-      <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >
+      <div className={triggered ? `slider activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
-        <PageHeader background='#1A4C74' setter={data_from_child} onClose={closeSlide} active='web' />       
+        <PageHeader setter={data_from_child} onClose={closeSlide} active='web' />       
         <div>
           <h1 className='heading'>Web Design</h1>
           {

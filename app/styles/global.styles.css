@@ -116,6 +116,7 @@ footer p {
     z-index: 10;
     position: fixed;
     top: 0;
+    background-color: white;
 }
 
 .activeSlide {
@@ -143,14 +144,12 @@ footer p {
 }
 
 .backgroundLight {
-    background-color: aliceblue;
-    background-image: url(/images/GraidentBackground_Light.webp);
+    background-color: white;
     background-size: cover;
 }
 
 .backgroundDark {
-    background-color: #018aaa;
-    background-image: url(/images/GraidentBackground_Full.webp);
+    background-color: var(--orangeMain);
     background-size: cover;
 }
 
@@ -229,7 +228,7 @@ footer p {
     width: 50%;
     font-size: 135%;
     line-height: 150%;
-    margin: 0 auto 90px;
+    margin: 0 10vw 120px;
 }
 
 @media only screen and (max-width: 1100px) {

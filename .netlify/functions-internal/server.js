@@ -155,7 +155,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/styles/global.styles.css
-var global_styles_default = "/build/_assets/global.styles-2OY4CWN3.css";
+var global_styles_default = "/build/_assets/global.styles-NYUXPGNA.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react_animated_cursor = __toESM(require("react-animated-cursor")), import_react_device_detect = require("react-device-detect"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -337,7 +337,7 @@ var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-r
 ), logoBleedOfflSVG_component_default = BleedLogo;
 
 // app/styles/header.styles.css
-var header_styles_default = "/build/_assets/header.styles-G6EVTQRN.css";
+var header_styles_default = "/build/_assets/header.styles-WIK3NUGM.css";
 
 // app/components/pagesHeader.component.jsx
 var import_react4 = require("react"), import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), pageLinks = [
@@ -377,7 +377,7 @@ var PageHeader = (props) => {
     setActivated(props2), onClose();
   };
   var backgroundURL, logoColor;
-  return props.background == "dark" ? (backgroundURL = "url(/images/GraidentBackground_Full.webp)", logoColor = "fff") : (backgroundURL = "url(/images/GraidentBackground_Light.webp)", logoColor = "#018aaa"), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("header", { style: { backgroundImage: backgroundURL }, children: [
+  return props.background == "dark" ? (backgroundURL = "url(/images/GraidentBackground_Full.webp)", logoColor = "fff") : (backgroundURL = "url(/images/GraidentBackground_Light.webp)", logoColor = "#e05210"), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("header", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("nav", { className: "pages", children: newLinks.map(
       (link) => /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "linkBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
         "h3",
@@ -551,7 +551,7 @@ function MaskedImage(props) {
 var import_react6 = require("@remix-run/react"), import_react_animate_on_scroll = __toESM(require("react-animate-on-scroll"));
 
 // app/styles/menu.styles.css
-var menu_styles_default = "/build/_assets/menu.styles-LCQ5FJFK.css";
+var menu_styles_default = "/build/_assets/menu.styles-JSN32KMP.css";
 
 // app/components/mainMenu.component.jsx
 var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), menuItems = [
@@ -776,7 +776,7 @@ var links3 = () => [
 ];
 
 // app/styles/page.styles.css
-var page_styles_default = "/build/_assets/page.styles-OG3IJOSZ.css";
+var page_styles_default = "/build/_assets/page.styles-6UW2SEZ2.css";
 
 // app/styles/print.styles.css
 var print_styles_default = "/build/_assets/print.styles-PZO324GG.css";
@@ -1768,7 +1768,7 @@ var import_react10 = require("react");
 var import_react11 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-2ZXSRZS3.css";
+var modal_styles_default = "/build/_assets/modal.styles-MTN5XKLT.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) => {
@@ -1911,7 +1911,7 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
         lineNumber: 101,
@@ -2565,7 +2565,7 @@ __export(app_about_exports, {
 var import_react14 = require("react");
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-BXZ4RSY6.css";
+var about_styles_default = "/build/_assets/about.styles-SWSRN7OH.css";
 
 // app/routes/__app.about.jsx
 var import_react15 = require("@remix-run/react");
@@ -2737,6 +2737,7 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: about_styles_default },
+  { rel: "stylesheet", href: landing_styles_default },
   ...links3(),
   ...links2()
 ], meta4 = () => [
@@ -2754,113 +2755,145 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
   }, navigate = (0, import_react15.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   };
-  return (0, import_react14.useEffect)(() => {
+  (0, import_react14.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "main", children: [
+  });
+  let onReopen = () => {
+    console.log("fire"), hasloaded(!1);
+  }, onWheel = (e) => {
+    e.preventDefault();
+    let container = scrollRef.current, containerScrollPosition = scrollRef.current.scrollLeft;
+    container.scrollTo({
+      top: 0,
+      left: containerScrollPosition + e.deltaY,
+      behavior: "smooth"
+    });
+  }, scrollRef = (0, import_react14.useRef)(null);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "main", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
       MainMenu,
       {
         page: "about",
-        onReopen: () => {
-          console.log("fire"), hasloaded(!1);
-        }
+        onReopen
       },
       void 0,
       !1,
       {
         fileName: "app/routes/__app.about.jsx",
-        lineNumber: 71,
+        lineNumber: 87,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: triggered ? "slider backgroundGray activeSlide" : "slider inactiveSlide", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
-        lineNumber: 76,
+        lineNumber: 92,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(pagesHeader_component_default, { background: "#35444F", setter: data_from_child, onClose: closeSlide, active: "about" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
-        lineNumber: 77,
+        lineNumber: 93,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { className: "aboutHeading", children: "About Me" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutScrolling", id: "container", ref: scrollRef, onWheel, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
-            lineNumber: 80,
-            columnNumber: 11
+            lineNumber: 96,
+            columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
-            "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutText", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
-              lineNumber: 84,
-              columnNumber: 15
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
-              fileName: "app/routes/__app.about.jsx",
-              lineNumber: 84,
+              lineNumber: 99,
               columnNumber: 21
             }, this),
-            "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
+              "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 102,
+                columnNumber: 23
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 102,
+                columnNumber: 29
+              }, this),
+              "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 104,
+                columnNumber: 23
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+                fileName: "app/routes/__app.about.jsx",
+                lineNumber: 104,
+                columnNumber: 29
+              }, this),
+              "In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself Unreal Engine and Blender in the hopes of creating a video game of my own from the ground up."
+            ] }, void 0, !0, {
               fileName: "app/routes/__app.about.jsx",
-              lineNumber: 86,
-              columnNumber: 15
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
-              fileName: "app/routes/__app.about.jsx",
-              lineNumber: 86,
-              columnNumber: 21
-            }, this),
-            "In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself Unreal Engine and Blender in the hopes of creating a video game of my own from the ground up."
+              lineNumber: 100,
+              columnNumber: 23
+            }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/__app.about.jsx",
-            lineNumber: 82,
-            columnNumber: 15
+            lineNumber: 98,
+            columnNumber: 21
           }, this) }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
-            lineNumber: 81,
-            columnNumber: 13
+            lineNumber: 97,
+            columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/__app.about.jsx",
-          lineNumber: 79,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
-          fileName: "app/routes/__app.about.jsx",
-          lineNumber: 92,
-          columnNumber: 13
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/__app.about.jsx",
-          lineNumber: 91,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "76vh" }, void 0, !1, {
-          fileName: "app/routes/__app.about.jsx",
           lineNumber: 95,
           columnNumber: 13
-        }, this) }, void 0, !1, {
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutSpacer" }, void 0, !1, {
           fileName: "app/routes/__app.about.jsx",
-          lineNumber: 94,
-          columnNumber: 11
+          lineNumber: 110,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel2", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 113,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 112,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 116,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/__app.about.jsx",
+            lineNumber: 115,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app.about.jsx",
+          lineNumber: 111,
+          columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.about.jsx",
-        lineNumber: 78,
+        lineNumber: 94,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.about.jsx",
-      lineNumber: 75,
+      lineNumber: 91,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/__app.about.jsx",
-    lineNumber: 70,
+    lineNumber: 86,
     columnNumber: 5
   }, this);
 }, app_about_default = About;
@@ -3092,13 +3125,13 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 102,
         columnNumber: 9
@@ -3249,7 +3282,6 @@ __export(app_spec_exports, {
 var import_react20 = require("react");
 var import_react21 = require("@remix-run/react");
 var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () => [
-  { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
   ...links2(),
@@ -3301,20 +3333,20 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
       !1,
       {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 96,
+        lineNumber: 94,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 101,
+        lineNumber: 99,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "spec" }, void 0, !1, {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 102,
+        lineNumber: 100,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
@@ -3322,34 +3354,34 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
           "Artistic Playground",
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.spec.jsx",
-            lineNumber: 104,
+            lineNumber: 102,
             columnNumber: 54
           }, this),
           "& Speculative Work"
         ] }, void 0, !0, {
           fileName: "app/routes/__app.spec.jsx",
-          lineNumber: 104,
+          lineNumber: 102,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
-          lineNumber: 105,
+          lineNumber: 103,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "introText", children: "Whether to keep our creative edge honed, or just for day-to-day fun, sometimes our best work ends up being purely fictional work. While I prefer to focus my portfolio on real-world projects, occassionally a 'for fun' design is just too good to keep to myself. That is why I created the 'speculative' section of my portfolio, as a chance to show off work I'm proud of, that has never seen the light of day professionally." }, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
-          lineNumber: 106,
+          lineNumber: 104,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageGrid", children: brandData.spec.map(
           (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("a", { children: [
             checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
-              lineNumber: 114,
+              lineNumber: 112,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
-              lineNumber: 115,
+              lineNumber: 113,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -3365,33 +3397,33 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
               !1,
               {
                 fileName: "app/routes/__app.spec.jsx",
-                lineNumber: 118,
+                lineNumber: 116,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.spec.jsx",
-            lineNumber: 111,
+            lineNumber: 109,
             columnNumber: 17
           }, this) }, brand.name, !1, {
             fileName: "app/routes/__app.spec.jsx",
-            lineNumber: 110,
+            lineNumber: 108,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
-          lineNumber: 107,
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 103,
+        lineNumber: 101,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.spec.jsx",
-      lineNumber: 100,
+      lineNumber: 98,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -3406,14 +3438,14 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
       !1,
       {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 137,
+        lineNumber: 135,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/routes/__app.spec.jsx",
-    lineNumber: 95,
+    lineNumber: 93,
     columnNumber: 5
   }, this);
 }, app_spec_default = Branding3;
@@ -3471,13 +3503,13 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
         lineNumber: 72,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
         lineNumber: 73,
         columnNumber: 9
@@ -3555,7 +3587,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CAX5PSHL.js", imports: ["/build/_shared/chunk-CMQGVOKO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-M36GBRLB.js", imports: ["/build/_shared/chunk-LPD6BGRT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-LJTVVEOW.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-2XVG7Q5M.js", imports: ["/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-T6CDW3NL.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-5YOU2VGD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-PKDGMOB2.js", imports: ["/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-E5564KNI.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-MI5NAT3E.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-545H2JX7.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-4XN4G6NT.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-XYXO5ONQ.js", "/build/_shared/chunk-CMQGVOKO.js", "/build/_shared/chunk-K2YNISVX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "edd19031", hmr: void 0, url: "/build/manifest-EDD19031.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-E7LLUDKH.js", imports: ["/build/_shared/chunk-SYL4ZOYI.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UWDGYCIX.js", imports: ["/build/_shared/chunk-5SKTI2PH.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-6U7FXDEX.js", imports: ["/build/_shared/chunk-A6V6MQBL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-3D4SPSBG.js", imports: ["/build/_shared/chunk-L6ZX24UO.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BTMLLQPD.js", imports: ["/build/_shared/chunk-L6ZX24UO.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-3CMZHRUH.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-TX2TLNG4.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-OHF4ZNZB.js", imports: ["/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-XWTKYEGF.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-6W73JJWU.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-MDUEWVSL.js", imports: ["/build/_shared/chunk-6GC7LBT3.js", "/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-5ILSVYJC.js", imports: ["/build/_shared/chunk-AYGQ7JC7.js", "/build/_shared/chunk-RXEDAMAK.js", "/build/_shared/chunk-5SKTI2PH.js", "/build/_shared/chunk-RCD6BM7U.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a3c1a3f4", hmr: void 0, url: "/build/manifest-A3C1A3F4.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

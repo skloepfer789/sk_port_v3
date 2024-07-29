@@ -10,6 +10,8 @@ header {
     top: 0;
     left: 0;
     z-index: 900;
+    background-color: white;
+    box-shadow: 0 0.5px 3.5px rgba(0, 0, 0, 0.1);
 }
 
 .linkBox {
@@ -17,9 +19,10 @@ header {
 }
 
 .link {
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
+    color: var(--orangeMain);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
     margin: 10px 40px;
     letter-spacing: 2px;
 }
@@ -30,14 +33,13 @@ header {
 }
 
 .headerLogo {
-    width: 20vw;
-    max-height: 150px;
+    height: 35px;
     margin-right: 5vw;
     margin-left: 20px;
 }
 
 .button {
-    color: white;
+    color: var(--orangeMain);
     font-weight: 800;
     font-size: 50px;
     background-color: unset;
@@ -100,9 +102,7 @@ header {
         display: none;
     }
     .link {
-        color: #fff;
         font-size: 15px;
-        font-weight: 300;
         margin: 10px 15px;
         letter-spacing: 2px;
     }

@@ -97,7 +97,7 @@ const Branding = () => {
         page='branding'
         onReopen={onReopen}
       />
-      <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >
+      <div className={triggered ? `slider activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
         <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='branding' />        
         <div>

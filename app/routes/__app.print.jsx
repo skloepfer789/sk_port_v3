@@ -97,9 +97,9 @@ const Branding = () => {
         page='print'
         onReopen={onReopen}
       />
-      <div className={triggered ? `slider backgroundDark activeSlide` : `slider inactiveSlide`} >
+      <div className={triggered ? `slider activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
-        <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='print' />        
+        <PageHeader setter={data_from_child} onClose={closeSlide} active='print' />        
         <div>
           <h1 className='heading'>Print Design</h1>
           <div className='imageGrid'>          

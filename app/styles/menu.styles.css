@@ -1,6 +1,6 @@
 .mainMenuImage {
     width: 22vw;
-    margin-top: 8vh;
+    margin-top: 15vh;
     margin-left: 75vw;
     transition: 1.5s
 }
@@ -14,6 +14,13 @@
 }
 
 .menuList {
+    padding: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.menuListOriginal {
     display: flex;
     position: absolute;
     bottom: 10vh;
@@ -26,12 +33,26 @@
 
 .submenuBox {
     display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -2vh;
+}
+
+.submenuBoxOriginal {
+    display: flex;
     flex-direction: column;
     position: relative;
     bottom: -2vh;
 }
 
 .submenuList {
+    position: relative;
+    margin: 10% 0 0 0;
+    width: 60vw;
+    align-items: flex-start;
+}
+
+.submenuListOriginal {
     display: flex;
     position: relative;
     bottom: 10vh;
@@ -41,6 +62,15 @@
 }
 
 .menuItem {
+    color: var(--orangeMain);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.menuItemOriginal {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: var(--orangeMain);
@@ -62,6 +92,7 @@
 
 .bounding {
     position: relative;
+    padding: 8px;
 }
 
 .highlightImage {

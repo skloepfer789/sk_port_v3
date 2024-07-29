@@ -57,11 +57,11 @@ const PageHeader = (props) => {
         logoColor = 'fff';
     } else {
         backgroundURL = 'url(/images/GraidentBackground_Light.webp)';
-        logoColor = '#018aaa';
+        logoColor = '#e05210';
     }
 
     return (
-       <header style={{backgroundImage: backgroundURL}}>
+       <header>
             <div>
                 
                 <nav className="pages">

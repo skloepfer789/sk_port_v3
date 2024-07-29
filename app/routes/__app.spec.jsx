@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import PageHeader, { links as headerStyles } from '../components/pagesHeader.component';
-import styles from '../styles/global.styles.css'
 import MainMenu, {links as menuLinks} from '../components/mainMenu.component';
 import pageStyles from '../styles/page.styles.css';
 
@@ -10,7 +9,6 @@ import Modal, {links as modalStyles} from '../components/modal.component';
 import ProgressiveImg from '../components/progressiveImage.component';
 
 export const links = () => [
-  {rel: "stylesheet", href: styles},
   {rel: "stylesheet", href: pageStyles},
   ...menuLinks(),
   ...headerStyles(),
@@ -97,7 +95,7 @@ const Branding = () => {
         page='spec'
         onReopen={onReopen}
       />
-      <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >
+      <div className={triggered ? `slider activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
         <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='spec' />        
         <div>
