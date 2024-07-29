@@ -25,7 +25,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-GZIIXIVX.css";
+var about_styles_default = "/build/_assets/about.styles-A37F2GZN.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -419,4 +419,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-KDESOB2X.js.map
+//# sourceMappingURL=/build/routes/__app.about-5GO5T6M5.js.map
