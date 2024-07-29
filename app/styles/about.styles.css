@@ -248,11 +248,15 @@ li {
         margin-right: 6vw;
     }
     .panel1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
     }
     .aboutPic {
         width: 60vw;
-        margin: 0 20vw;
+        height: 50vh;
+        margin: 5vh 20vw 15vh;
     }
     .introBox {
         width: 100vw;
@@ -291,13 +295,13 @@ li {
     }
     .introBox {
         flex-direction: column;
-        width: 90%;
-        margin-left: 10%;
+        width: 100vw;
+        margin-left: 0;
         margin-bottom: 20px;
     }
     .aboutText {
         margin-bottom: 0;
-        width: 90%;
+        width: 84vw;
         color: white;
     }
     .historyBox {
