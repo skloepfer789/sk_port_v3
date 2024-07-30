@@ -245,36 +245,6 @@ footer p {
     margin: 0 10vw 120px;
 }
 
-@media only screen and (max-width: 1100px) {
-    .logoHeading {
-        width: 30vw;
-    }
-    footer {
-        padding: 0 20px 15px;
-    }
-    footer p {
-        margin-left: 50px;
-    }
-    .contacts {
-        width: 70%;
-        margin-left: 15%;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .imageBox {
-        width: 100%;
-        max-height: unset;
-        margin-bottom: 35px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .slider {
-        padding-bottom: 10vh;
-    }
-}
-
 @media only screen and (max-width: 550px) {
     .imageBox {
         width: 100%;

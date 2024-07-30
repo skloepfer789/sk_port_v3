@@ -35,7 +35,7 @@ export default function Timeline(props) {
      return(
         <div className="scrollbox">
         <div className="aboutContainer">
-            <div className="timeline" style={{maxHeight: props.heightBlock}}>
+            <div className="timeline" style={{height: props.heightBlock}}>
                 
                 {
                     aboutInfo.map((info) => (

@@ -5,10 +5,10 @@ import {
   links,
   page_styles_default,
   pagesHeader_component_default
-} from "/build/_shared/chunk-K7G7JE3K.js";
+} from "/build/_shared/chunk-2N53LTL7.js";
 import {
   global_styles_default
-} from "/build/_shared/chunk-XEQHZNG3.js";
+} from "/build/_shared/chunk-MKL5VVQW.js";
 import {
   MainMenu,
   links as links2
@@ -25,7 +25,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-GRDGB3EY.css";
+var about_styles_default = "/build/_assets/about.styles-AXHLQFAJ.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -58,7 +58,7 @@ function Timeline(props) {
     }
   }, [aboutInfo, activeInfo, priorSelect, setPrior, select]);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "scrollbox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "aboutContainer", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "timeline", style: { maxHeight: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "timeline", style: { height: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         "div",
         {
@@ -379,7 +379,7 @@ var About = () => {
             lineNumber: 138,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "100vh" }, void 0, false, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 140,
             columnNumber: 19
@@ -419,4 +419,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-NYQ2LJRH.js.map
+//# sourceMappingURL=/build/routes/__app.about-UY743KW2.js.map

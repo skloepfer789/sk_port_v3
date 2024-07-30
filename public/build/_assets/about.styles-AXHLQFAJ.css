@@ -1,6 +1,6 @@
 /* app/styles/about.styles.css */
 .scrollbox {
-  width: 60vw;
+  width: 64vw;
   padding-bottom: 20vh;
   margin-top: 5vh;
   margin-right: 20vw;
@@ -12,6 +12,7 @@
   height: 80vh;
   display: flex;
   flex-direction: row;
+  align-items: center;
   overflow-y: hidden;
   overflow-x: scroll;
 }
@@ -28,6 +29,8 @@
 .aboutContainer {
   display: flex;
   flex-direction: row;
+  height: 70%;
+  margin-top: 30%;
 }
 .aboutSpacer {
   width: 60px;
@@ -130,15 +133,14 @@
 }
 .textbox {
   width: 80%;
-  padding: 20px;
+  padding: 10px 20px;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, .8);
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
-  min-height: 50vh;
+  line-height: 25px;
   overflow-y: scroll;
-  max-height: 75vh;
+  max-height: 60vh;
 }
 .breakSmall {
   height: 10vh;

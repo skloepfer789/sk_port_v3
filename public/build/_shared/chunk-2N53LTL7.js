@@ -9,7 +9,7 @@ import {
 } from "/build/_shared/chunk-V3SLA63D.js";
 
 // app/styles/header.styles.css
-var header_styles_default = "/build/_assets/header.styles-WIK3NUGM.css";
+var header_styles_default = "/build/_assets/header.styles-LMTRXFPL.css";
 
 // app/components/pagesHeader.component.jsx
 var import_react2 = __toESM(require_react());
@@ -130,4 +130,4 @@ export {
   links,
   page_styles_default
 };
-//# sourceMappingURL=/build/_shared/chunk-K7G7JE3K.js.map
+//# sourceMappingURL=/build/_shared/chunk-2N53LTL7.js.map
