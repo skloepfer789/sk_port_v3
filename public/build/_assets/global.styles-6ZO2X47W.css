@@ -18,6 +18,13 @@
   background: var(--darkGrayActive);
   border-radius: .5px;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.aboutScrolling {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 .grecaptcha-badge {
   visibility: hidden;
 }

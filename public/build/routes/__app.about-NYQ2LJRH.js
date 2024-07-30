@@ -8,7 +8,7 @@ import {
 } from "/build/_shared/chunk-K7G7JE3K.js";
 import {
   global_styles_default
-} from "/build/_shared/chunk-2254ZGLD.js";
+} from "/build/_shared/chunk-XEQHZNG3.js";
 import {
   MainMenu,
   links as links2
@@ -25,7 +25,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-A37F2GZN.css";
+var about_styles_default = "/build/_assets/about.styles-GRDGB3EY.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -419,4 +419,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-5GO5T6M5.js.map
+//# sourceMappingURL=/build/routes/__app.about-NYQ2LJRH.js.map

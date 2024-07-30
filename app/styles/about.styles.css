@@ -10,7 +10,7 @@
 }
 
 .aboutScrolling {
-    height: calc(100vh - 94px);
+    height: calc(100vh - 20vh);
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
@@ -60,19 +60,21 @@
     flex-direction: row;
     justify-content: flex-end;
     min-width: 50vw;
-    max-width: 65vw;
-    height: 100vh;
+    max-width: 85vw;
+    max-height: 100vh;
     color: white;
     margin: 0 auto 5vh;
 }
 
 .aboutText {
+    margin-left: 50px;
     margin-bottom: 12px;
     margin-top: 50px;
-    width: 80%;
+    min-width: 80vw;
+    max-width: 100vw;
+    max-height: 50vh;
     line-height: 30px;
     padding-bottom: 30px;
-    opacity: .8;
     color: white;
 }
 
@@ -149,6 +151,8 @@
     font-size: 18px;
     line-height: 30px;
     min-height: 50vh;
+    overflow-y: scroll;
+    max-height: 75vh;
 }
 
 .breakSmall {
@@ -257,10 +261,6 @@ li {
         height: 50vh;
         margin: 5vh 20vw 15vh;
     }
-    .introBox {
-        width: 100vw;
-        padding: 0 35px;
-    }
     .menu {
         display: flex;
         flex-direction: column;
@@ -271,22 +271,25 @@ li {
         width: 100%;
         padding-bottom: 0;
         margin: unset;
+        margin: 0 auto;
     }
     .aboutContainer {
-        width: 90%;
+        width: 95%;
         margin: unset;
+        margin: 0 auto;
     }
     .textbox {
         width: 60%;
         padding: 15px;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 22px;
         min-height: 50vh;
+        margin-left: 15px;
     }
     .timeline {
         position: relative;
         width: 10%;
-        margin-left: 0;
+        margin-left: 29px;
         display: block;
         height: inherit;
     }
@@ -304,9 +307,14 @@ li {
         margin-bottom: 20px;
     }
     .aboutText {
-        margin-bottom: 0;
+        margin-left: 0;
+        min-width: unset;
+        max-width: unset;
+        max-height: unset;
+        line-height: 28px;
         width: 84vw;
         color: white;
+        margin: 50px 5vw 0;
     }
     .historyBox {
         width: 90vw;
@@ -317,8 +325,7 @@ li {
         align-items: baseline;
         color: white;
         height: unset;
-        overflow-x: scroll;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .historyText {
         color: white;
