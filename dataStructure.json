@@ -23,12 +23,12 @@
             "text": ""
         }],
         "hasOriginalLogo": true,
-        "originalLogo": [{
+        "originalLogo": {
             "image": "",
             "alt": "",
             "placeholder": "",
             "size": "small"
-        }],
+        },
         "short description": "",
         "images": [{
             "image": "",

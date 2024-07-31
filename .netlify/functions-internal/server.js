@@ -850,12 +850,11 @@ var brandingInfo_default = {
       }
     ],
     hasOriginalLogo: !0,
-    originalLogo: [{
+    originalLogo: {
       image: "/images/brandImages/enhance/Enh_Orig_Logo.webp",
       alt: "Original Enhance Printing Logo",
-      placeholder: "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp",
-      size: "small"
-    }],
+      placeholder: "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp"
+    },
     shortDescription: "Enhance Printing Rebrand",
     images: [{
       image: "/images/brandImages/enhance/EnhanceWebsite.webp",
@@ -906,9 +905,21 @@ var brandingInfo_default = {
   }],
   print: [{
     name: "Branded Designs",
+    hero: {
+      image: "/images/printImages/TimbeHueMockupBC.webp",
+      alt: "Timber Hue Business Cards",
+      placeholder: "/images/printImages/TimbeHueMockupBC_LowRes.webp",
+      size: "small"
+    },
+    heroAlsoFirstImage: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
     images: [{
       image: "/images/printImages/TimbeHueMockupBC.webp",
-      alt: "Rolling Restaurant Business Cards",
+      alt: "Timber Hue Business Cards",
       placeholder: "/images/printImages/TimbeHueMockupBC_LowRes.webp",
       size: "small"
     }, {
@@ -950,166 +961,6 @@ var brandingInfo_default = {
       image: "/images/printImages/TopLineRoofing_Folder_Mockup.webp",
       alt: "Top Line Roofing Pocket Folder",
       placeholder: "/images/printImages/TopLineRoofing_Folder_Mockup_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Tradeshow Design & Signage",
-    images: [{
-      image: "/images/printImages/EliteEstheticianBooth.webp",
-      alt: "Elite Esthetician Booth Setup",
-      placeholder: "/images/printImages/EliteEstheticianBooth_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/retractables.webp",
-      alt: "Tanco Engineering Retractable Banners",
-      placeholder: "/images/printImages/retractables_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
-      alt: "Rolling Restaurant Menus",
-      placeholder: "/images/rolling/RollingRestaurant_Menu_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/MarriageFoundationMockup.webp",
-      alt: "Marriage Foundation of Colorado Retractable Banner",
-      placeholder: "/images/printImages/MarriageFoundationMockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/SummitSign.webp",
-      alt: "Summit Cabinet Coatings Signage",
-      placeholder: "/images/printImages/SummitSign_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Packaging Design",
-    images: [{
-      image: "/images/printImages/FreyaAbsinthe_MockUp.webp",
-      alt: "Freya Absinthe Bottle",
-      placeholder: "/images/printImages/FreyaAbsinthe_MockUp_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/MatadorBottle_v2_Mockup.webp",
-      alt: "Matty's Red Hot Louisiana Style Hot Sauce",
-      placeholder: "/images/printImages/MatadorBottle_v2_Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/siren/SleepySirenSoapMockup.webp",
-      alt: "Sleepy Siren Bath Co. Soap Packaging",
-      placeholder: "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
-      alt: "Sleepy Siren Bath Co. Fragrance Bottle",
-      placeholder: "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/ThankYouBox-Mockup.webp",
-      alt: "Kenny Anderson Realty Thank You Box",
-      placeholder: "/images/printImages/ThankYouBox-Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
-      alt: "Rolling Restaurant Burger Box",
-      placeholder: "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/AegirsLabel.webp",
-      alt: "Aegir's Workshop Leather Tag",
-      placeholder: "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/AegirsTag.webp",
-      alt: "Aegir's Workshop Custom Item Tag",
-      placeholder: "/images/brandImages/aegir/AegirsTag_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/VistaPeaksMockup.webp",
-      alt: "Vista Pearks Vineyards Bottles",
-      placeholder: "/images/brandImages/aegir/VistaPeaksMockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/VistaPeaksWineGlass_Mockup.webp",
-      alt: "Vista Pearks Vineyards Engraved Wine Glasses",
-      placeholder: "/images/brandImages/aegir/VistaPeaksWineGlass_Mockup_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Vehicle Wraps",
-    images: [{
-      image: "/images/brandImages/rolling/FoodWrap_1.webp",
-      alt: "Rolling Restaurant Vehicle Wrap",
-      placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rolling/FoodWrap_2.webp",
-      alt: "Rolling Restaurant Vehicle Wrap",
-      placeholder: "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/NelsonWrap.webp",
-      alt: "Nelson Overhead Doors Wrap",
-      placeholder: "/images/printImages/NelsonWrap_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rex/Rex Van.webp",
-      alt: "Eyecatching Vehicles for Mobile Advertising",
-      placeholder: "/images/brandImages/rex/Rex Van_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/CMM_wrap.webp",
-      alt: "Concrete Mobile Mix Wrap",
-      placeholder: "/images/printImages/CMM_wrap_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Book & Magazine Design",
-    images: [{
-      image: "/images/printImages/FossilBaseball_MagazineCover.webp",
-      alt: "Fossil Ridge High School Player Guide Cover",
-      placeholder: "/images/printImages/FossilBaseball_MagazineCover_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/FossilBaseball_MagazineGuts.webp",
-      alt: "Fossil Ridge High School Player Guide Inside",
-      placeholder: "/images/printImages/FossilBaseball_MagazineGuts_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/enhance/EnhanceMagazines.webp",
-      alt: "Enhance Printing Graphics Magazine Cover",
-      placeholder: "/images/brandImages/enhance/EnhanceMagazines_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/enhance/EnhanceMagazines_Spreads.webp",
-      alt: "Enhance Printing Graphics Magazine Interior",
-      placeholder: "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/BugattiBook_Mockup.webp",
-      alt: "Novel Cover Design",
-      placeholder: "/images/printImages/BugattiBook_Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/DeadlandsBook Mockup.webp",
-      alt: "Novel Cover Design",
-      placeholder: "/images/printImages/DeadlandsBook Mockup_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Invitations & Cards",
-    images: [{
-      image: "/images/printImages/Invitations_Gatefold.webp",
-      alt: "Wedding Invitations",
-      placeholder: "/images/printImages/Invitations_Gatefold_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/GoodOlBoys_Postcard_Mockup.webp",
-      alt: "Handout Design",
-      placeholder: "/images/printImages/GoodOlBoys_Postcard_Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/printImages/Levi_Postcard-Mockup.webp",
-      alt: "Notecard Design",
-      placeholder: "/images/printImages/Levi_Postcard-Mockup_LowRes.webp",
       size: "small"
     }]
   }],
@@ -1559,17 +1410,17 @@ var import_react11 = require("react");
 var import_react12 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-WK3RUPT5.css";
+var modal_styles_default = "/build/_assets/modal.styles-RF3OV7ZI.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
-    let data = props.data, images = data.images, descr = data.description, hero = data.hero;
+    let data = props.data, images = data.images, hero = data.hero;
     return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalContain", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 17,
+        lineNumber: 16,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalImageContain", children: [
@@ -1585,27 +1436,27 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
           !1,
           {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 21,
+            lineNumber: 20,
             columnNumber: 17
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 29,
+          lineNumber: 28,
           columnNumber: 13
         }, this),
         data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 33,
+          lineNumber: 32,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdown", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: data.name }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 29
           }, this),
           data.breakdown.map(
@@ -1633,10 +1484,38 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
               lineNumber: 38,
               columnNumber: 15
             }, this)
-          )
+          ),
+          data.hasOriginalLogo ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: "original logo" }, void 0, !1, {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 51,
+              columnNumber: 37
+            }, this) }, void 0, !1, {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 50,
+              columnNumber: 33
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("img", { src: data.originalLogo.image, className: "originalLogo", alt: "Original Logo" }, void 0, !1, {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 54,
+              columnNumber: 37
+            }, this) }, void 0, !1, {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 53,
+              columnNumber: 33
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 49,
+            columnNumber: 15
+          }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 57,
+            columnNumber: 15
+          }, this)
         ] }, void 0, !0, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 35,
+          lineNumber: 34,
           columnNumber: 13
         }, this),
         images.map(
@@ -1652,7 +1531,7 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
             !1,
             {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 53,
+              lineNumber: 64,
               columnNumber: 13
             },
             this
@@ -1660,16 +1539,16 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
         )
       ] }, void 0, !0, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 18,
+        lineNumber: 17,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 7
     }, this);
   }
@@ -3551,7 +3430,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-WQUMHTW4.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-YCB7U7DQ.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DXPKUR2G.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "06209f86", hmr: void 0, url: "/build/manifest-06209F86.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-VVRMXGK2.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-RTZDVIJR.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DSR3FDKG.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "e7f2395b", hmr: void 0, url: "/build/manifest-E7F2395B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

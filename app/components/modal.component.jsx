@@ -8,7 +8,6 @@ const Modal = (props) => {
     if(props.data && props.data != ''){
         const data = props.data;
         const images = data.images;
-        const descr = data.description;
         const hero = data.hero;
 
         return(
@@ -34,6 +33,7 @@ const Modal = (props) => {
                 ):(
                         <div className='breakdown'>
                             <h2>{data.name}</h2>
+                            
                             {data.breakdown.map((item) => (
                                 <div className='breakdownBox'>
                                     <div className='breakdownTitle'>
@@ -44,6 +44,17 @@ const Modal = (props) => {
                                     </div>
                                 </div>
                             ))
+                            }
+                            {data.hasOriginalLogo ? (
+                            <div className='breakdownBox'>
+                                <div className="breakdownTitle">
+                                    <h3>original logo</h3>
+                                </div>
+                                <div className="breakdownText">
+                                    <img src={data.originalLogo.image} className='originalLogo' alt='Original Logo' />
+                                </div>
+                            </div>
+                            ): (<></>)
                             }
                             
                         </div>

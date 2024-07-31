@@ -58,7 +58,7 @@
 .breakdown h2 {
     text-transform: uppercase;
     color: var(--orangeMain);
-    margin-left: 33%;
+    margin-left: 30%;
 }
 
 .breakdownTitle {
@@ -71,9 +71,14 @@
 
 .breakdownText {
     color: rgb(39, 39, 39);
-    width: 50%;
-    margin-left: 8%;
+    width: 60%;
+    margin-left: 5%;
     margin-top: 5px;
+}
+
+.originalLogo {
+    width: 40%;
+    margin-top: 10px;
 }
 
 .brandImage-o {
@@ -150,7 +155,6 @@
         box-sizing: border-box;
         margin: -10vh 0 0;
         text-align: center;
-        background-color: var(--darkGray);
         min-height: 100vh;
         padding-top: 20vh;
     }

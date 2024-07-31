@@ -25,12 +25,11 @@
             }
         ],
         "hasOriginalLogo": true,
-        "originalLogo": [{
+        "originalLogo": {
             "image": "/images/brandImages/enhance/Enh_Orig_Logo.webp",
             "alt": "Original Enhance Printing Logo",
-            "placeholder": "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp",
-            "size": "small"
-        }],
+            "placeholder": "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp"
+        },
         "shortDescription": "Enhance Printing Rebrand",
         "images": [{
             "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
@@ -82,9 +81,21 @@
     }],
     "print": [{
         "name": "Branded Designs",
+        "hero": {
+            "image": "/images/printImages/TimbeHueMockupBC.webp",
+            "alt": "Timber Hue Business Cards",
+            "placeholder": "/images/printImages/TimbeHueMockupBC_LowRes.webp",
+            "size": "small"
+        },
+        "heroAlsoFirstImage": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "short description": "",
         "images": [{
             "image": "/images/printImages/TimbeHueMockupBC.webp",
-            "alt": "Rolling Restaurant Business Cards",
+            "alt": "Timber Hue Business Cards",
             "placeholder": "/images/printImages/TimbeHueMockupBC_LowRes.webp",
             "size": "small"
         }, {
@@ -128,166 +139,7 @@
             "placeholder": "/images/printImages/TopLineRoofing_Folder_Mockup_LowRes.webp",
             "size": "small"
         }]
-    }, {
-        "name": "Tradeshow Design & Signage",
-        "images": [{
-            "image": "/images/printImages/EliteEstheticianBooth.webp",
-            "alt": "Elite Esthetician Booth Setup",
-            "placeholder": "/images/printImages/EliteEstheticianBooth_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/retractables.webp",
-            "alt": "Tanco Engineering Retractable Banners",
-            "placeholder": "/images/printImages/retractables_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
-            "alt": "Rolling Restaurant Menus",
-            "placeholder": "/images/rolling/RollingRestaurant_Menu_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/MarriageFoundationMockup.webp",
-            "alt": "Marriage Foundation of Colorado Retractable Banner",
-            "placeholder": "/images/printImages/MarriageFoundationMockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/SummitSign.webp",
-            "alt": "Summit Cabinet Coatings Signage",
-            "placeholder": "/images/printImages/SummitSign_LowRes.webp",
-            "size": "small"
-        }]
-    }, {
-        "name": "Packaging Design",
-        "images": [{
-            "image": "/images/printImages/FreyaAbsinthe_MockUp.webp",
-            "alt": "Freya Absinthe Bottle",
-            "placeholder": "/images/printImages/FreyaAbsinthe_MockUp_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/MatadorBottle_v2_Mockup.webp",
-            "alt": "Matty's Red Hot Louisiana Style Hot Sauce",
-            "placeholder": "/images/printImages/MatadorBottle_v2_Mockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/siren/SleepySirenSoapMockup.webp",
-            "alt": "Sleepy Siren Bath Co. Soap Packaging",
-            "placeholder": "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
-            "alt": "Sleepy Siren Bath Co. Fragrance Bottle",
-            "placeholder": "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/ThankYouBox-Mockup.webp",
-            "alt": "Kenny Anderson Realty Thank You Box",
-            "placeholder": "/images/printImages/ThankYouBox-Mockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
-            "alt": "Rolling Restaurant Burger Box",
-            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/aegir/AegirsLabel.webp",
-            "alt": "Aegir's Workshop Leather Tag",
-            "placeholder": "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/aegir/AegirsTag.webp",
-            "alt": "Aegir's Workshop Custom Item Tag",
-            "placeholder": "/images/brandImages/aegir/AegirsTag_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/VistaPeaksMockup.webp",
-            "alt": "Vista Pearks Vineyards Bottles",
-            "placeholder": "/images/brandImages/aegir/VistaPeaksMockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/VistaPeaksWineGlass_Mockup.webp",
-            "alt": "Vista Pearks Vineyards Engraved Wine Glasses",
-            "placeholder": "/images/brandImages/aegir/VistaPeaksWineGlass_Mockup_LowRes.webp",
-            "size": "small"
-        }]
-    }, {
-        "name": "Vehicle Wraps",
-        "images": [{
-            "image": "/images/brandImages/rolling/FoodWrap_1.webp",
-            "alt": "Rolling Restaurant Vehicle Wrap",
-            "placeholder": "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/rolling/FoodWrap_2.webp",
-            "alt": "Rolling Restaurant Vehicle Wrap",
-            "placeholder": "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/NelsonWrap.webp",
-            "alt": "Nelson Overhead Doors Wrap",
-            "placeholder": "/images/printImages/NelsonWrap_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/rex/Rex Van.webp",
-            "alt": "Eyecatching Vehicles for Mobile Advertising",
-            "placeholder": "/images/brandImages/rex/Rex Van_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/CMM_wrap.webp",
-            "alt": "Concrete Mobile Mix Wrap",
-            "placeholder": "/images/printImages/CMM_wrap_LowRes.webp",
-            "size": "small"
-        }]
-    }, {
-        "name": "Book & Magazine Design",
-        "images": [{
-            "image": "/images/printImages/FossilBaseball_MagazineCover.webp",
-            "alt": "Fossil Ridge High School Player Guide Cover",
-            "placeholder": "/images/printImages/FossilBaseball_MagazineCover_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/FossilBaseball_MagazineGuts.webp",
-            "alt": "Fossil Ridge High School Player Guide Inside",
-            "placeholder": "/images/printImages/FossilBaseball_MagazineGuts_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/enhance/EnhanceMagazines.webp",
-            "alt": "Enhance Printing Graphics Magazine Cover",
-            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/enhance/EnhanceMagazines_Spreads.webp",
-            "alt": "Enhance Printing Graphics Magazine Interior",
-            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/BugattiBook_Mockup.webp",
-            "alt": "Novel Cover Design",
-            "placeholder": "/images/printImages/BugattiBook_Mockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/DeadlandsBook Mockup.webp",
-            "alt": "Novel Cover Design",
-            "placeholder": "/images/printImages/DeadlandsBook Mockup_LowRes.webp",
-            "size": "small"
-        }]
-    }, {
-        "name": "Invitations & Cards",
-        "images": [{
-            "image": "/images/printImages/Invitations_Gatefold.webp",
-            "alt": "Wedding Invitations",
-            "placeholder": "/images/printImages/Invitations_Gatefold_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/GoodOlBoys_Postcard_Mockup.webp",
-            "alt": "Handout Design",
-            "placeholder": "/images/printImages/GoodOlBoys_Postcard_Mockup_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/printImages/Levi_Postcard-Mockup.webp",
-            "alt": "Notecard Design",
-            "placeholder": "/images/printImages/Levi_Postcard-Mockup_LowRes.webp",
-            "size": "small"
-        }]
+
     }],
     "web": [{
         "name": "Enhance Printing Website",
