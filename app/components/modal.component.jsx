@@ -10,14 +10,13 @@ const Modal = (props) => {
         const images = data.images;
         const descr = data.description;
         const hero = data.hero;
-        console.log(descr);
 
         return(
             <div className={"modalBackground " + props.className} style={{backgroundColor: props.color}} >
             <div className='modalContain'>
                 <button onClick={onClose} className="buttonModal">x</button>
                 <div className='modalImageContain'>
-                {data.hero ? 
+                {data.hero && data.heroAlsoFirstImage ? 
                     (<>
                 <ProgressiveImg 
                     key={hero.image}
@@ -25,10 +24,30 @@ const Modal = (props) => {
                     placeholderSrc={hero.placeholder}
                     classTitle='brandImage'
                     alt={hero.alt}
-                />
-                <p className='descrText'>{descr}</p>
+                />                
                     </>)
                 : (<></>)
+                }
+                {data.noBreakdown ? 
+                (
+                        <p className='descrText'>{data.shortDescription}</p>
+                ):(
+                        <div className='breakdown'>
+                            <h2>{data.name}</h2>
+                            {data.breakdown.map((item) => (
+                                <div className='breakdownBox'>
+                                    <div className='breakdownTitle'>
+                                        <h3>{item.title}</h3>
+                                    </div>
+                                    <div className='breakdownText'>
+                                        <p>{item.text}</p>
+                                    </div>
+                                </div>
+                            ))
+                            }
+                            
+                        </div>
+                )
                 }
                 {images.map((image) => (
                     <ProgressiveImg 

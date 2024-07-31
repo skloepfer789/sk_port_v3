@@ -856,7 +856,7 @@ var brandingInfo_default = {
       placeholder: "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp",
       size: "small"
     }],
-    "short description": "Enhance Printing Rebrand",
+    shortDescription: "Enhance Printing Rebrand",
     images: [{
       image: "/images/brandImages/enhance/EnhanceWebsite.webp",
       alt: "A Website To Compete in a Modern Market",
@@ -1559,50 +1559,84 @@ var import_react11 = require("react");
 var import_react12 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-MTN5XKLT.css";
+var modal_styles_default = "/build/_assets/modal.styles-WK3RUPT5.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
     let data = props.data, images = data.images, descr = data.description, hero = data.hero;
-    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalContain", children: [
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalContain", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 18,
+        lineNumber: 17,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalImageContain", children: [
-        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-            progressiveImage_component_default,
-            {
-              src: hero.image,
-              placeholderSrc: hero.placeholder,
-              classTitle: "brandImage",
-              alt: hero.alt
-            },
-            hero.image,
-            !1,
-            {
-              fileName: "app/components/modal.component.jsx",
-              lineNumber: 22,
-              columnNumber: 17
-            },
-            this
-          ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
+        data.hero && data.heroAlsoFirstImage ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          progressiveImage_component_default,
+          {
+            src: hero.image,
+            placeholderSrc: hero.placeholder,
+            classTitle: "brandImage",
+            alt: hero.alt
+          },
+          hero.image,
+          !1,
+          {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 29,
+            lineNumber: 21,
             columnNumber: 17
-          }, this)
-        ] }, void 0, !0, {
+          },
+          this
+        ) }, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 21,
+          lineNumber: 20,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 31,
+          lineNumber: 29,
+          columnNumber: 13
+        }, this),
+        data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 33,
+          columnNumber: 13
+        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdown", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: data.name }, void 0, !1, {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 36,
+            columnNumber: 29
+          }, this),
+          data.breakdown.map(
+            (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: item.title }, void 0, !1, {
+                fileName: "app/components/modal.component.jsx",
+                lineNumber: 40,
+                columnNumber: 41
+              }, this) }, void 0, !1, {
+                fileName: "app/components/modal.component.jsx",
+                lineNumber: 39,
+                columnNumber: 37
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: item.text }, void 0, !1, {
+                fileName: "app/components/modal.component.jsx",
+                lineNumber: 43,
+                columnNumber: 41
+              }, this) }, void 0, !1, {
+                fileName: "app/components/modal.component.jsx",
+                lineNumber: 42,
+                columnNumber: 37
+              }, this)
+            ] }, void 0, !0, {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 38,
+              columnNumber: 15
+            }, this)
+          )
+        ] }, void 0, !0, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 35,
           columnNumber: 13
         }, this),
         images.map(
@@ -1618,7 +1652,7 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
             !1,
             {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 34,
+              lineNumber: 53,
               columnNumber: 13
             },
             this
@@ -1626,16 +1660,16 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
         )
       ] }, void 0, !0, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 19,
+        lineNumber: 18,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 7
     }, this);
   }
@@ -1684,7 +1718,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
     hasloaded(!1);
   };
   function checkLength(brand) {
-    console.log(brand.images), console.log(brand);
+    return brand.images.length;
   }
   return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "main", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1697,7 +1731,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 7
       },
       this
@@ -1705,12 +1739,12 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 102,
+        lineNumber: 101,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 103,
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
@@ -1718,24 +1752,24 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
           "Brand Identity ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 105,
+            lineNumber: 104,
             columnNumber: 50
           }, this),
           " & Logo Design"
         ] }, void 0, !0, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 105,
+          lineNumber: 104,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
           (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { children: [
             checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 113,
+              lineNumber: 112,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 114,
+              lineNumber: 113,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1751,33 +1785,33 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
               !1,
               {
                 fileName: "app/routes/__app.branding.jsx",
-                lineNumber: 117,
+                lineNumber: 116,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 17
           }, this) }, brand.name, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 109,
+            lineNumber: 108,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 106,
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 104,
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.branding.jsx",
-      lineNumber: 101,
+      lineNumber: 100,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1792,14 +1826,14 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 136,
+        lineNumber: 135,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/routes/__app.branding.jsx",
-    lineNumber: 96,
+    lineNumber: 95,
     columnNumber: 5
   }, this);
 }, app_branding_default = Branding;
@@ -3517,7 +3551,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-HUBHQKCA.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-2MO5KXNU.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DNUVPRYK.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "dec0ab06", hmr: void 0, url: "/build/manifest-DEC0AB06.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-WQUMHTW4.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-YCB7U7DQ.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DXPKUR2G.js", imports: ["/build/_shared/chunk-UJLZJVCC.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "06209f86", hmr: void 0, url: "/build/manifest-06209F86.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
