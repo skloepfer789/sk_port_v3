@@ -57,18 +57,14 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100vw;
     padding: 20px 50px 15px;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--orangeMain);
     text-align: center;
-    z-index: 100;
+    z-index: 1;
     transition: .8s;
-}
-
-footer:hover {
-    background-color: #1a4c7478;
 }
 
 footer a:hover {
@@ -81,8 +77,8 @@ footer p {
 }
 
 .contacts {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -114,7 +110,7 @@ footer p {
 
 .logoHeading {
     position: absolute;
-    width: 20vw;
+    width: 25vw;
     top: 3vh;
     right: 0;
     display: block;
@@ -245,6 +241,14 @@ footer p {
     margin: 0 10vw 120px;
 }
 
+@media only screen and (max-width: 900px) {
+    .logoHeading {
+        width: 30vw;
+        top: 6vh;
+        right: 0;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .imageBox {
         width: 100%;
@@ -252,7 +256,7 @@ footer p {
         margin-bottom: 35px;
     }
     .logoHeading {
-        width: 50vw;
+        width: 58vw;
         top: 6vh;
         right: 0;
     }

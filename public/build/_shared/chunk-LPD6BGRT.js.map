@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/components/background.component.jsx"],
-  "sourcesContent": ["export default function Background() {\n    return (\n        <div className='background'/>\n      )\n};"],
-  "mappings": ";;;;;;AAEQ;AAFO,SAAR,aAA8B;AACjC,SACI,mDAAC,SAAI,WAAU,gBAAf;AAAA;AAAA;AAAA;AAAA,SAA2B;AAEnC;",
-  "names": []
-}

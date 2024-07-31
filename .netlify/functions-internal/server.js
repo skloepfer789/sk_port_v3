@@ -155,7 +155,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/styles/global.styles.css
-var global_styles_default = "/build/_assets/global.styles-6RXUEH2I.css";
+var global_styles_default = "/build/_assets/global.styles-GFSMZL2X.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react_animated_cursor = __toESM(require("react-animated-cursor")), import_react_device_detect = require("react-device-detect"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -264,7 +264,7 @@ __export(app_print_original_exports, {
   loader: () => loader,
   meta: () => meta
 });
-var import_react8 = require("react");
+var import_react9 = require("react");
 
 // app/components/pagesHeader.component.jsx
 var import_react3 = require("@remix-run/react");
@@ -433,10 +433,40 @@ var PageHeader = (props) => {
 ];
 
 // app/components/mainMenu.component.jsx
-var import_react5 = require("react");
+var import_react6 = require("react");
+
+// app/components/footer.component.jsx
+var import_react5 = require("@remix-run/react"), import_jsx_dev_runtime5 = require("react/jsx-dev-runtime");
+function Footer() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("footer", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "contacts", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react5.Link, { to: "https://www.linkedin.com/in/stephenkloepfer-ft-collins", target: "_blank", rel: "noreferrer", children: "linkedin" }, void 0, !1, {
+      fileName: "app/components/footer.component.jsx",
+      lineNumber: 8,
+      columnNumber: 17
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react5.Link, { to: "mailto:stevekloepferdesign@gmail.com", children: "e-mail" }, void 0, !1, {
+      fileName: "app/components/footer.component.jsx",
+      lineNumber: 11,
+      columnNumber: 17
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "2023 - All Rights Reserved" }, void 0, !1, {
+      fileName: "app/components/footer.component.jsx",
+      lineNumber: 14,
+      columnNumber: 17
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/footer.component.jsx",
+    lineNumber: 7,
+    columnNumber: 13
+  }, this) }, void 0, !1, {
+    fileName: "app/components/footer.component.jsx",
+    lineNumber: 6,
+    columnNumber: 9
+  }, this);
+}
 
 // app/components/maskedImage.component.jsx
-var React2 = require("react"), import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SvgComponent = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+var React2 = require("react"), import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), SvgComponent = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
   "svg",
   {
     xmlns: "http://www.w3.org/2000/svg",
@@ -448,7 +478,7 @@ var React2 = require("react"), import_jsx_dev_runtime5 = require("react/jsx-dev-
     viewBox: "0 0 189.8 164.5",
     ...props,
     children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
         "path",
         {
           id: "a",
@@ -467,7 +497,7 @@ var React2 = require("react"), import_jsx_dev_runtime5 = require("react/jsx-dev-
         lineNumber: 14,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("clipPath", { id: "b", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("clipPath", { id: "b", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
         "use",
         {
           xlinkHref: "#a",
@@ -488,13 +518,13 @@ var React2 = require("react"), import_jsx_dev_runtime5 = require("react/jsx-dev-
         lineNumber: 20,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
         "g",
         {
           style: {
             clipPath: "url(#b)"
           },
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
             "image",
             {
               xlinkHref: props.image,
@@ -536,7 +566,7 @@ var React2 = require("react"), import_jsx_dev_runtime5 = require("react/jsx-dev-
   this
 );
 function MaskedImage(props) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: props.classprop, children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(SvgComponent, { image: props.image }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: props.classprop, children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SvgComponent, { image: props.image }, void 0, !1, {
     fileName: "app/components/maskedImage.component.jsx",
     lineNumber: 49,
     columnNumber: 7
@@ -548,13 +578,13 @@ function MaskedImage(props) {
 }
 
 // app/components/mainMenu.component.jsx
-var import_react6 = require("@remix-run/react"), import_react_animate_on_scroll = __toESM(require("react-animate-on-scroll"));
+var import_react7 = require("@remix-run/react"), import_react_animate_on_scroll = __toESM(require("react-animate-on-scroll"));
 
 // app/styles/menu.styles.css
-var menu_styles_default = "/build/_assets/menu.styles-R2CYKEZH.css";
+var menu_styles_default = "/build/_assets/menu.styles-MIR6E2GO.css";
 
 // app/components/mainMenu.component.jsx
-var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), menuItems = [
+var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), menuItems = [
   {
     name: "branding & logos",
     link: "/branding",
@@ -594,7 +624,7 @@ function getName(linkName) {
   }), page;
 }
 function MainMenu(props) {
-  let [image, setImage] = (0, import_react5.useState)("/images/ContactBanner.png"), [hoveredItem, setHovered] = (0, import_react5.useState)(""), scrolling = props.scrolling, page = String("/" + props.page), newPages = newArray(page);
+  let [image, setImage] = (0, import_react6.useState)("/images/ContactBanner.png"), [hoveredItem, setHovered] = (0, import_react6.useState)(""), scrolling = props.scrolling, page = String("/" + props.page), newPages = newArray(page);
   function changeHover(newItem) {
     setHovered(newItem.name), setImage(newItem.image);
   }
@@ -602,22 +632,22 @@ function MainMenu(props) {
     setHovered("");
   }
   let currentElement = getName(page), onReopen = props.onReopen;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "menuBackground", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react6.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(logoBleedOfflSVG_component_default, { className: "logoHeading", color: "#e05210", logoID: "logoHead" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "menuBackground", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(logoBleedOfflSVG_component_default, { className: "logoHeading", color: "#e05210", logoID: "logoHead" }, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 77,
+      lineNumber: 78,
       columnNumber: 19
     }, this) }, void 0, !1, {
-      fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 77,
-      columnNumber: 6
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("br", {}, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
       lineNumber: 78,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, !1, {
+      fileName: "app/components/mainMenu.component.jsx",
+      lineNumber: 79,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
       MaskedImage,
       {
         classprop: "mainMenuImage",
@@ -628,19 +658,19 @@ function MainMenu(props) {
       !1,
       {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 79,
+        lineNumber: 80,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "menuList", children: [
-      scrolling && props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(currentElement), onMouseLeave: unsetHover, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "menuList", children: [
+      scrolling && props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(currentElement), onMouseLeave: unsetHover, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 88,
+          lineNumber: 89,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
           "div",
           {
             className: hoveredItem === currentElement.name ? "menuItem active" : "menuItem",
@@ -651,16 +681,16 @@ function MainMenu(props) {
           !1,
           {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 91,
+            lineNumber: 92,
             columnNumber: 15
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 87,
+        lineNumber: 88,
         columnNumber: 9
-      }, this) : props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
+      }, this) : props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
         "div",
         {
           className: "bounding",
@@ -668,12 +698,12 @@ function MainMenu(props) {
           onMouseLeave: unsetHover,
           onClick: onReopen,
           children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 105,
+              lineNumber: 106,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
               "div",
               {
                 className: hoveredItem === currentElement.name ? "menuItem active" : "menuItem",
@@ -683,7 +713,7 @@ function MainMenu(props) {
               !1,
               {
                 fileName: "app/components/mainMenu.component.jsx",
-                lineNumber: 108,
+                lineNumber: 109,
                 columnNumber: 13
               },
               this
@@ -694,20 +724,20 @@ function MainMenu(props) {
         !0,
         {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 99,
+          lineNumber: 100,
           columnNumber: 9
         },
         this
       ) : "",
       scrolling ? newPages.map(
-        (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
+        (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 120,
+            lineNumber: 121,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
-            import_react6.Link,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+            import_react7.Link,
             {
               to: item.link,
               className: hoveredItem === item.name ? "menuItem active" : "menuItem",
@@ -717,29 +747,29 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 123,
+              lineNumber: 124,
               columnNumber: 13
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 119,
+          lineNumber: 120,
           columnNumber: 11
         }, this) }, item.name, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 118,
+          lineNumber: 119,
           columnNumber: 9
         }, this)
       ) : newPages.map(
-        (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
+        (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 134,
+            lineNumber: 135,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
-            import_react6.Link,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+            import_react7.Link,
             {
               to: item.link,
               className: hoveredItem === item.name ? "menuItem active" : "menuItem",
@@ -749,25 +779,30 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 137,
+              lineNumber: 138,
               columnNumber: 13
             },
             this
           )
         ] }, item.name, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 133,
+          lineNumber: 134,
           columnNumber: 9
         }, this)
       )
     ] }, void 0, !0, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 84,
+      lineNumber: 85,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(Footer, {}, void 0, !1, {
+      fileName: "app/components/mainMenu.component.jsx",
+      lineNumber: 150,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/mainMenu.component.jsx",
-    lineNumber: 76,
+    lineNumber: 77,
     columnNumber: 5
   }, this);
 }
@@ -782,7 +817,7 @@ var page_styles_default = "/build/_assets/page.styles-6UW2SEZ2.css";
 var print_styles_default = "/build/_assets/print.styles-PZO324GG.css";
 
 // app/routes/__app.print-original.jsx
-var import_react9 = require("@remix-run/react");
+var import_react10 = require("@remix-run/react");
 
 // brandingInfo.json
 var brandingInfo_default = {
@@ -1617,16 +1652,16 @@ var brandingInfo_default = {
 };
 
 // app/components/progressiveImage.component.jsx
-var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
-  let [imgSrc, setImgSrc] = (0, import_react7.useState)(placeholderSrc || src);
-  (0, import_react7.useEffect)(() => {
+var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
+  let [imgSrc, setImgSrc] = (0, import_react8.useState)(placeholderSrc || src);
+  (0, import_react8.useEffect)(() => {
     let img = new Image();
     img.src = src, img.onload = () => {
       setImgSrc(src);
     };
   }, [src]);
   let customClass = placeholderSrc && imgSrc === placeholderSrc ? "loading" : "loaded";
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
     "img",
     {
       src: imgSrc,
@@ -1646,7 +1681,7 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
 }, progressiveImage_component_default = ProgressiveImg;
 
 // app/routes/__app.print-original.jsx
-var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links4 = () => [
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), links4 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: print_styles_default },
@@ -1660,17 +1695,17 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links4 = () => [
   { name: "og:description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
   { name: "og:image", content: "/social_preview.png" }
 ], PrintDesign = () => {
-  let [triggered, setTriggered] = (0, import_react8.useState)(!1), [loaded, hasloaded] = (0, import_react8.useState)(!1), brandData = (0, import_react9.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react9.useState)(!1), [loaded, hasloaded] = (0, import_react9.useState)(!1), brandData = (0, import_react10.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react9.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react10.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   };
-  return (0, import_react8.useEffect)(() => {
+  return (0, import_react9.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
       MainMenu,
       {
         page: "print",
@@ -1687,25 +1722,25 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links4 = () => [
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: triggered ? "slider backgroundGreen activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: triggered ? "slider backgroundGreen activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.print-original.jsx",
         lineNumber: 75,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
         fileName: "app/routes/__app.print-original.jsx",
         lineNumber: 76,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
           fileName: "app/routes/__app.print-original.jsx",
           lineNumber: 78,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "printRow", children: brandData.print.map(
-          (print) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "printImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "printRow", children: brandData.print.map(
+          (print) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "printImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             progressiveImage_component_default,
             {
               src: print.image,
@@ -1731,7 +1766,7 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links4 = () => [
           lineNumber: 79,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "spacerGreen" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "spacerGreen" }, void 0, !1, {
           fileName: "app/routes/__app.print-original.jsx",
           lineNumber: 93,
           columnNumber: 9
@@ -1764,26 +1799,26 @@ __export(app_branding_exports, {
   loader: () => loader2,
   meta: () => meta2
 });
-var import_react10 = require("react");
-var import_react11 = require("@remix-run/react");
+var import_react11 = require("react");
+var import_react12 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
 var modal_styles_default = "/build/_assets/modal.styles-MTN5XKLT.css";
 
 // app/components/modal.component.jsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) => {
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
     let data = props.data, images = data.images, descr = data.description, hero = data.hero;
-    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalContain", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
+    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalContain", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
         lineNumber: 18,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalImageContain", children: [
-        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_jsx_dev_runtime9.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "modalImageContain", children: [
+        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
             progressiveImage_component_default,
             {
               src: hero.image,
@@ -1800,7 +1835,7 @@ var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) 
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
             lineNumber: 29,
             columnNumber: 17
@@ -1809,13 +1844,13 @@ var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) 
           fileName: "app/components/modal.component.jsx",
           lineNumber: 21,
           columnNumber: 13
-        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_jsx_dev_runtime9.Fragment, {}, void 0, !1, {
+        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
           lineNumber: 31,
           columnNumber: 13
         }, this),
         images.map(
-          (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+          (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
             progressiveImage_component_default,
             {
               src: image.image,
@@ -1853,7 +1888,7 @@ var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) 
 ];
 
 // app/routes/__app.branding.jsx
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => [
+var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
@@ -1867,17 +1902,17 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
   { name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
   { name: "og:image", content: "/social_preview.png" }
 ], Branding = () => {
-  let [triggered, setTriggered] = (0, import_react10.useState)(!1), [loaded, hasloaded] = (0, import_react10.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react10.useState)(), [brandIsActive, setBrandBool] = (0, import_react10.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react11.useNavigate)(), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react11.useState)(!1), [loaded, hasloaded] = (0, import_react11.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react11.useState)(), [brandIsActive, setBrandBool] = (0, import_react11.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react12.useNavigate)(), triggerSlide = async () => {
     await delay(250), hasloaded(!0), setTriggered(!0);
   }, data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   }, closeSlide = () => {
     setTriggered(!1);
-  }, brandData = (0, import_react11.useLoaderData)();
-  (0, import_react10.useEffect)(() => {
+  }, brandData = (0, import_react12.useLoaderData)();
+  (0, import_react11.useEffect)(() => {
     loaded || triggerSlide();
   });
-  let [hoveredItem, setHovered] = (0, import_react10.useState)("");
+  let [hoveredItem, setHovered] = (0, import_react11.useState)("");
   function changeHover(newItem) {
     setHovered(newItem.name);
   }
@@ -1895,8 +1930,8 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
   function checkLength(brand) {
     return brand.images.length;
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       MainMenu,
       {
         page: "branding",
@@ -1911,21 +1946,21 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
         lineNumber: 102,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "heading", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { className: "heading", children: [
           "Brand Identity ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("br", {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.branding.jsx",
             lineNumber: 104,
             columnNumber: 50
@@ -1936,18 +1971,18 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
-          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { children: [
-            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
+          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { children: [
+            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
               lineNumber: 112,
               columnNumber: 17
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
               lineNumber: 113,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
               progressiveImage_component_default,
               {
                 alt: brand.name,
@@ -1989,7 +2024,7 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => 
       lineNumber: 100,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       modal_component_default,
       {
         onClose,
@@ -2025,13 +2060,13 @@ __export(app_index_exports, {
 });
 
 // app/styles/landing.styles.css
-var landing_styles_default = "/build/_assets/landing.styles-BEBRF5E6.css";
+var landing_styles_default = "/build/_assets/landing.styles-EB5CN5UP.css";
 
 // app/styles/hero.styles.css
-var hero_styles_default = "/build/_assets/hero.styles-RJKX2MGS.css";
+var hero_styles_default = "/build/_assets/hero.styles-FX3J7MD2.css";
 
 // app/components/heroLogoSVG.component.jsx
-var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), HeroLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), HeroLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
   "svg",
   {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2040,7 +2075,7 @@ var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev
     viewBox: "0 0 200.31 788.52",
     ...props,
     children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
         fileName: "app/components/heroLogoSVG.component.jsx",
         lineNumber: 12,
         columnNumber: 7
@@ -2049,79 +2084,79 @@ var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev
         lineNumber: 11,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("g", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m188.58,736.8v-9.74c2.12,0,5.18.45,7.62,2.37,2.61,2.05,3.9,5.18,3.9,8.73,0,6.82-5.01,12-11.93,12s-11.97-5.36-11.97-12.11c0-3.27,1.11-5.46,2.5-7.27.77-.97,1.6-1.84,2.92-2.78l.97,1.22c-1.11.66-2.05,1.6-2.57,2.23-1.22,1.46-2.43,3.76-2.43,6.65,0,5.95,4.73,10.47,10.64,10.47,5.81,0,10.47-4.38,10.47-10.37,0-3.97-2.02-6.82-3.93-8.07-1.39-.91-3.31-1.46-4.8-1.53v8.21h-1.39Z" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("g", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m188.58,736.8v-9.74c2.12,0,5.18.45,7.62,2.37,2.61,2.05,3.9,5.18,3.9,8.73,0,6.82-5.01,12-11.93,12s-11.97-5.36-11.97-12.11c0-3.27,1.11-5.46,2.5-7.27.77-.97,1.6-1.84,2.92-2.78l.97,1.22c-1.11.66-2.05,1.6-2.57,2.23-1.22,1.46-2.43,3.76-2.43,6.65,0,5.95,4.73,10.47,10.64,10.47,5.81,0,10.47-4.38,10.47-10.37,0-3.97-2.02-6.82-3.93-8.07-1.39-.91-3.31-1.46-4.8-1.53v8.21h-1.39Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 16,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m199.71,684.49l-10.96,7.51v.69s10.96,0,10.96,0v1.53h-23.2v-3.34c0-1.77.14-3.37,1.18-4.9,1.25-1.81,3.17-2.4,4.98-2.4,2.29,0,4.66,1.01,5.63,3.9.42,1.22.45,2.33.45,2.85l10.96-7.58v1.74Zm-12.35,8.21v-2.23c0-3.3-1.74-5.29-4.73-5.29-2.33,0-3.55,1.15-4.04,2.05-.56.97-.69,2.64-.69,3.55v1.91s9.46,0,9.46,0Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m199.71,684.49l-10.96,7.51v.69s10.96,0,10.96,0v1.53h-23.2v-3.34c0-1.77.14-3.37,1.18-4.9,1.25-1.81,3.17-2.4,4.98-2.4,2.29,0,4.66,1.01,5.63,3.9.42,1.22.45,2.33.45,2.85l10.96-7.58v1.74Zm-12.35,8.21v-2.23c0-3.3-1.74-5.29-4.73-5.29-2.33,0-3.55,1.15-4.04,2.05-.56.97-.69,2.64-.69,3.55v1.91s9.46,0,9.46,0Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 17,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m192.1,639.21v9.88s7.62,3.1,7.62,3.1v1.67s-23.9-9.77-23.9-9.77l23.9-9.64v1.67s-7.62,3.1-7.62,3.1Zm-1.39.56l-10.99,4.35,10.99,4.42v-8.77Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m192.1,639.21v9.88s7.62,3.1,7.62,3.1v1.67s-23.9-9.77-23.9-9.77l23.9-9.64v1.67s-7.62,3.1-7.62,3.1Zm-1.39.56l-10.99,4.35,10.99,4.42v-8.77Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 18,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m188.69,601.47h11.03v1.53h-23.2v-4.49c0-3.79,2.09-6.78,6.05-6.78,3.86,0,6.12,2.75,6.12,6.75v2.99Zm-1.39,0v-3.06c0-3.03-1.77-5.08-4.7-5.08-2.89,0-4.7,1.95-4.7,5.32v2.82s9.39,0,9.39,0Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m188.69,601.47h11.03v1.53h-23.2v-4.49c0-3.79,2.09-6.78,6.05-6.78,3.86,0,6.12,2.75,6.12,6.75v2.99Zm-1.39,0v-3.06c0-3.03-1.77-5.08-4.7-5.08-2.89,0-4.7,1.95-4.7,5.32v2.82s9.39,0,9.39,0Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 19,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { class: "cls-1", d: "m186.36,558.14v-14.05s-9.84,0-9.84,0v-1.53h23.2v1.53h-11.97s0,14.05,0,14.05h11.97v1.53h-23.2v-1.53h9.84Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { class: "cls-1", d: "m186.36,558.14v-14.05s-9.84,0-9.84,0v-1.53h23.2v1.53h-11.97s0,14.05,0,14.05h11.97v1.53h-23.2v-1.53h9.84Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 20,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m176.51,506.94h23.2v1.53h-23.2v-1.53Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m176.51,506.94h23.2v1.53h-23.2v-1.53Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 21,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m181.24,454.28c-2.33,1.98-3.65,4.84-3.65,7.83,0,5.95,4.77,10.4,10.64,10.4,6.89,0,10.47-5.74,10.47-10.44,0-2.33-.94-5.43-3.51-7.79h2.02c2.09,2.37,2.89,5.22,2.89,7.72,0,6.96-5.46,12.11-11.93,12.11-6.68,0-11.97-5.36-11.97-12.04,0-4.42,2.36-7.1,3.03-7.79h2.02Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m181.24,454.28c-2.33,1.98-3.65,4.84-3.65,7.83,0,5.95,4.77,10.4,10.64,10.4,6.89,0,10.47-5.74,10.47-10.44,0-2.33-.94-5.43-3.51-7.79h2.02c2.09,2.37,2.89,5.22,2.89,7.72,0,6.96-5.46,12.11-11.93,12.11-6.68,0-11.97-5.36-11.97-12.04,0-4.42,2.36-7.1,3.03-7.79h2.02Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 22,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m199.71,385.53h-23.2v-4.59c0-2.05.31-5.63,3.24-8.56,2.47-2.47,5.84-3.34,8.38-3.34s5.88.87,8.35,3.34c2.92,2.92,3.24,6.51,3.24,8.56v4.59Zm-1.39-1.53v-3.03c0-6.12-4.17-10.33-10.19-10.33-5.95,0-10.23,4.24-10.23,10.33v3.03s20.42,0,20.42,0Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m199.71,385.53h-23.2v-4.59c0-2.05.31-5.63,3.24-8.56,2.47-2.47,5.84-3.34,8.38-3.34s5.88.87,8.35,3.34c2.92,2.92,3.24,6.51,3.24,8.56v4.59Zm-1.39-1.53v-3.03c0-6.12-4.17-10.33-10.19-10.33-5.95,0-10.23,4.24-10.23,10.33v3.03s20.42,0,20.42,0Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 23,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m177.9,325.08v9.6s8.42,0,8.42,0v-9.39h1.39v9.39s10.61,0,10.61,0v-9.6h1.39v11.13h-23.2v-11.13h1.39Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m177.9,325.08v9.6s8.42,0,8.42,0v-9.39h1.39v9.39s10.61,0,10.61,0v-9.6h1.39v11.13h-23.2v-11.13h1.39Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 24,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m180.44,281.68c-2.79,1.43-2.85,3.93-2.85,4.56,0,2.75,1.98,4.31,4.31,4.31,2.5,0,3.34-1.74,4.49-4.07,1.11-2.3,1.6-3.44,2.43-4.63.7-1.01,1.91-2.47,4.49-2.47,3.9,0,6.78,3.27,6.78,7.24,0,2.99-1.43,4.52-2.44,5.39-1.04.9-1.95,1.29-2.54,1.5l-.63-1.32c.91-.31,1.81-.9,2.23-1.25,1.32-1.04,1.98-2.75,1.98-4.35,0-3.13-2.3-5.6-5.36-5.6-1.25,0-2.57.49-3.65,2.26-.38.66-1.08,2.02-2.02,3.93-1.11,2.3-1.74,3.44-3.06,4.24-.87.52-1.74.73-2.64.73-2.68,0-5.78-1.81-5.78-5.95,0-2.33,1.11-4.45,3.31-5.63l.94,1.11Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m180.44,281.68c-2.79,1.43-2.85,3.93-2.85,4.56,0,2.75,1.98,4.31,4.31,4.31,2.5,0,3.34-1.74,4.49-4.07,1.11-2.3,1.6-3.44,2.43-4.63.7-1.01,1.91-2.47,4.49-2.47,3.9,0,6.78,3.27,6.78,7.24,0,2.99-1.43,4.52-2.44,5.39-1.04.9-1.95,1.29-2.54,1.5l-.63-1.32c.91-.31,1.81-.9,2.23-1.25,1.32-1.04,1.98-2.75,1.98-4.35,0-3.13-2.3-5.6-5.36-5.6-1.25,0-2.57.49-3.65,2.26-.38.66-1.08,2.02-2.02,3.93-1.11,2.3-1.74,3.44-3.06,4.24-.87.52-1.74.73-2.64.73-2.68,0-5.78-1.81-5.78-5.95,0-2.33,1.11-4.45,3.31-5.63l.94,1.11Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 25,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m176.51,245.02h23.2v1.53h-23.2v-1.53Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m176.51,245.02h23.2v1.53h-23.2v-1.53Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 26,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m188.58,198.83v-9.74c2.12,0,5.18.45,7.62,2.36,2.61,2.05,3.9,5.18,3.9,8.73,0,6.82-5.01,12-11.93,12-6.89,0-11.97-5.36-11.97-12.11,0-3.27,1.11-5.46,2.5-7.27.77-.97,1.6-1.84,2.92-2.78l.97,1.22c-1.11.66-2.05,1.6-2.57,2.23-1.22,1.46-2.43,3.76-2.43,6.64,0,5.95,4.73,10.47,10.64,10.47,5.81,0,10.47-4.38,10.47-10.37,0-3.97-2.02-6.82-3.93-8.07-1.39-.9-3.31-1.46-4.8-1.53v8.21h-1.39Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m188.58,198.83v-9.74c2.12,0,5.18.45,7.62,2.36,2.61,2.05,3.9,5.18,3.9,8.73,0,6.82-5.01,12-11.93,12-6.89,0-11.97-5.36-11.97-12.11,0-3.27,1.11-5.46,2.5-7.27.77-.97,1.6-1.84,2.92-2.78l.97,1.22c-1.11.66-2.05,1.6-2.57,2.23-1.22,1.46-2.43,3.76-2.43,6.64,0,5.95,4.73,10.47,10.64,10.47,5.81,0,10.47-4.38,10.47-10.37,0-3.97-2.02-6.82-3.93-8.07-1.39-.9-3.31-1.46-4.8-1.53v8.21h-1.39Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 27,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m199.71,156.27h-23.45s20.39-19.48,20.39-19.48h-20.14v-1.53h23.79s-20.39,19.48-20.39,19.48h19.79v1.53Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m199.71,156.27h-23.45s20.39-19.48,20.39-19.48h-20.14v-1.53h23.79s-20.39,19.48-20.39,19.48h19.79v1.53Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 28,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m177.9,90.04v9.6s8.42,0,8.42,0v-9.39h1.39v9.39s10.61,0,10.61,0v-9.6h1.39v11.13h-23.2v-11.13h1.39Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m177.9,90.04v9.6s8.42,0,8.42,0v-9.39h1.39v9.39s10.61,0,10.61,0v-9.6h1.39v11.13h-23.2v-11.13h1.39Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 29,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m199.71,47.47l-10.96,7.52v.7s10.96,0,10.96,0v1.53h-23.2v-3.34c0-1.77.14-3.37,1.18-4.9,1.25-1.81,3.17-2.4,4.98-2.4,2.29,0,4.66,1.01,5.63,3.9.42,1.22.45,2.33.45,2.85l10.96-7.58v1.74Zm-12.35,8.21v-2.23c0-3.31-1.74-5.29-4.73-5.29-2.33,0-3.55,1.15-4.04,2.05-.56.97-.69,2.64-.69,3.55v1.91s9.46,0,9.46,0Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m199.71,47.47l-10.96,7.52v.7s10.96,0,10.96,0v1.53h-23.2v-3.34c0-1.77.14-3.37,1.18-4.9,1.25-1.81,3.17-2.4,4.98-2.4,2.29,0,4.66,1.01,5.63,3.9.42,1.22.45,2.33.45,2.85l10.96-7.58v1.74Zm-12.35,8.21v-2.23c0-3.31-1.74-5.29-4.73-5.29-2.33,0-3.55,1.15-4.04,2.05-.56.97-.69,2.64-.69,3.55v1.91s9.46,0,9.46,0Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 30,
             columnNumber: 7
@@ -2131,58 +2166,58 @@ var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev
           lineNumber: 15,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("g", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m147.74,622c-.04,1.77-.52,2.95-1.45,3.55-.6.4-1.59.6-2.95.6h-26.61v-9.33h-14.87v9.33h-14.93v19.69h14.93v5.3h14.87v-5.3h31.07c4.82.12,8.45-.68,10.9-2.41.8-.59,1.45-1.32,1.99-2.16v-24.45h-12.95v5.18Z" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("g", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m147.74,622c-.04,1.77-.52,2.95-1.45,3.55-.6.4-1.59.6-2.95.6h-26.61v-9.33h-14.87v9.33h-14.93v19.69h14.93v5.3h14.87v-5.3h31.07c4.82.12,8.45-.68,10.9-2.41.8-.59,1.45-1.32,1.99-2.16v-24.45h-12.95v5.18Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 33,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m138.18,321.24h-35.34c-2.2,0-3.8.46-4.8,1.38-1.08.96-1.62,2.06-1.62,3.3,0,1.52.68,2.76,2.04,3.72.96.68,2.42,1.02,4.38,1.02h35.34c2.2,0,3.82-.46,4.86-1.38,1.08-.96,1.62-2.08,1.62-3.36,0-1.48-.68-2.7-2.04-3.66-1-.68-2.48-1.02-4.44-1.02Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m138.18,321.24h-35.34c-2.2,0-3.8.46-4.8,1.38-1.08.96-1.62,2.06-1.62,3.3,0,1.52.68,2.76,2.04,3.72.96.68,2.42,1.02,4.38,1.02h35.34c2.2,0,3.82-.46,4.86-1.38,1.08-.96,1.62-2.08,1.62-3.36,0-1.48-.68-2.7-2.04-3.66-1-.68-2.48-1.02-4.44-1.02Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 34,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m98.87,216.17c-1.12.76-1.68,2.36-1.68,4.8v3.12h14.28v-3.66c0-2.12-.42-3.54-1.26-4.26-1.12-.96-2.98-1.44-5.58-1.44s-4.44.48-5.76,1.44Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m98.87,216.17c-1.12.76-1.68,2.36-1.68,4.8v3.12h14.28v-3.66c0-2.12-.42-3.54-1.26-4.26-1.12-.96-2.98-1.44-5.58-1.44s-4.44.48-5.76,1.44Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 35,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m79.5,703.3v-273.5h32.15v-3.25c-.04-1.89-.4-3.21-1.08-3.97-1-1.04-2.83-1.69-5.48-1.93-.88-.12-2.69-.18-5.42-.18h-9.39c-4.26,0-7.85-.62-10.78-1.87v-21.92c2.09.8,3.81,1.28,5.18,1.45,1.08.16,3.71.26,7.89.3h9.69c3.69,0,6.2.16,7.53.48,4.34,1.04,7.23,3.83,8.67,8.37.32,1.2.76,3.23,1.32,6.08.24-1.32.38-2.19.42-2.59.68-4.62,2.35-7.93,5-9.94,2.29-1.61,5.68-2.41,10.18-2.41h11.5c3.89,0,6.82-.12,8.79-.36,1.53-.2,3.21-.58,5.02-1.09v-5.2h-60.36c-10.2.04-17.14.46-20.83,1.26v-25.29c5.78,1.28,12.52,1.95,20.23,1.99h44.08l-.84-14.81,17.73,3.82v-19.6c-.44,1.68-1.03,3.15-1.77,4.37-2.57,4.3-7.73,7-15.48,8.13-3.85.44-8.91.66-15.17.66h-15.42c-6.26,0-11.32-.22-15.17-.66-7.71-1.12-12.85-3.83-15.42-8.13-1.81-2.97-2.73-7.31-2.77-13.01v-9.94c.04-5.7.96-10.04,2.77-13.01,2.57-4.3,7.71-6.98,15.42-8.07,3.85-.48,8.91-.72,15.17-.72h15.42c6.26,0,11.32.24,15.17.72,7.75,1.08,12.91,3.77,15.48,8.07.74,1.22,1.33,2.68,1.77,4.37v-26.31c-1.12,3.27-3.55,5.38-7.31,6.32-4.3,1.16-11.4,1.71-21.32,1.63h-26.19c-2.57,0-5.56-.14-8.97-.42s-5.82-.58-7.23-.9c-3.81-.88-6.46-2.47-7.95-4.76-1-1.61-1.61-3.31-1.81-5.12-.2-1.97-.34-5.5-.42-10.6v-20.65h17.88v20.41h14.27v-20.41h17.88v20.41h14.27v-20.41h16.88v-5.75h-81.19v-35.65c.08-7.23.86-11.72,2.35-13.49,1.85-2.09,5.02-3.39,9.51-3.92,2.73-.36,5.9-.54,9.51-.54h6.26c9.96.28,16.16,1.28,18.61,3.01,2.21,1.45,3.45,3.99,3.73,7.64.04.8.06,2.65.06,5.54v15.36h31.16v-35.44h-81.19v-35.95h17.88v13.91h14.27v-13.91h17.88v13.91h31.16v-27.12c-1.12,3.27-3.55,5.38-7.31,6.32-4.3,1.16-11.4,1.71-21.32,1.63h-26.19c-2.57,0-5.56-.14-8.97-.42s-5.82-.58-7.23-.9c-3.81-.88-6.46-2.47-7.95-4.76-1-1.61-1.61-3.31-1.81-5.12-.2-1.97-.34-5.5-.42-10.6v-20.65h17.88v20.41h14.27v-20.41h17.88v20.41h14.27v-20.41h16.88v-5.75h-81.19v-33.72c0-4.98.12-8.45.36-10.42.48-3.97,2.51-6.56,6.08-7.77,2.57-.92,5.7-1.41,9.39-1.45h5.3c3.65,0,6.24.1,7.77.3,4.13.6,7.15,2.19,9.03,4.76,1.04,1.49,1.75,3.81,2.11,6.98.96-3.25,1.93-5.62,2.89-7.11,2.45-3.49,6.7-5.14,12.77-4.94h12.71c5.11-.04,9.37-.53,12.79-1.46V0H0v788.52h79.5v-85.21Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m79.5,703.3v-273.5h32.15v-3.25c-.04-1.89-.4-3.21-1.08-3.97-1-1.04-2.83-1.69-5.48-1.93-.88-.12-2.69-.18-5.42-.18h-9.39c-4.26,0-7.85-.62-10.78-1.87v-21.92c2.09.8,3.81,1.28,5.18,1.45,1.08.16,3.71.26,7.89.3h9.69c3.69,0,6.2.16,7.53.48,4.34,1.04,7.23,3.83,8.67,8.37.32,1.2.76,3.23,1.32,6.08.24-1.32.38-2.19.42-2.59.68-4.62,2.35-7.93,5-9.94,2.29-1.61,5.68-2.41,10.18-2.41h11.5c3.89,0,6.82-.12,8.79-.36,1.53-.2,3.21-.58,5.02-1.09v-5.2h-60.36c-10.2.04-17.14.46-20.83,1.26v-25.29c5.78,1.28,12.52,1.95,20.23,1.99h44.08l-.84-14.81,17.73,3.82v-19.6c-.44,1.68-1.03,3.15-1.77,4.37-2.57,4.3-7.73,7-15.48,8.13-3.85.44-8.91.66-15.17.66h-15.42c-6.26,0-11.32-.22-15.17-.66-7.71-1.12-12.85-3.83-15.42-8.13-1.81-2.97-2.73-7.31-2.77-13.01v-9.94c.04-5.7.96-10.04,2.77-13.01,2.57-4.3,7.71-6.98,15.42-8.07,3.85-.48,8.91-.72,15.17-.72h15.42c6.26,0,11.32.24,15.17.72,7.75,1.08,12.91,3.77,15.48,8.07.74,1.22,1.33,2.68,1.77,4.37v-26.31c-1.12,3.27-3.55,5.38-7.31,6.32-4.3,1.16-11.4,1.71-21.32,1.63h-26.19c-2.57,0-5.56-.14-8.97-.42s-5.82-.58-7.23-.9c-3.81-.88-6.46-2.47-7.95-4.76-1-1.61-1.61-3.31-1.81-5.12-.2-1.97-.34-5.5-.42-10.6v-20.65h17.88v20.41h14.27v-20.41h17.88v20.41h14.27v-20.41h16.88v-5.75h-81.19v-35.65c.08-7.23.86-11.72,2.35-13.49,1.85-2.09,5.02-3.39,9.51-3.92,2.73-.36,5.9-.54,9.51-.54h6.26c9.96.28,16.16,1.28,18.61,3.01,2.21,1.45,3.45,3.99,3.73,7.64.04.8.06,2.65.06,5.54v15.36h31.16v-35.44h-81.19v-35.95h17.88v13.91h14.27v-13.91h17.88v13.91h31.16v-27.12c-1.12,3.27-3.55,5.38-7.31,6.32-4.3,1.16-11.4,1.71-21.32,1.63h-26.19c-2.57,0-5.56-.14-8.97-.42s-5.82-.58-7.23-.9c-3.81-.88-6.46-2.47-7.95-4.76-1-1.61-1.61-3.31-1.81-5.12-.2-1.97-.34-5.5-.42-10.6v-20.65h17.88v20.41h14.27v-20.41h17.88v20.41h14.27v-20.41h16.88v-5.75h-81.19v-33.72c0-4.98.12-8.45.36-10.42.48-3.97,2.51-6.56,6.08-7.77,2.57-.92,5.7-1.41,9.39-1.45h5.3c3.65,0,6.24.1,7.77.3,4.13.6,7.15,2.19,9.03,4.76,1.04,1.49,1.75,3.81,2.11,6.98.96-3.25,1.93-5.62,2.89-7.11,2.45-3.49,6.7-5.14,12.77-4.94h12.71c5.11-.04,9.37-.53,12.79-1.46V0H0v788.52h79.5v-85.21Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 36,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m136.88,67.15c-2.93.04-4.92.66-5.96,1.87-.92,1.12-1.38,2.67-1.38,4.64v2.77h31.16v-10.66c-3.36.96-7.64,1.42-12.85,1.39h-10.96Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m136.88,67.15c-2.93.04-4.92.66-5.96,1.87-.92,1.12-1.38,2.67-1.38,4.64v2.77h31.16v-10.66c-3.36.96-7.64,1.42-12.85,1.39h-10.96Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 37,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m98.21,70.33c-.68.8-1.02,2.22-1.02,4.26v3.12h14.28v-3.12c0-2.48-.38-4.08-1.14-4.8-1-.96-3-1.44-6-1.44s-4.96.66-6.12,1.98Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m98.21,70.33c-.68.8-1.02,2.22-1.02,4.26v3.12h14.28v-3.12c0-2.48-.38-4.08-1.14-4.8-1-.96-3-1.44-6-1.44s-4.96.66-6.12,1.98Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 38,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m155.45,653.59c-.8-.16-2.03-.33-3.67-.51-1.65-.18-2.91-.27-3.79-.27h-8.79c-2.89,0-4.82.02-5.78.06-3.69.12-6.3.64-7.83,1.57-2.61,1.89-3.87,5.7-3.79,11.44v6.92h-7.47v-17.82h-14.87v24.21c0,4.3.4,7.23,1.2,8.79,1.03,1.84,2.71,3.1,5.01,3.78h28.94c1.84-.49,3.19-1.34,3.92-2.64.72-1.41,1.08-3.57,1.08-6.5v-9.57h8.13v115.48h12.95v-131.29c-1.39-1.98-3.14-3.2-5.25-3.64Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m155.45,653.59c-.8-.16-2.03-.33-3.67-.51-1.65-.18-2.91-.27-3.79-.27h-8.79c-2.89,0-4.82.02-5.78.06-3.69.12-6.3.64-7.83,1.57-2.61,1.89-3.87,5.7-3.79,11.44v6.92h-7.47v-17.82h-14.87v24.21c0,4.3.4,7.23,1.2,8.79,1.03,1.84,2.71,3.1,5.01,3.78h28.94c1.84-.49,3.19-1.34,3.92-2.64.72-1.41,1.08-3.57,1.08-6.5v-9.57h8.13v115.48h12.95v-131.29c-1.39-1.98-3.14-3.2-5.25-3.64Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 39,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m147.74,460.11v21.44c0,2.73-.32,4.55-.96,5.48-.68,1-2.19,1.51-4.52,1.51h-3.31v-28.42h-25.95c-2.25,0-3.73.02-4.46.06-2.73.2-4.8,1.16-6.2,2.89-1.85,2.17-2.81,6.64-2.89,13.43v15.53c0,2.45.1,4.52.3,6.2.36,3.29,1.2,5.62,2.53,6.99,1.89,1.93,5.2,2.91,9.94,2.95h33.42c3.01,0,5.04-.02,6.08-.06,3.97-.2,6.7-1.04,8.19-2.53.29-.33.55-.72.79-1.14v-44.32h-12.95Zm-20.77,28.42h-5.72c-4.58,0-6.86-1.47-6.86-4.4,0-1.48.76-2.65,2.29-3.49,1.04-.6,2.57-.9,4.58-.9h5.72v8.79Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m147.74,460.11v21.44c0,2.73-.32,4.55-.96,5.48-.68,1-2.19,1.51-4.52,1.51h-3.31v-28.42h-25.95c-2.25,0-3.73.02-4.46.06-2.73.2-4.8,1.16-6.2,2.89-1.85,2.17-2.81,6.64-2.89,13.43v15.53c0,2.45.1,4.52.3,6.2.36,3.29,1.2,5.62,2.53,6.99,1.89,1.93,5.2,2.91,9.94,2.95h33.42c3.01,0,5.04-.02,6.08-.06,3.97-.2,6.7-1.04,8.19-2.53.29-.33.55-.72.79-1.14v-44.32h-12.95Zm-20.77,28.42h-5.72c-4.58,0-6.86-1.47-6.86-4.4,0-1.48.76-2.65,2.29-3.49,1.04-.6,2.57-.9,4.58-.9h5.72v8.79Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 40,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m155.73,419.99c-2.17.32-4.98.48-8.43.48h-7.53c-2.69,0-4.46.12-5.3.36-3.25.84-4.9,2.87-4.94,6.08v2.89h31.16v-11.48c-1.7.83-3.35,1.4-4.96,1.66Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m155.73,419.99c-2.17.32-4.98.48-8.43.48h-7.53c-2.69,0-4.46.12-5.3.36-3.25.84-4.9,2.87-4.94,6.08v2.89h31.16v-11.48c-1.7.83-3.35,1.4-4.96,1.66Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 41,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m144.91,516.5c-5.78-2.49-13.29-3.81-22.52-3.97h-22.94v19.63h22.82c5.34,0,9.86.28,13.55.84,3.65.56,7.15,1.75,10.48,3.55-3.29,1.85-6.78,3.05-10.48,3.61s-8.21.84-13.55.84h-22.82v19.63h22.94c8.51-.12,15.21-1.14,20.11-3.07,7.41-2.79,13.45-6.09,18.19-9.87v-22.19c-4.16-3.29-9.39-6.3-15.78-9.01Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m144.91,516.5c-5.78-2.49-13.29-3.81-22.52-3.97h-22.94v19.63h22.82c5.34,0,9.86.28,13.55.84,3.65.56,7.15,1.75,10.48,3.55-3.29,1.85-6.78,3.05-10.48,3.61s-8.21.84-13.55.84h-22.82v19.63h22.94c8.51-.12,15.21-1.14,20.11-3.07,7.41-2.79,13.45-6.09,18.19-9.87v-22.19c-4.16-3.29-9.39-6.3-15.78-9.01Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 42,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { className: "cls-1", d: "m147.74,564.83v21.44c0,2.73-.32,4.56-.96,5.48-.68,1-2.19,1.51-4.52,1.51h-3.31v-28.42h-25.95c-2.25,0-3.73.02-4.46.06-2.73.2-4.8,1.16-6.2,2.89-1.85,2.17-2.81,6.64-2.89,13.43v15.54c0,2.45.1,4.52.3,6.2.36,3.29,1.2,5.62,2.53,6.99,1.89,1.93,5.2,2.91,9.94,2.95h33.42c3.01,0,5.04-.02,6.08-.06,3.97-.2,6.7-1.04,8.19-2.53.29-.33.55-.72.79-1.14v-44.32h-12.95Zm-20.77,28.42h-5.72c-4.58,0-6.86-1.47-6.86-4.4,0-1.49.76-2.65,2.29-3.49,1.04-.6,2.57-.9,4.58-.9h5.72v8.79Z" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { className: "cls-1", d: "m147.74,564.83v21.44c0,2.73-.32,4.56-.96,5.48-.68,1-2.19,1.51-4.52,1.51h-3.31v-28.42h-25.95c-2.25,0-3.73.02-4.46.06-2.73.2-4.8,1.16-6.2,2.89-1.85,2.17-2.81,6.64-2.89,13.43v15.54c0,2.45.1,4.52.3,6.2.36,3.29,1.2,5.62,2.53,6.99,1.89,1.93,5.2,2.91,9.94,2.95h33.42c3.01,0,5.04-.02,6.08-.06,3.97-.2,6.7-1.04,8.19-2.53.29-.33.55-.72.79-1.14v-44.32h-12.95Zm-20.77,28.42h-5.72c-4.58,0-6.86-1.47-6.86-4.4,0-1.49.76-2.65,2.29-3.49,1.04-.6,2.57-.9,4.58-.9h5.72v8.79Z" }, void 0, !1, {
             fileName: "app/components/heroLogoSVG.component.jsx",
             lineNumber: 43,
             columnNumber: 7
@@ -2214,9 +2249,9 @@ var import_react_plx = require("react-plx");
 var import_react_animate_on_scroll2 = require("react-animate-on-scroll");
 
 // app/components/background.component.jsx
-var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function Background() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "background" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "background" }, void 0, !1, {
     fileName: "app/components/background.component.jsx",
     lineNumber: 3,
     columnNumber: 9
@@ -2224,11 +2259,11 @@ function Background() {
 }
 
 // app/components/hero.component.jsx
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function Hero() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/brandImages/rolling/RollingRest_Logo.webp",
@@ -2249,7 +2284,7 @@ function Hero() {
         lineNumber: 8,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/EliteEstheticianBooth.webp",
@@ -2270,7 +2305,7 @@ function Hero() {
         lineNumber: 16,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/HoodGuyMockup copy.webp",
@@ -2291,7 +2326,7 @@ function Hero() {
         lineNumber: 24,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/brandImages/enhance/EnhanceMagazines.webp",
@@ -2317,8 +2352,8 @@ function Hero() {
       lineNumber: 7,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/NelsonWrap.webp",
@@ -2339,7 +2374,7 @@ function Hero() {
         lineNumber: 42,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/MatadorBottle_v2_Mockup.webp",
@@ -2360,7 +2395,7 @@ function Hero() {
         lineNumber: 50,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/BugattiBook_Mockup.webp",
@@ -2386,8 +2421,8 @@ function Hero() {
       lineNumber: 41,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/FreyaAbsinthe_MockUp.webp",
@@ -2408,7 +2443,7 @@ function Hero() {
         lineNumber: 68,
         columnNumber: 22
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/brandImages/enhance/EnhanceWebsite.webp",
@@ -2434,7 +2469,7 @@ function Hero() {
       lineNumber: 67,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
       progressiveImage_component_default,
       {
         src: "/images/brandImages/rolling/RollingRest_Sketches.webp",
@@ -2471,7 +2506,7 @@ function Hero() {
 }
 
 // app/routes/__app._index.jsx
-var import_react12 = require("react"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), meta3 = () => [
+var import_react13 = require("react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), meta3 = () => [
   { title: "Graphic Design | Stephen Kloepfer | Branding & Design" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "In today's evolving market, it is imperative your design evolves alongside. Stephen Kloepfer is here to help with all your branding and graphic design needs." },
@@ -2492,21 +2527,21 @@ function Index() {
       left: containerScrollPosition + e.deltaY,
       behavior: "smooth"
     });
-  }, scrollRef = (0, import_react12.useRef)(null);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_jsx_dev_runtime14.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mainLanding scrolling", id: "container", ref: scrollRef, onWheel, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
+  }, scrollRef = (0, import_react13.useRef)(null);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mainLanding scrolling", id: "container", ref: scrollRef, onWheel, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "panel1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 50,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Hero, {}, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 51,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 52,
           columnNumber: 17
@@ -2516,19 +2551,19 @@ function Index() {
         lineNumber: 49,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel2", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "panel2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 55,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "intro", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "intro", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
             fileName: "app/routes/__app._index.jsx",
             lineNumber: 57,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
             fileName: "app/routes/__app._index.jsx",
             lineNumber: 58,
             columnNumber: 21
@@ -2543,7 +2578,7 @@ function Index() {
         lineNumber: 54,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(MainMenu, {}, void 0, !1, {
         fileName: "app/routes/__app._index.jsx",
         lineNumber: 61,
         columnNumber: 13
@@ -2553,19 +2588,19 @@ function Index() {
       lineNumber: 48,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mobile", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mobile", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "panel1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(heroLogoSVG_component_default, { className: "logo", color: "#e05210", logoID: "logo1" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 65,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Hero, {}, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 66,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 67,
           columnNumber: 17
@@ -2575,19 +2610,19 @@ function Index() {
         lineNumber: 64,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "panel2", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "panel2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "flowPic" }, void 0, !1, {
           fileName: "app/routes/__app._index.jsx",
           lineNumber: 70,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "intro", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "intro", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
             fileName: "app/routes/__app._index.jsx",
             lineNumber: 72,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market." }, void 0, !1, {
             fileName: "app/routes/__app._index.jsx",
             lineNumber: 73,
             columnNumber: 21
@@ -2602,7 +2637,7 @@ function Index() {
         lineNumber: 69,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(MainMenu, {}, void 0, !1, {
         fileName: "app/routes/__app._index.jsx",
         lineNumber: 76,
         columnNumber: 13
@@ -2627,13 +2662,13 @@ __export(app_about_exports, {
   loader: () => loader3,
   meta: () => meta4
 });
-var import_react14 = require("react");
+var import_react15 = require("react");
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-AXHLQFAJ.css";
+var about_styles_default = "/build/_assets/about.styles-PW3BQ5F3.css";
 
 // app/routes/__app.about.jsx
-var import_react15 = require("@remix-run/react");
+var import_react16 = require("@remix-run/react");
 
 // workhistory.json
 var workhistory_default = {
@@ -2705,20 +2740,20 @@ var workhistory_default = {
 };
 
 // app/components/timeline.component.jsx
-var import_react13 = require("react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
+var import_react14 = require("react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
 function Timeline(props) {
-  let [activeInfo, setInfo] = (0, import_react13.useState)(""), [priorSelect, setPrior] = (0, import_react13.useState)("");
+  let [activeInfo, setInfo] = (0, import_react14.useState)(""), [priorSelect, setPrior] = (0, import_react14.useState)("");
   var aboutInfo;
   let select = props.selector;
   select === "about" ? aboutInfo = props.aboutInfo.about : select === "education" ? aboutInfo = props.aboutInfo.education : select === "skills" ? aboutInfo = props.aboutInfo.skills : aboutInfo = "";
   let setActive = (props2) => {
     setInfo(""), setInfo(props2);
   };
-  return (0, import_react13.useEffect)(() => {
+  return (0, import_react14.useEffect)(() => {
     (activeInfo == "" && priorSelect != select || priorSelect != select) && (setInfo(aboutInfo[0]), setPrior(select));
-  }, [aboutInfo, activeInfo, priorSelect, setPrior, select]), /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "scrollbox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "aboutContainer", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "timeline", style: { height: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+  }, [aboutInfo, activeInfo, priorSelect, setPrior, select]), /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "scrollbox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutContainer", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "timeline", style: { height: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
         "div",
         {
           className: activeInfo && activeInfo != "" && info.title === activeInfo.title ? "bullet activeBullet" : "bullet",
@@ -2734,12 +2769,12 @@ function Timeline(props) {
         },
         this
       ),
-      activeInfo && activeInfo != "" && info.title === activeInfo.title ? /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "bulletActive-line" }, void 0, !1, {
+      activeInfo && activeInfo != "" && info.title === activeInfo.title ? /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "bulletActive-line" }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 55,
         columnNumber: 33
       }, this) : "",
-      info.final ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: info.spaceClass }, void 0, !1, {
+      info.final ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: info.spaceClass }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 61,
         columnNumber: 33
@@ -2753,18 +2788,18 @@ function Timeline(props) {
       lineNumber: 38,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "textbox", style: { minHeight: props.heightBlock }, children: activeInfo && activeInfo != "" ? /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { children: activeInfo.title }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "textbox", style: { minHeight: props.heightBlock }, children: activeInfo && activeInfo != "" ? /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: activeInfo.title }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 72,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h3", { children: activeInfo.date }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h3", { children: activeInfo.date }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 73,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("ul", { children: activeInfo.text.map((text) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("li", { children: text }, text, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("ul", { children: activeInfo.text.map((text) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("li", { children: text }, text, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 77,
         columnNumber: 37
@@ -2777,7 +2812,7 @@ function Timeline(props) {
       fileName: "app/components/timeline.component.jsx",
       lineNumber: 71,
       columnNumber: 25
-    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "Please Select a Bullet" }, void 0, !1, {
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: "Please Select a Bullet" }, void 0, !1, {
       fileName: "app/components/timeline.component.jsx",
       lineNumber: 83,
       columnNumber: 25
@@ -2798,7 +2833,7 @@ function Timeline(props) {
 }
 
 // app/routes/__app.about.jsx
-var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => [
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links8 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: about_styles_default },
@@ -2813,14 +2848,14 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
   { name: "og:description", content: "A bit about me and my history in the fast-paced field of graphic desig." },
   { name: "og:image", content: "/social_preview.png" }
 ], About = () => {
-  let aboutInfo = (0, import_react15.useLoaderData)(), [triggered, setTriggered] = (0, import_react14.useState)(!1), [loaded, hasloaded] = (0, import_react14.useState)(!1), [height, setHeight] = (0, import_react14.useState)("63vh"), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let aboutInfo = (0, import_react16.useLoaderData)(), [triggered, setTriggered] = (0, import_react15.useState)(!1), [loaded, hasloaded] = (0, import_react15.useState)(!1), [height, setHeight] = (0, import_react15.useState)("63vh"), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react15.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react16.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   };
-  (0, import_react14.useEffect)(() => {
+  (0, import_react15.useEffect)(() => {
     loaded || triggerSlide();
   });
   let onReopen = () => {
@@ -2833,9 +2868,9 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
       left: containerScrollPosition + e.deltaY,
       behavior: "smooth"
     });
-  }, scrollRef = (0, import_react14.useRef)(null);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+  }, scrollRef = (0, import_react15.useRef)(null);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
       MainMenu,
       {
         page: "about",
@@ -2850,49 +2885,49 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
         lineNumber: 92,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(pagesHeader_component_default, { background: "#35444F", setter: data_from_child, onClose: closeSlide, active: "about" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(pagesHeader_component_default, { background: "#35444F", setter: data_from_child, onClose: closeSlide, active: "about" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
         lineNumber: 93,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutScrolling mainLanding", id: "container", ref: scrollRef, onWheel, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutScrolling mainLanding", id: "container", ref: scrollRef, onWheel, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "panel1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 96,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutText", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutText", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 99,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { children: [
               "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 102,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 102,
                 columnNumber: 29
               }, this),
               "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 104,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 104,
                 columnNumber: 29
@@ -2917,13 +2952,13 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
           lineNumber: 95,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutSpacer" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutSpacer" }, void 0, !1, {
           fileName: "app/routes/__app.about.jsx",
           lineNumber: 110,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "panel2", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 113,
             columnNumber: 17
@@ -2932,7 +2967,7 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
             lineNumber: 112,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "60vh" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 116,
             columnNumber: 17
@@ -2951,38 +2986,38 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
         lineNumber: 94,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutMobile", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutMobile", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "panel1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("img", { src: "/images/SteveFlowChart.webp", className: "aboutPic" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 122,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutText", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "introBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutText", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { children: "ABOUT ME" }, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 125,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { children: [
               "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 128,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 128,
                 columnNumber: 29
               }, this),
               "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 130,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.about.jsx",
                 lineNumber: 130,
                 columnNumber: 29
@@ -3007,13 +3042,13 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
           lineNumber: 121,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "panel2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "panel2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "historyBox", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 138,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "100vh" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "70vh" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 140,
             columnNumber: 19
@@ -3059,14 +3094,14 @@ __export(app_logos_exports, {
   loader: () => loader4,
   meta: () => meta5
 });
-var import_react16 = require("react");
+var import_react17 = require("react");
 
 // app/styles/logos.styles.css
 var logos_styles_default = "/build/_assets/logos.styles-C2ZQ2X27.css";
 
 // app/routes/__app.logos.jsx
-var import_react17 = require("@remix-run/react");
-var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => [
+var import_react18 = require("@remix-run/react");
+var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links9 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: logos_styles_default },
@@ -3081,8 +3116,8 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
   { name: "og:image", content: "/social_preview.png" }
 ];
 function useHorizontalScroll() {
-  let elRef = (0, import_react16.useRef)();
-  return (0, import_react16.useEffect)(() => {
+  let elRef = (0, import_react17.useRef)();
+  return (0, import_react17.useEffect)(() => {
     let el = elRef.current;
     if (el) {
       let onWheel = (e) => {
@@ -3093,17 +3128,17 @@ function useHorizontalScroll() {
   }, []), elRef;
 }
 var LogoDesign = () => {
-  let [triggered, setTriggered] = (0, import_react16.useState)(!1), [loaded, hasloaded] = (0, import_react16.useState)(!1), brandData = (0, import_react17.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react17.useState)(!1), [loaded, hasloaded] = (0, import_react17.useState)(!1), brandData = (0, import_react18.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react17.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react18.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   }, scrollRef = useHorizontalScroll();
-  return (0, import_react16.useEffect)(() => {
+  return (0, import_react17.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
       MainMenu,
       {
         page: "logos",
@@ -3120,18 +3155,18 @@ var LogoDesign = () => {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: triggered ? "slider backgroundBlue activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider backgroundBlue activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 93,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 94,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 96,
         columnNumber: 11
@@ -3140,9 +3175,9 @@ var LogoDesign = () => {
         lineNumber: 95,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: brandData.logos.map((logo, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logosRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoBounding", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { children: logo.name }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: brandData.logos.map((logo, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logosRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBounding", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h2", { children: logo.name }, void 0, !1, {
             fileName: "app/routes/__app.logos.jsx",
             lineNumber: 106,
             columnNumber: 17
@@ -3153,7 +3188,7 @@ var LogoDesign = () => {
           lineNumber: 105,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
           progressiveImage_component_default,
           {
             src: logo.image,
@@ -3187,7 +3222,7 @@ var LogoDesign = () => {
         lineNumber: 98,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 123,
         columnNumber: 7
@@ -3215,9 +3250,9 @@ __export(app_print_exports, {
   loader: () => loader5,
   meta: () => meta6
 });
-var import_react18 = require("react");
-var import_react19 = require("@remix-run/react");
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () => [
+var import_react19 = require("react");
+var import_react20 = require("@remix-run/react");
+var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links10 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
@@ -3231,17 +3266,17 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
   { name: "og:description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
   { name: "og:image", content: "/social_preview.png" }
 ], Branding2 = () => {
-  let [triggered, setTriggered] = (0, import_react18.useState)(!1), [loaded, hasloaded] = (0, import_react18.useState)(!1), [active, setActive] = (0, import_react18.useState)(), [IsActive, setActiveBool] = (0, import_react18.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react19.useNavigate)(), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react19.useState)(!1), [loaded, hasloaded] = (0, import_react19.useState)(!1), [active, setActive] = (0, import_react19.useState)(), [IsActive, setActiveBool] = (0, import_react19.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react20.useNavigate)(), triggerSlide = async () => {
     await delay(250), hasloaded(!0), setTriggered(!0);
   }, data_from_child = async (data2) => {
     data2 != "" && data2 != null && (closeSlide(), await delay(500), navigate("/" + data2));
   }, closeSlide = () => {
     setTriggered(!1);
-  }, data = (0, import_react19.useLoaderData)();
-  (0, import_react18.useEffect)(() => {
+  }, data = (0, import_react20.useLoaderData)();
+  (0, import_react19.useEffect)(() => {
     loaded || triggerSlide();
   });
-  let [hoveredItem, setHovered] = (0, import_react18.useState)("");
+  let [hoveredItem, setHovered] = (0, import_react19.useState)("");
   function changeHover(newItem) {
     setHovered(newItem.name);
   }
@@ -3259,8 +3294,8 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
   function checkLength(item) {
     return item.images.length;
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
       MainMenu,
       {
         page: "print",
@@ -3275,28 +3310,28 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 102,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
           fileName: "app/routes/__app.print.jsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
-          (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("a", { children: [
-            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
+          (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("a", { children: [
+            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
                 lineNumber: 112,
                 columnNumber: 106
@@ -3306,9 +3341,9 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
               fileName: "app/routes/__app.print.jsx",
               lineNumber: 112,
               columnNumber: 17
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
                 lineNumber: 113,
                 columnNumber: 106
@@ -3319,7 +3354,7 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
               lineNumber: 113,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               progressiveImage_component_default,
               {
                 alt: item.name,
@@ -3361,7 +3396,7 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
       lineNumber: 100,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
       modal_component_default,
       {
         onClose,
@@ -3395,11 +3430,11 @@ __export(app_menu_exports, {
   links: () => links11,
   meta: () => meta7
 });
-var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), meta7 = () => [{ title: "New Remix App" }], links11 = () => [
+var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), meta7 = () => [{ title: "New Remix App" }], links11 = () => [
   { rel: "stylesheet", href: menu_styles_default }
 ];
 function Menu() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "main", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
     fileName: "app/routes/__app.menu.jsx",
     lineNumber: 19,
     columnNumber: 7
@@ -3418,9 +3453,9 @@ __export(app_spec_exports, {
   loader: () => loader6,
   meta: () => meta8
 });
-var import_react20 = require("react");
-var import_react21 = require("@remix-run/react");
-var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () => [
+var import_react21 = require("react");
+var import_react22 = require("@remix-run/react");
+var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links12 = () => [
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
   ...links2(),
@@ -3433,17 +3468,17 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
   { name: "og:description", content: "Featuring non-client projects, done for fun and practice." },
   { name: "og:image", content: "/social_preview.png" }
 ], Branding3 = () => {
-  let [triggered, setTriggered] = (0, import_react20.useState)(!1), [loaded, hasloaded] = (0, import_react20.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react20.useState)(), [brandIsActive, setBrandBool] = (0, import_react20.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react21.useNavigate)(), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react21.useState)(!1), [loaded, hasloaded] = (0, import_react21.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react21.useState)(), [brandIsActive, setBrandBool] = (0, import_react21.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react22.useNavigate)(), triggerSlide = async () => {
     await delay(250), hasloaded(!0), setTriggered(!0);
   }, data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   }, closeSlide = () => {
     setTriggered(!1);
-  }, brandData = (0, import_react21.useLoaderData)();
-  (0, import_react20.useEffect)(() => {
+  }, brandData = (0, import_react22.useLoaderData)();
+  (0, import_react21.useEffect)(() => {
     loaded || triggerSlide();
   });
-  let [hoveredItem, setHovered] = (0, import_react20.useState)("");
+  let [hoveredItem, setHovered] = (0, import_react21.useState)("");
   function changeHover(newItem) {
     setHovered(newItem.name);
   }
@@ -3461,8 +3496,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
   function checkLength(brand) {
     return brand.images.length;
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
       MainMenu,
       {
         page: "spec",
@@ -3477,21 +3512,21 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.spec.jsx",
         lineNumber: 99,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "spec" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "spec" }, void 0, !1, {
         fileName: "app/routes/__app.spec.jsx",
         lineNumber: 100,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h1", { className: "heading", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "heading", children: [
           "Artistic Playground",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.spec.jsx",
             lineNumber: 102,
             columnNumber: 54
@@ -3502,28 +3537,28 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
           lineNumber: 102,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
           lineNumber: 103,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "introText", children: "Whether to keep our creative edge honed, or just for day-to-day fun, sometimes our best work ends up being purely fictional work. While I prefer to focus my portfolio on real-world projects, occassionally a 'for fun' design is just too good to keep to myself. That is why I created the 'speculative' section of my portfolio, as a chance to show off work I'm proud of, that has never seen the light of day professionally." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "introText", children: "Whether to keep our creative edge honed, or just for day-to-day fun, sometimes our best work ends up being purely fictional work. While I prefer to focus my portfolio on real-world projects, occassionally a 'for fun' design is just too good to keep to myself. That is why I created the 'speculative' section of my portfolio, as a chance to show off work I'm proud of, that has never seen the light of day professionally." }, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageGrid", children: brandData.spec.map(
-          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("a", { children: [
-            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "imageGrid", children: brandData.spec.map(
+          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("a", { children: [
+            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
               lineNumber: 112,
               columnNumber: 17
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
               lineNumber: 113,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
               progressiveImage_component_default,
               {
                 alt: brand.name,
@@ -3565,7 +3600,7 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
       lineNumber: 98,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
       modal_component_default,
       {
         onClose,
@@ -3600,9 +3635,9 @@ __export(app_web_exports, {
   loader: () => loader7,
   meta: () => meta9
 });
-var import_react22 = require("react");
-var import_react23 = require("@remix-run/react");
-var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () => [
+var import_react23 = require("react");
+var import_react24 = require("@remix-run/react");
+var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime"), links13 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
@@ -3615,17 +3650,17 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
   { name: "og:description", content: "hether you need a simple Wordpress site for customers to land on, or full hand-coded websites with all the bells and whistles, I am here to help!" },
   { name: "og:image", content: "/social_preview.png" }
 ], WebDesign = () => {
-  let [triggered, setTriggered] = (0, import_react22.useState)(!1), [loaded, hasloaded] = (0, import_react22.useState)(!1), brandData = (0, import_react23.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react23.useState)(!1), [loaded, hasloaded] = (0, import_react23.useState)(!1), brandData = (0, import_react24.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react23.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react24.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   };
-  return (0, import_react22.useEffect)(() => {
+  return (0, import_react23.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
       MainMenu,
       {
         page: "web",
@@ -3642,25 +3677,25 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
         lineNumber: 72,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(pagesHeader_component_default, { setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
         lineNumber: 73,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "heading", children: "Web Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("h1", { className: "heading", children: "Web Design" }, void 0, !1, {
           fileName: "app/routes/__app.web.jsx",
           lineNumber: 75,
           columnNumber: 11
         }, this),
         brandData.web.map(
-          (web) => /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+          (web) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
             progressiveImage_component_default,
             {
               src: web.image,
@@ -3704,16 +3739,16 @@ __export(app_exports, {
   default: () => App2,
   links: () => links14
 });
-var import_react24 = require("@remix-run/react");
-var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime"), links14 = () => [];
+var import_react25 = require("@remix-run/react");
+var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), links14 = () => [];
 function App2() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_jsx_dev_runtime22.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_react24.Outlet, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react25.Outlet, {}, void 0, !1, {
       fileName: "app/routes/__app.jsx",
       lineNumber: 13,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(Background, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(Background, {}, void 0, !1, {
       fileName: "app/routes/__app.jsx",
       lineNumber: 14,
       columnNumber: 9
@@ -3726,7 +3761,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OOVQUPXT.js", imports: ["/build/_shared/chunk-MKL5VVQW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-M36GBRLB.js", imports: ["/build/_shared/chunk-LPD6BGRT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-YJHD67TN.js", imports: ["/build/_shared/chunk-K5F7D4NB.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-UY743KW2.js", imports: ["/build/_shared/chunk-K5F7D4NB.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-45ZVHH3T.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-A22UGCZI.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-LS3VPNWV.js", imports: ["/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-LEUOASXN.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-73QPQR43.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-2RFHRFGM.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-PTXGH5CE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-2N53LTL7.js", "/build/_shared/chunk-MKL5VVQW.js", "/build/_shared/chunk-S6XTAEIX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b027a8a9", hmr: void 0, url: "/build/manifest-B027A8A9.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-MUGUH3IZ.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-FNYCGZGZ.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DNUVPRYK.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "ec4860c4", hmr: void 0, url: "/build/manifest-EC4860C4.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

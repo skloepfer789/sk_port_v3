@@ -240,7 +240,7 @@ li {
 
 @media only screen and (max-width: 900px) {}
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 700px) {
     .aboutMobile {
         display: flex;
         flex-direction: column;
@@ -253,6 +253,7 @@ li {
         align-items: flex-end;
         margin-right: 6vw;
         width: 94vw;
+        margin-bottom: 15vh;
     }
     .panel1 {
         display: flex;

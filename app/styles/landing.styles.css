@@ -53,7 +53,7 @@
 
 .intro {
     display: block;
-    width: 35vw;
+    width: 50vw;
     color: white;
     padding: 150px;
 }
@@ -66,6 +66,16 @@
 .intro p {
     letter-spacing: 2px;
     line-height: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .spacer {
+        width: 300px;
+        height: 100vh;
+        background-color: var(--orangeMain);
+        margin-left: -20vw;
+        z-index: -1;
+    }
 }
 
 @media only screen and (max-width: 700px) {

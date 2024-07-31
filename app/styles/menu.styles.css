@@ -93,10 +93,13 @@
         opacity: 0;
         transition: .5s;
     }
+}
+
+@media only screen and (max-width: 800px) {
     .mainMenuImage {
-        width: 40vw;
-        margin-top: 15vh;
-        margin-left: 75vw;
+        width: 45vw;
+        margin-top: 10vh;
+        margin-left: 10vw;
         transition: 1.5s
     }
 }

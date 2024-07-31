@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Footer from './footer.component';
 import BleedLogo from './logoBleedOfflSVG.component';
 import MaskedImage from '../components/maskedImage.component';
 import { Link } from '@remix-run/react';
@@ -143,7 +144,10 @@ export default function MainMenu(props){
         </div>
       ))
       }      
+     
+
       </div>
+      <Footer />
     </div>
     
   );
