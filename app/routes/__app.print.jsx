@@ -108,7 +108,7 @@ const Branding = () => {
                 <div className='imageBox' key={item.name} onMouseEnter={() => changeHover(item)} onMouseLeave={unsetHover}>
                 <a>
                 {
-                  checkLength(item) > 1 ? (
+                  checkLength(item.images) > 1 ? (
                     <p className='overlay' style={{fontSize: '150%', opacity: 1}}>{item.name.toUpperCase()}<br/>Click to See More</p>
                   ): (<p className='overlay' style={{fontSize: '150%', opacity: 1}}>{item.name.toUpperCase()}<br/>Click to Expand Image</p>)
                 }
@@ -116,8 +116,8 @@ const Branding = () => {
                   <ProgressiveImg 
                     alt={item.name}  
                     key={item.name}
-                    src={item.images[0].image}
-                    placeholderSrc={item.images[0].placeholder}
+                    src={ item.hero ? item.hero.image : item.images[0].image}
+                    placeholderSrc={item.hero ? item.hero.placeholder : item.images[0].placeholder}
                     classTitle='primaryImage'
                     onClick={() => selectItem(item)}
                   />

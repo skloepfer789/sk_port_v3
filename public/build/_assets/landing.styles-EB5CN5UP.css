@@ -1,0 +1,114 @@
+/* app/styles/landing.styles.css */
+.scrolling {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.mobile {
+  display: none;
+}
+.panel1 {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: left;
+}
+.spacer {
+  width: 400px;
+  height: 100vh;
+  background-color: var(--orangeMain);
+  margin-left: -30vw;
+  z-index: -1;
+}
+.heading {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  opacity: 0;
+  margin-bottom: 18vh;
+}
+.logo {
+  height: 100vh;
+  z-index: 40;
+  padding-right: 15px;
+}
+.panel2 {
+  background-color: var(--orangeMain);
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+}
+.flowPic {
+  height: 90vh;
+  margin-top: 5vh;
+}
+.intro {
+  display: block;
+  width: 50vw;
+  color: #fff;
+  padding: 150px;
+}
+.intro h2 {
+  font-size: 200%;
+  letter-spacing: 5px;
+}
+.intro p {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 900px) {
+  .spacer {
+    width: 300px;
+    height: 100vh;
+    background-color: var(--orangeMain);
+    margin-left: -20vw;
+    z-index: -1;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mainLanding {
+    display: none;
+  }
+  .logo {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    background-color: #fff;
+    padding-right: 10px;
+  }
+  .panel2 {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  .flowPic {
+    display: none;
+  }
+  .intro {
+    display: block;
+    width: 80vw;
+    color: #fff;
+    padding: 20px;
+    margin: 70px auto 90px;
+  }
+  .intro h2 {
+    font-size: 150%;
+    letter-spacing: 5px;
+  }
+  .intro p {
+    font-size: 80%;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  .spacer {
+    display: none;
+  }
+}

@@ -1,31 +1,26 @@
 {
     "category": [{
         "name": "Enhance Printing",
-        "hero": [{
+        "hero": {
             "image": "",
             "alt": "",
             "placeholder": "",
             "size": "small"
-        }],
+        },
         "heroAlsoFirstImage": true,
         "noBreakdown": false,
         "breakdown": [{
-            "break1": [{
-                "title": "Service",
-                "text": ""
-            }],
-            "break2": [{
-                "title": "Mission",
-                "text": ""
-            }],
-            "break3": [{
-                "title": "Brand Process",
-                "text": ""
-            }],
-            "break4": [{
-                "title": "Included Services",
-                "text": ""
-            }]
+            "title": "Service",
+            "text": ""
+        }, {
+            "title": "Mission",
+            "text": ""
+        }, {
+            "title": "Brand Process",
+            "text": ""
+        }, {
+            "title": "Included Services",
+            "text": ""
         }],
         "hasOriginalLogo": true,
         "originalLogo": [{
@@ -35,7 +30,7 @@
             "size": "small"
         }],
         "short description": "",
-        "SupplementImages": [{
+        "images": [{
             "image": "",
             "alt": "",
             "placeholder": "",

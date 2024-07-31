@@ -1,32 +1,29 @@
 {
     "branding": [{
         "name": "Enhance Printing",
-        "hero": [{
+        "hero": {
             "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
             "alt": "Enhance Printing Brand Portfolio",
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
             "size": "large"
-        }],
+        },
         "heroAlsoFirstImage": true,
         "noBreakdown": false,
         "breakdown": [{
-            "break1": [{
                 "title": "Service",
                 "text": "Rebrand"
-            }],
-            "break2": [{
+            }, {
                 "title": "Mission",
                 "text": "My intent for this rebrand was crafting a new look for Enhance Printing that was web-forward and modern, to help compete in today’s marketplace."
-            }],
-            "break3": [{
+            },
+            {
                 "title": "Brand Process",
                 "text": "When working on Enhance Printing’s rebrand, I my goal was to retain key elements from the original logo, while working to create a sleeker feel. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original look, but also pushed the brand in a modern direction, to make it a contender in an increasingly digital marketplace."
-            }],
-            "break4": [{
+            }, {
                 "title": "Included Services",
                 "text": "Brand Identity, Logo Design, Website, Stationary, Marketing Collateral, Copywriting"
-            }]
-        }],
+            }
+        ],
         "hasOriginalLogo": true,
         "originalLogo": [{
             "image": "/images/brandImages/enhance/Enh_Orig_Logo.webp",
@@ -35,7 +32,7 @@
             "size": "small"
         }],
         "short description": "Enhance Printing Rebrand",
-        "SupplementImages": [{
+        "images": [{
             "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
             "alt": "A Website To Compete in a Modern Market",
             "placeholder": "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",

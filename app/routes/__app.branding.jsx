@@ -88,7 +88,8 @@ const Branding = () => {
     }
 
     function checkLength(brand) {
-      return brand.images.length;
+      console.log(brand.images);
+      console.log(brand);
     }
 
   return (

@@ -823,13 +823,40 @@ var import_react10 = require("@remix-run/react");
 var brandingInfo_default = {
   branding: [{
     name: "Enhance Printing",
-    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, while working to create a modern look that worked across the web and in digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original look, but also pushed the brand in a modern direction, to compete with increasingly digital competition.",
     hero: {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
       alt: "Enhance Printing Brand Portfolio",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
       size: "large"
     },
+    heroAlsoFirstImage: !0,
+    noBreakdown: !1,
+    breakdown: [
+      {
+        title: "Service",
+        text: "Rebrand"
+      },
+      {
+        title: "Mission",
+        text: "My intent for this rebrand was crafting a new look for Enhance Printing that was web-forward and modern, to help compete in today\u2019s marketplace."
+      },
+      {
+        title: "Brand Process",
+        text: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, while working to create a sleeker feel. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original look, but also pushed the brand in a modern direction, to make it a contender in an increasingly digital marketplace."
+      },
+      {
+        title: "Included Services",
+        text: "Brand Identity, Logo Design, Website, Stationary, Marketing Collateral, Copywriting"
+      }
+    ],
+    hasOriginalLogo: !0,
+    originalLogo: [{
+      image: "/images/brandImages/enhance/Enh_Orig_Logo.webp",
+      alt: "Original Enhance Printing Logo",
+      placeholder: "/images/brandImages/enhance/Enh_Orig_Logo_LowRes.webp",
+      size: "small"
+    }],
+    "short description": "Enhance Printing Rebrand",
     images: [{
       image: "/images/brandImages/enhance/EnhanceWebsite.webp",
       alt: "A Website To Compete in a Modern Market",
@@ -874,277 +901,6 @@ var brandingInfo_default = {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-11.webp",
       alt: "Enhance Printing, Refreshed and Ready to Serve",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-11_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "The Rolling Restaurant",
-    description: "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro. My client initially came to me with the idea of a logo featuring a \u201Ccaveman stone\u201D, which was my leaping off point. The final brand was a built off the feel of classic rock from the late 1960s and early 1970s, while keeping a modern, clean edge. I worked to find typographic options and a color palette that was both pulpy and eye catching to best draw potential customers to his varied offerings.",
-    hero: {
-      image: "/images/brandImages/rolling/RollingRest_Logo.webp",
-      alt: "The Rolling Restaurant Brand Identity",
-      placeholder: "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
-      size: "large"
-    },
-    images: [{
-      image: "/images/brandImages/rolling/FoodWrap_1.webp",
-      alt: "Eyecatching Wraps to Draw New Customers",
-      placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/FoodWrap_2.webp",
-      alt: "Eyecatching Wraps to Draw New Customers",
-      placeholder: "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/RollingRest_Sketches.webp",
-      alt: "Crafting the Brand Identity",
-      placeholder: "/images/brandImages/rolling/RollingRest_Sketches.webp_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/RollingRest_Alternates.webp",
-      alt: "Alternate Logos in the Brainstorming Stage",
-      placeholder: "/images/brandImages/rolling/RollingRest_Alternates_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/Shirt-Mockup.webp",
-      alt: "Repping the Brand While Cooking",
-      placeholder: "/images/brandImages/rolling/Shirt-Mockup_LowRes.webp",
-      size: "large"
-    }, {
-      image: "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
-      alt: "Business Cards to Drum Up Business",
-      placeholder: "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
-      alt: "Taking a Piece Home With You",
-      placeholder: "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
-      alt: "A Menu To Catch the Eye",
-      placeholder: "/images/brandImages/rolling/RollingRestaurant_Menu_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Rex's Plumbing",
-    description: "The focus of this design was a bold, eye-catching look, primarily for use on Rex\u2019s vans. For years, Rex\u2019s image included a running woman carrying a plunger, (still seen in the some of the formitive sketches shown). More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and a combination of the two to find the right look for him. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed \u201CCall Rex\u201D like the maw of the King of the Dinosaurs himself.",
-    hero: {
-      image: "/images/brandImages/rex/RexLogo.webp",
-      alt: "Rex's Plumbing & Heating",
-      placeholder: "/images/brandImages/rex/RexLogo_LowRes.webp",
-      size: "large"
-    },
-    images: [{
-      image: "/images/brandImages/rex/Rex Van.webp",
-      alt: "Eyecatching Vehicles for Mobile Advertising",
-      placeholder: "/images/brandImages/rex/Rex Van_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rex/RexShirt_Mockup.webp",
-      alt: "Shirts For Customer Trust",
-      placeholder: "/images/brandImages/rex/RexShirt_Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/rex/Rex_Sketches.webp",
-      alt: "Crafting the Brand Identity",
-      placeholder: "/images/brandImages/rex/Rex_Sketches_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rex/Rex_Alternates.webp",
-      alt: "Alternate Logos in the Brainstorming Stage",
-      placeholder: "/images/brandImages/rex/Rex_Alternates_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rex/RexBC.webp",
-      alt: "Business Cards to Drum Up Business",
-      placeholder: "/images/brandImages/rex/RexBCs_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
-      alt: "Creating the Brand's Voice",
-      placeholder: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11.webp",
-      alt: "A New Face For Rex",
-      placeholder: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Aegir's Workshop",
-    description: "The owner of Aegir\u2019s Workshop is fascinated by Norse mythology, and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this as inspiration, I began honing in on a nautical theme. For the final logo, I went with a Viking longship done in a modernization of Nordic scrollwork, paired with a heavy neo-Viking font. For his brand identity, I paired leather textures with a nautical flair to give Aegir\u2019s Workshop a hand-crafted feel, that ties the classical to the modern.",
-    hero: {
-      image: "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
-      alt: "Aegir's Workshop Brand",
-      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
-      size: "large"
-    },
-    images: [{
-      image: "/images/brandImages/aegir/AegirsWorkshopSite.webp",
-      alt: "A Website To Draw Consumer's to Custom Goods",
-      placeholder: "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/AegirsBC_Mockup.webp",
-      alt: "Business Cards for Local Sales",
-      placeholder: "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/Aegir_Sketches.webp",
-      alt: "Crafting the Brand Identity",
-      placeholder: "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/aegir/Aegir_Alternates.webp",
-      alt: "Alternate Logos in the Brainstorming Stage",
-      placeholder: "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
-      alt: "Branded Imagery",
-      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
-      alt: "Finding the Brand's Look",
-      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
-      size: "mid"
-    }, {
-      image: "/images/brandImages/aegir/AegirsLabel.webp",
-      alt: "Custom Tags",
-      placeholder: "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/AegirsTag.webp",
-      alt: "Tags for Custom Items",
-      placeholder: "/images/brandImages/aegir/AegirsTag_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Mutt Knee Brace",
-    images: [{
-      image: "/images/brandImages/mutt/MuttKneeLogo.webp",
-      alt: "Mutt Knee Brace Logo Design",
-      placeholder: "/images/brandImages/mutt/MuttKneeLogo_LowRes.webp",
-      size: "large"
-    }, {
-      image: "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
-      alt: "Mutt Knee Brace Business Cards",
-      placeholder: "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/mutt/MuttKneeTrifold.webp",
-      alt: "Mutt Knee Brace Brochures",
-      placeholder: "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Four Seasons Businesss Solutions",
-    images: [{
-      image: "/images/brandImages/seasons/FourSeasonsLogo.webp",
-      alt: "Four Seasons Businesss Solutions Logo Design",
-      placeholder: "/images/brandImages/seasons/FourSeasonsLogo_LowRes.webp",
-      size: "large"
-    }, {
-      image: "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
-      alt: "Four Seasons Businesss Solutions Letterhead",
-      placeholder: "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/seasons/FourSeasons_BC.webp",
-      alt: "Four Seasons Businesss Solutions Business Cards",
-      placeholder: "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "Sleepy Siren Bath Company",
-    images: [{
-      image: "/images/brandImages/siren/SleepySirenLogo.webp",
-      alt: "Sleepy Siren Bath Co. Logo Design",
-      placeholder: "/images/brandImages/siren/SleepySirenLogo_LowRes.webp",
-      size: "large"
-    }, {
-      image: "/images/brandImages/siren/SleepySirenSoapMockup.webp",
-      alt: "Sleepy Siren Bath Co. Soap Packaging",
-      placeholder: "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
-      alt: "Sleepy Siren Bath Co. Fragrance Bottle",
-      placeholder: "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
-      size: "small"
-    }]
-  }, {
-    name: "RetroFit Electric",
-    images: [{
-      image: "/images/brandImages/misc/RetroFit-Electric-Logo.webp",
-      alt: "RetroFit Electric Logo Design",
-      placeholder: "/images/brandImages/misc/RetroFit-Electric-Logo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Ascendent Sales & Marketing",
-    images: [{
-      image: "/images/brandImages/misc/AscendentLogo.webp",
-      alt: "Ascendent Sales & Marketing Logo Design",
-      placeholder: "/images/brandImages/misc/AscendentLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "True North Sales & Marketing",
-    images: [{
-      image: "/images/brandImages/misc/TrueNorthLogo.webp",
-      alt: "True North Sales & Marketing Logo Design",
-      placeholder: "/images/brandImages/misc/TrueNorthLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Execute Multi Services Logo Design",
-    images: [{
-      image: "/images/brandImages/misc/ExecuteLogo.webp",
-      alt: "Execute Multi Services Logo Design",
-      placeholder: "/images/brandImages/misc/ExecuteLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Summit Cabinet Coatings Logo Design",
-    images: [{
-      image: "/images/brandImages/misc/SummitCabinetLogo.webp",
-      alt: "Summit Cabinet Coatings Logo Design",
-      placeholder: "/images/brandImages/misc/SummitCabinetLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "NoCo Patch Pros Logo Design",
-    images: [{
-      image: "/images/brandImages/misc/NoCoPatchProsLogo.webp",
-      alt: "NoCo Patch Pros Logo Design",
-      placeholder: "/images/brandImages/misc/NoCoPatchProsLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Illumination Hebrew Insights Logo Design",
-    images: [{
-      image: "/images/brandImages/misc/IlluminationLogo.webp",
-      alt: "Illumination Hebrew Insights Logo Design",
-      placeholder: "/images/brandImages/misc/IlluminationLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Jennifer Madrick Real Estate",
-    images: [{
-      image: "/images/brandImages/misc/JenniferMadrickLogo.webp",
-      alt: "Jennifer Madrick Real Estate",
-      placeholder: "/images/brandImages/misc/JenniferMadrickLogo_LowRes.webp",
-      size: "large"
-    }]
-  }, {
-    name: "Endodontic of the Rockies Spec Logo Design",
-    images: [{
-      image: "/images/brandImages/misc/EndoRockiesMockup.webp",
-      alt: "Endodontic of the Rockies Spec Logo Design",
-      placeholder: "/images/brandImages/misc/EndoRockiesMockup_LowRes.webp",
       size: "large"
     }]
   }],
@@ -1928,7 +1684,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
     hasloaded(!1);
   };
   function checkLength(brand) {
-    return brand.images.length;
+    console.log(brand.images), console.log(brand);
   }
   return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "main", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1941,7 +1697,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 96,
+        lineNumber: 97,
         columnNumber: 7
       },
       this
@@ -1949,12 +1705,12 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: triggered ? "slider activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 101,
+        lineNumber: 102,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 102,
+        lineNumber: 103,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
@@ -1962,24 +1718,24 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
           "Brand Identity ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 104,
+            lineNumber: 105,
             columnNumber: 50
           }, this),
           " & Logo Design"
         ] }, void 0, !0, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 104,
+          lineNumber: 105,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
           (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { children: [
             checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 112,
+              lineNumber: 113,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 113,
+              lineNumber: 114,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1995,33 +1751,33 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
               !1,
               {
                 fileName: "app/routes/__app.branding.jsx",
-                lineNumber: 116,
+                lineNumber: 117,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 109,
+            lineNumber: 110,
             columnNumber: 17
           }, this) }, brand.name, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 108,
+            lineNumber: 109,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 105,
+          lineNumber: 106,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 103,
+        lineNumber: 104,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.branding.jsx",
-      lineNumber: 100,
+      lineNumber: 101,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -2036,14 +1792,14 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links6 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 135,
+        lineNumber: 136,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/routes/__app.branding.jsx",
-    lineNumber: 95,
+    lineNumber: 96,
     columnNumber: 5
   }, this);
 }, app_branding_default = Branding;
@@ -3329,7 +3085,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links10 = () =>
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
           (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("a", { children: [
-            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+            checkLength(item.images) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
@@ -3358,8 +3114,8 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links10 = () =>
               progressiveImage_component_default,
               {
                 alt: item.name,
-                src: item.images[0].image,
-                placeholderSrc: item.images[0].placeholder,
+                src: item.hero ? item.hero.image : item.images[0].image,
+                placeholderSrc: item.hero ? item.hero.placeholder : item.images[0].placeholder,
                 classTitle: "primaryImage",
                 onClick: () => selectItem(item)
               },
@@ -3761,7 +3517,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-MUGUH3IZ.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-FNYCGZGZ.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DNUVPRYK.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "ec4860c4", hmr: void 0, url: "/build/manifest-EC4860C4.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-HUBHQKCA.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-2MO5KXNU.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DNUVPRYK.js", imports: ["/build/_shared/chunk-ZSAATVQJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "dec0ab06", hmr: void 0, url: "/build/manifest-DEC0AB06.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
