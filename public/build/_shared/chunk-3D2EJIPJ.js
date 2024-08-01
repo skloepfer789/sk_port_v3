@@ -49,73 +49,77 @@ var Modal = (props) => {
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, false, {
+        data.noDescription ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {}, void 0, false, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 32,
+          lineNumber: 31,
+          columnNumber: 13
+        }, this) : data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, false, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 34,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdown", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: data.name }, void 0, false, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 35,
+            lineNumber: 37,
             columnNumber: 29
           }, this),
           data.breakdown.map(
             (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownBox", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { children: item.title }, void 0, false, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 40,
+                lineNumber: 42,
                 columnNumber: 41
               }, this) }, void 0, false, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 37
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: item.text }, void 0, false, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 43,
+                lineNumber: 45,
                 columnNumber: 41
               }, this) }, void 0, false, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 37
               }, this)
             ] }, void 0, true, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 38,
+              lineNumber: 40,
               columnNumber: 15
             }, this)
           ),
           data.hasOriginalLogo ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownBox", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { children: "original logo" }, void 0, false, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 51,
+              lineNumber: 53,
               columnNumber: 37
             }, this) }, void 0, false, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 50,
+              lineNumber: 52,
               columnNumber: 33
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: data.originalLogo.image, className: "originalLogo", alt: "Original Logo" }, void 0, false, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 54,
+              lineNumber: 56,
               columnNumber: 37
             }, this) }, void 0, false, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 53,
+              lineNumber: 55,
               columnNumber: 33
             }, this)
           ] }, void 0, true, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 49,
+            lineNumber: 51,
             columnNumber: 15
           }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {}, void 0, false, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 57,
+            lineNumber: 59,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 34,
+          lineNumber: 36,
           columnNumber: 13
         }, this),
         images.map(
@@ -131,7 +135,7 @@ var Modal = (props) => {
             false,
             {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 64,
+              lineNumber: 66,
               columnNumber: 13
             },
             this
@@ -162,4 +166,4 @@ export {
   modal_component_default,
   links
 };
-//# sourceMappingURL=/build/_shared/chunk-YISZPJUY.js.map
+//# sourceMappingURL=/build/_shared/chunk-3D2EJIPJ.js.map

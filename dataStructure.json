@@ -1,6 +1,6 @@
 {
     "category": [{
-        "name": "Enhance Printing",
+        "name": "name",
         "hero": {
             "image": "",
             "alt": "",
@@ -8,6 +8,7 @@
             "size": "small"
         },
         "heroAlsoFirstImage": true,
+        "noDescription": false,
         "noBreakdown": false,
         "breakdown": [{
             "title": "Service",

@@ -1,7 +1,7 @@
 import {
   links as links3,
   modal_component_default
-} from "/build/_shared/chunk-YISZPJUY.js";
+} from "/build/_shared/chunk-3D2EJIPJ.js";
 import {
   progressiveImage_component_default
 } from "/build/_shared/chunk-MOFTYH3I.js";
@@ -130,7 +130,7 @@ var Branding = () => {
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
           (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: [
-            checkLength(item.images) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "app/routes/__app.print.jsx",
@@ -226,4 +226,4 @@ export {
   links4 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.print-RTZDVIJR.js.map
+//# sourceMappingURL=/build/routes/__app.print-WH5P6RZQ.js.map

@@ -830,6 +830,7 @@ var brandingInfo_default = {
       size: "large"
     },
     heroAlsoFirstImage: !0,
+    noDescription: !1,
     noBreakdown: !1,
     breakdown: [
       {
@@ -902,16 +903,548 @@ var brandingInfo_default = {
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-11_LowRes.webp",
       size: "large"
     }]
+  }, {
+    name: "The Rolling Restaurant",
+    hero: {
+      image: "/images/brandImages/rolling/RollingRest_Logo.webp",
+      alt: "The Rolling Restaurant Brand Identity",
+      placeholder: "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Brand Identity"
+    }, {
+      title: "Mission",
+      text: "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro."
+    }, {
+      title: "Brand Process",
+      text: "My client initially came to me with the idea of a logo featuring a \u201Ccaveman stone\u201D, which was my leaping off point. The final brand was inspired by classic rock albums from the late 1960s and early 1970s while adding a modern, clean edge. I worked to find typographic options and a color palette that was both pulpy and eye catching to best draw potential customers to his varied, rotating offerings."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Business Cards, Packaging, Signage, Vehicle Graphics"
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/brandImages/rolling/FoodWrap_1.webp",
+      alt: "Eyecatching Wraps to Draw New Customers",
+      placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/FoodWrap_2.webp",
+      alt: "Eyecatching Wraps to Draw New Customers",
+      placeholder: "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/RollingRest_Sketches.webp",
+      alt: "Crafting the Brand Identity",
+      placeholder: "/images/brandImages/rolling/RollingRest_Sketches.webp_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/RollingRest_Alternates.webp",
+      alt: "Alternate Logos in the Brainstorming Stage",
+      placeholder: "/images/brandImages/rolling/RollingRest_Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/Shirt-Mockup.webp",
+      alt: "Repping the Brand While Cooking",
+      placeholder: "/images/brandImages/rolling/Shirt-Mockup_LowRes.webp",
+      size: "large"
+    }, {
+      image: "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
+      alt: "Business Cards to Drum Up Business",
+      placeholder: "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
+      alt: "Taking a Piece Home With You",
+      placeholder: "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
+      alt: "A Menu To Catch the Eye",
+      placeholder: "/images/brandImages/rolling/RollingRestaurant_Menu_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Rex's Plumbing & Heating",
+    hero: {
+      image: "/images/brandImages/rex/RexLogo.webp",
+      alt: "Rex's Plumbing & Heating",
+      placeholder: "/images/brandImages/rex/RexLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Rebrand"
+    }, {
+      title: "Mission",
+      text: "The focus of this design was a bold, eye-catching look, primarily for use on Rex\u2019s vans."
+    }, {
+      title: "Brand Process",
+      text: "For years, Rex\u2019s image included a running woman carrying a plunger, (seen in the some of the formative sketches shown). More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and a combination of the two to find the right look for the business. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed \u201CCall Rex\u201D like the maw of the King of the Dinosaurs himself."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Stationary, Marketing Collateral, Vehicle Graphics"
+    }],
+    hasOriginalLogo: !0,
+    originalLogo: {
+      image: "/images/brandImages/rex/Rex_Orig_Logo.webp",
+      alt: "RexOriginalLogo",
+      placeholder: "/images/brandImages/rex/Rex_Orig_Logo_LowRes.webp",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/brandImages/rex/Rex Van.webp",
+      alt: "Eyecatching Vehicles for Mobile Advertising",
+      placeholder: "/images/brandImages/rex/Rex Van_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rex/RexShirt_Mockup.webp",
+      alt: "Shirts For Customer Trust",
+      placeholder: "/images/brandImages/rex/RexShirt_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rex/Rex_Sketches.webp",
+      alt: "Crafting the Brand Identity",
+      placeholder: "/images/brandImages/rex/Rex_Sketches_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rex/Rex_Alternates.webp",
+      alt: "Alternate Logos in the Brainstorming Stage",
+      placeholder: "/images/brandImages/rex/Rex_Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rex/RexBC.webp",
+      alt: "Business Cards to Drum Up Business",
+      placeholder: "/images/brandImages/rex/RexBCs_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
+      alt: "Creating the Brand's Voice",
+      placeholder: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11.webp",
+      alt: "A New Face For Rex",
+      placeholder: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "\xC6GIR\u2019 S WORKSHOP",
+    hero: {
+      image: "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
+      alt: "Aegir's Workshop Brand",
+      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Brand Identity"
+    }, {
+      title: "Mission",
+      text: "For a hand-crafted leatherworking company, I wanted to craft an image that was both classical and modern, to best show off the owner\u2019s unique crafting philosophies, and drive his brand in the marketplace."
+    }, {
+      title: "Brand Process",
+      text: "The owner of Aegir\u2019s Workshop is fascinated by Norse mythology and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this as inspiration, I began honing in on a nautical theme. For the final logo, I went with a Viking longship done in a modernization of Nordic scrollwork, paired with a heavy neo-Viking font. For his brand identity, I paired leather textures with a nautical flair to give Aegir\u2019s Workshop a hand-crafted feel, that ties the classical to the modern."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Website, Marketing Collateral, Copywriting, Packaging"
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/brandImages/aegir/AegirsWorkshopSite.webp",
+      alt: "A Website To Draw Consumer's to Custom Goods",
+      placeholder: "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/aegir/AegirsBC_Mockup.webp",
+      alt: "Business Cards for Local Sales",
+      placeholder: "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/aegir/Aegir_Sketches.webp",
+      alt: "Crafting the Brand Identity",
+      placeholder: "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegir_Alternates.webp",
+      alt: "Alternate Logos in the Brainstorming Stage",
+      placeholder: "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
+      alt: "Branded Imagery",
+      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
+      alt: "Finding the Brand's Look",
+      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/AegirsLabel.webp",
+      alt: "Custom Tags",
+      placeholder: "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/aegir/AegirsTag.webp",
+      alt: "Tags for Custom Items",
+      placeholder: "/images/brandImages/aegir/AegirsTag_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Coldstone Creamery",
+    hero: {
+      image: "/images/specImages/coldstone/coldstoneLogo.webp",
+      alt: "Coldstone Speculative Rebrand",
+      placeholder: "/images/specImages/coldstone/coldstoneLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Speculative Rebrand"
+    }, {
+      title: "Mission",
+      text: "My employer was the go-to printer for our local Cold Stone Creamery for many years. In that time I developed an expansive knowledge of their brand and marketing materials. For fun, I decided to try my hand at crafting a brand refresh for Cold Stone."
+    }, {
+      title: "Brand Process",
+      text: "My goal was to create a fresh look that kept much of Cold Stone Creamery\u2019s history intact, while modernizing their currently dated logo. To compliment the new looks, I created an array of slogans and imagery to use across digital and print media, as well as their storefronts and interiors."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Point of Sale Design, Marketing Collateral, Copywriting, Application Design"
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/specImages/coldstone/mixItUpSlogan.webp",
+      alt: "Bold, Colorful, and Creative",
+      placeholder: "/images/specImages/coldstone/mixItUpSlogan_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/Coldstone Feather Flag Mockup.webp",
+      alt: "Bold Signage for Bold Slogans",
+      placeholder: "/images/specImages/coldstone/Coldstone Feather Flag Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_Sketches.webp",
+      alt: "Sketching Out Coldstone's Rebrand",
+      placeholder: "/images/specImages/coldstone/coldstone_Sketches_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_Alternates.webp",
+      alt: "Logo Alternates for the Brand Image",
+      placeholder: "/images/specImages/coldstone/coldstone_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_iceCreamTub.webp",
+      alt: "New Packaging for the New Look",
+      placeholder: "/images/specImages/coldstone/coldstone_iceCreamTub_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneCakeBox_Mockup.webp",
+      alt: "New Cake Boxes",
+      placeholder: "/images/specImages/coldstone/coldstoneCakeBox_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/colstoneCooler_Mockup.webp",
+      alt: "A New Look Keeping it Cool",
+      placeholder: "/images/specImages/coldstone/colstoneCooler_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneConeWrap_Mockup.webp",
+      alt: "Even the Cones are Sprinkled with Fun",
+      placeholder: "/images/specImages/coldstone/coldstoneConeWrap_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneInterior_Mockup.webp",
+      alt: "A New Look In the Store",
+      placeholder: "/images/specImages/coldstone/coldstoneInterior_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/ColdstoneSign_Mockup.webp",
+      alt: "Signage for Maximum Visibility",
+      placeholder: "/images/specImages/coldstone/ColdstoneSign_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneApron_Mockup.webp",
+      alt: "A New Uniform - Aprons",
+      placeholder: "/images/specImages/coldstone/coldstoneApron_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneVisor_Mockup.webp",
+      alt: "A New Uniform - Hats",
+      placeholder: "/images/specImages/coldstone/coldstoneVisor_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneCoupons_Mockup.webp",
+      alt: "New Print Collateral",
+      placeholder: "/images/specImages/coldstone/coldstoneCoupons_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneApp_Mockup.webp",
+      alt: "A New Ordering System",
+      placeholder: "/images/specImages/coldstone/coldstoneApp_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_posters.webp",
+      alt: "New Street Marketing",
+      placeholder: "/images/specImages/coldstone/coldstone_posters_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Baker Law",
+    hero: {
+      image: "/images/specImages/bakerLaw/BakerLawLogo.webp",
+      alt: "Baker Law Rebrand Concept",
+      placeholder: "images/specImages/bakerLaw/BakerLawLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Speculative Rebrand"
+    }, {
+      title: "Mission",
+      text: "This was a pitch project I worked on for a local attorney, Bob Baker. While he decided to remain with his old branding, I am proud of this project, and wanted to use it to show my skills as a graphic designer."
+    }, {
+      title: "Brand Process",
+      text: "This rebrand focused on creating an identity that emphasized Mr. Baker's hopeful outlook, and willingness to assist others. The previous logo had a heavy focus on religious imagery, which I felt lessened the potential clients for his work. His focus on estate law, led me to crafting an image centered around the sun over the horizon, both as a sunset (end of life), and as a sunrise (new beginnings)."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Website, Stationary, Marketing Collateral, Copywriting"
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/specImages/bakerLaw/BakerLaw_Stationary_mockup.webp",
+      alt: "Baker Law Stationary",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Stationary_mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerLaw_Retractable_Mockup.webp",
+      alt: "Baker Law Retractable Banner",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Retractable_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/bakerLaw/Baker_Sketches.webp",
+      alt: "Baker Law Sketches",
+      placeholder: "images/specImages/bakerLaw/Baker_Sketches_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/Baker_Alternates.webp",
+      alt: "Baker Law Alternate Logos",
+      placeholder: "images/specImages/bakerLaw/Baker_Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerLaw_Web_Mockup.webp",
+      alt: "Baker Law Website 1",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Web_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-2.webp",
+      alt: "Baker Law Website 2",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Web_Mockup-2_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-3.webp",
+      alt: "Baker Law Website 3",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Web_Mockup-3_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-4.webp",
+      alt: "Baker Law Website 4",
+      placeholder: "images/specImages/bakerLaw/BakerLaw_Web_Mockup-4_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerFolder_Mockup-Outside.webp",
+      alt: "Baker Law Pocket Folder",
+      placeholder: "images/specImages/bakerLaw/BakerFolder_Mockup-Outside_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerFolder_Mockup-Inside.webp",
+      alt: "Baker Law Pocket Folder Inside",
+      placeholder: "images/specImages/bakerLaw/BakerFolder_Mockup-Inside_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerBinder_Mockup.webp",
+      alt: "Baker Law Binders",
+      placeholder: "images/specImages/bakerLaw/BakerBinder_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/bakerLaw/BakerMug_Mockup.webp",
+      alt: "Baker Law Mug",
+      placeholder: "images/specImages/bakerLaw/BakerMug_Mockup_LowRes.webp",
+      size: "mid"
+    }]
+  }, {
+    name: "Five Guys Burgers & Fries",
+    hero: {
+      image: "/images/specImages/5guys/fiveGuysLogo.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Concept",
+      placeholder: "/images/specImages/5guys/fiveGuysLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Speculative Rebrand"
+    }, {
+      title: "Mission",
+      text: "To create a fresh look for Five Guys Burgers to better capture their atmosphere, and offerings."
+    }, {
+      title: "Brand Process",
+      text: "For another for-fun rebrand, I wanted to visit the Five Guys Burger franchise. While I am a big fan of their burgers (especially the limitless toppings), I feel their brand is in need of a glow up. For this rebrand, I wanted to create a more 'edgy' look, to draw in a younger, college-aged audience, without losing their family-friendly atmosphere. With this project, my goal was to craft a type-based design style that spanned across their print collateral and spruced up their restaurant interiors, focusing customers on their customizable burger options and generous portions."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Point of Sale Design, Marketing Collateral, Copywriting, Application Design"
+    }],
+    hasOriginalLogo: !0,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/specImages/5guys/5Guys_Sketches.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Sketches",
+      placeholder: "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/5guys/5Guys_Alternates.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Alternate Logos",
+      placeholder: "/images/specImages/5guys/5Guys_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/5guys/5Guys_FoodContainers.webp",
+      alt: "New Packaging For the New Look",
+      placeholder: "/images/specImages/5guys/5Guys_FoodContainers_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/fiveGuysSign_Mockup.webp",
+      alt: "Eyecatching Signage for Mouthwatering Burgers",
+      placeholder: "/images/specImages/5guys/fiveGuysSign_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/fiveguysInterior_mockup_04.webp",
+      alt: "New Interior Decoration",
+      placeholder: "/images/specImages/5guys/fiveguysInterior_mockup_04_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysInterior2.webp",
+      alt: "Slogans as Art",
+      placeholder: "/images/specImages/5guys/5GuysInterior2_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysShirt_Mockup.webp",
+      alt: "New Uniforms to Compliment the New Feel",
+      placeholder: "/images/specImages/5guys/5GuysShirt_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysHat.webp",
+      alt: "Hats for Customers and Servers Alike",
+      placeholder: "/images/specImages/5guys/5GuysHat_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5guysPosters.webp",
+      alt: "Street Marketing for the New Look",
+      placeholder: "/images/specImages/5guys/5guysPosters_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "name",
+    hero: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: ""
+    }, {
+      title: "Mission",
+      text: ""
+    }, {
+      title: "Brand Process",
+      text: ""
+    }, {
+      title: "Included Services",
+      text: ""
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    "short description": "",
+    images: [{
+      image: "/images/specImages/5guys/5Guys_Sketches.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Sketches",
+      placeholder: "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+      size: "small"
+    }]
   }],
   print: [{
     name: "Branded Designs",
     hero: {
-      image: "/images/printImages/TimbeHueMockupBC.webp",
-      alt: "Timber Hue Business Cards",
-      placeholder: "/images/printImages/TimbeHueMockupBC_LowRes.webp",
-      size: "small"
+      image: "/images/printImages/BrandedDesign-IntroPic.webp",
+      alt: "Branded Design",
+      placeholder: "/images/printImages/BrandedDesign-IntroPic_LowRes.webp",
+      size: "large"
     },
     heroAlsoFirstImage: !1,
+    noDescription: !0,
     noBreakdown: !0,
     breakdown: [],
     hasOriginalLogo: !1,
@@ -961,6 +1494,231 @@ var brandingInfo_default = {
       image: "/images/printImages/TopLineRoofing_Folder_Mockup.webp",
       alt: "Top Line Roofing Pocket Folder",
       placeholder: "/images/printImages/TopLineRoofing_Folder_Mockup_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Tradeshow Design & Signage",
+    hero: {
+      image: "/images/printImages/signage-IntroPic.webp",
+      alt: "Signage Design",
+      placeholder: "/images/printImages/signage-IntroPic_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !1,
+    noDescription: !0,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
+    images: [{
+      image: "/images/printImages/EliteEstheticianBooth.webp",
+      alt: "Elite Esthetician Booth Setup",
+      placeholder: "/images/printImages/EliteEstheticianBooth_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/retractables.webp",
+      alt: "Tanco Engineering Retractable Banners",
+      placeholder: "/images/printImages/retractables_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
+      alt: "Rolling Restaurant Menus",
+      placeholder: "/images/rolling/RollingRestaurant_Menu_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/MarriageFoundationMockup.webp",
+      alt: "Marriage Foundation of Colorado Retractable Banner",
+      placeholder: "/images/printImages/MarriageFoundationMockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/SummitSign.webp",
+      alt: "Summit Cabinet Coatings Signage",
+      placeholder: "/images/printImages/SummitSign_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Packaging Design",
+    hero: {
+      image: "/images/printImages/package-IntroPic.webp",
+      alt: "Package Design",
+      placeholder: "/images/printImages/package-IntroPic_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !1,
+    noDescription: !0,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
+    images: [{
+      image: "/images/printImages/FreyaAbsinthe_MockUp.webp",
+      alt: "Freya Absinthe Bottle",
+      placeholder: "/images/printImages/FreyaAbsinthe_MockUp_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/MatadorBottle_v2_Mockup.webp",
+      alt: "Matty's Red Hot Louisiana Style Hot Sauce",
+      placeholder: "/images/printImages/MatadorBottle_v2_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/siren/SleepySirenSoapMockup.webp",
+      alt: "Sleepy Siren Bath Co. Soap Packaging",
+      placeholder: "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
+      alt: "Sleepy Siren Bath Co. Fragrance Bottle",
+      placeholder: "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/ThankYouBox-Mockup.webp",
+      alt: "Kenny Anderson Realty Thank You Box",
+      placeholder: "/images/printImages/ThankYouBox-Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
+      alt: "Rolling Restaurant Burger Box",
+      placeholder: "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/aegir/AegirsLabel.webp",
+      alt: "Aegir's Workshop Leather Tag",
+      placeholder: "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/aegir/AegirsTag.webp",
+      alt: "Aegir's Workshop Custom Item Tag",
+      placeholder: "/images/brandImages/aegir/AegirsTag_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/VistaPeaksMockup.webp",
+      alt: "Vista Pearks Vineyards Bottles",
+      placeholder: "/images/brandImages/aegir/VistaPeaksMockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/VistaPeaksWineGlass_Mockup.webp",
+      alt: "Vista Pearks Vineyards Engraved Wine Glasses",
+      placeholder: "/images/brandImages/aegir/VistaPeaksWineGlass_Mockup_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Vehicle Wraps",
+    hero: {
+      image: "/images/printImages/Wraps-IntroPic.webp",
+      alt: "Vehicle Wraps",
+      placeholder: "/images/printImages/Wraps-IntroPic_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !1,
+    noDescription: !0,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
+    images: [{
+      image: "/images/brandImages/rolling/FoodWrap_1.webp",
+      alt: "Rolling Restaurant Vehicle Wrap",
+      placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rolling/FoodWrap_2.webp",
+      alt: "Rolling Restaurant Vehicle Wrap",
+      placeholder: "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/NelsonWrap.webp",
+      alt: "Nelson Overhead Doors Wrap",
+      placeholder: "/images/printImages/NelsonWrap_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/rex/Rex Van.webp",
+      alt: "Eyecatching Vehicles for Mobile Advertising",
+      placeholder: "/images/brandImages/rex/Rex Van_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/CMM_wrap.webp",
+      alt: "Concrete Mobile Mix Wrap",
+      placeholder: "/images/printImages/CMM_wrap_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Book & Magazine Design",
+    hero: {
+      image: "/images/printImages/books-IntroPic.webp",
+      alt: "Book and Magazine Design",
+      placeholder: "/images/printImages/books-IntroPic_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !1,
+    noDescription: !0,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
+    images: [{
+      image: "/images/printImages/FossilBaseball_MagazineCover.webp",
+      alt: "Fossil Ridge High School Player Guide Cover",
+      placeholder: "/images/printImages/FossilBaseball_MagazineCover_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/FossilBaseball_MagazineGuts.webp",
+      alt: "Fossil Ridge High School Player Guide Inside",
+      placeholder: "/images/printImages/FossilBaseball_MagazineGuts_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/enhance/EnhanceMagazines.webp",
+      alt: "Enhance Printing Graphics Magazine Cover",
+      placeholder: "/images/brandImages/enhance/EnhanceMagazines_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/enhance/EnhanceMagazines_Spreads.webp",
+      alt: "Enhance Printing Graphics Magazine Interior",
+      placeholder: "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/BugattiBook_Mockup.webp",
+      alt: "Novel Cover Design",
+      placeholder: "/images/printImages/BugattiBook_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/DeadlandsBook Mockup.webp",
+      alt: "Novel Cover Design",
+      placeholder: "/images/printImages/DeadlandsBook Mockup_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Invitations & Cards",
+    hero: {
+      image: "/images/printImages/invites-IntroPic.webp",
+      alt: "Invitations and Cards",
+      placeholder: "/images/printImages/invites-IntroPic_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !1,
+    noDescription: !0,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    "short description": "",
+    images: [{
+      image: "/images/printImages/Invitations_Gatefold.webp",
+      alt: "Wedding Invitations",
+      placeholder: "/images/printImages/Invitations_Gatefold_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/GoodOlBoys_Postcard_Mockup.webp",
+      alt: "Handout Design",
+      placeholder: "/images/printImages/GoodOlBoys_Postcard_Mockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/printImages/Levi_Postcard-Mockup.webp",
+      alt: "Notecard Design",
+      placeholder: "/images/printImages/Levi_Postcard-Mockup_LowRes.webp",
       size: "small"
     }]
   }],
@@ -1449,73 +2207,77 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
+        data.noDescription ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 32,
+          lineNumber: 31,
+          columnNumber: 13
+        }, this) : data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 34,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdown", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: data.name }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 35,
+            lineNumber: 37,
             columnNumber: 29
           }, this),
           data.breakdown.map(
             (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: item.title }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 40,
+                lineNumber: 42,
                 columnNumber: 41
               }, this) }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 37
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: item.text }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 43,
+                lineNumber: 45,
                 columnNumber: 41
               }, this) }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 37
               }, this)
             ] }, void 0, !0, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 38,
+              lineNumber: 40,
               columnNumber: 15
             }, this)
           ),
           data.hasOriginalLogo ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: "original logo" }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 51,
+              lineNumber: 53,
               columnNumber: 37
             }, this) }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 50,
+              lineNumber: 52,
               columnNumber: 33
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("img", { src: data.originalLogo.image, className: "originalLogo", alt: "Original Logo" }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 54,
+              lineNumber: 56,
               columnNumber: 37
             }, this) }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 53,
+              lineNumber: 55,
               columnNumber: 33
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 49,
+            lineNumber: 51,
             columnNumber: 15
           }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 57,
+            lineNumber: 59,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 34,
+          lineNumber: 36,
           columnNumber: 13
         }, this),
         images.map(
@@ -1531,7 +2293,7 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
             !1,
             {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 64,
+              lineNumber: 66,
               columnNumber: 13
             },
             this
@@ -2998,7 +3760,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links10 = () =>
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
           (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("a", { children: [
-            checkLength(item.images) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
@@ -3430,7 +4192,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-VVRMXGK2.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-RTZDVIJR.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-DSR3FDKG.js", imports: ["/build/_shared/chunk-YISZPJUY.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "e7f2395b", hmr: void 0, url: "/build/manifest-E7F2395B.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-OKZJRIQT.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-WH5P6RZQ.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-X3G4UR3K.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8020e1d3", hmr: void 0, url: "/build/manifest-8020E1D3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

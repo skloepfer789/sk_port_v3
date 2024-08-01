@@ -27,7 +27,9 @@ const Modal = (props) => {
                     </>)
                 : (<></>)
                 }
-                {data.noBreakdown ? 
+                {data.noDescription ? (
+                <></>
+                ): data.noBreakdown ? 
                 (
                         <p className='descrText'>{data.shortDescription}</p>
                 ):(

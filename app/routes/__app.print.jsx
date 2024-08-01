@@ -88,7 +88,7 @@ const Branding = () => {
     }
 
     function checkLength(item) {
-      return item.images.length;
+      return item.images.length
     }
 
   return (
@@ -108,7 +108,7 @@ const Branding = () => {
                 <div className='imageBox' key={item.name} onMouseEnter={() => changeHover(item)} onMouseLeave={unsetHover}>
                 <a>
                 {
-                  checkLength(item.images) > 1 ? (
+                  checkLength(item) > 1 ? (
                     <p className='overlay' style={{fontSize: '150%', opacity: 1}}>{item.name.toUpperCase()}<br/>Click to See More</p>
                   ): (<p className='overlay' style={{fontSize: '150%', opacity: 1}}>{item.name.toUpperCase()}<br/>Click to Expand Image</p>)
                 }
