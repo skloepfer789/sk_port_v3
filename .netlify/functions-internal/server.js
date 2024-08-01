@@ -155,7 +155,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/styles/global.styles.css
-var global_styles_default = "/build/_assets/global.styles-GFSMZL2X.css";
+var global_styles_default = "/build/_assets/global.styles-5C4HBDQ6.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react_animated_cursor = __toESM(require("react-animated-cursor")), import_react_device_detect = require("react-device-detect"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -577,7 +577,7 @@ function MaskedImage(props) {
 var import_react7 = require("@remix-run/react"), import_react_animate_on_scroll = __toESM(require("react-animate-on-scroll"));
 
 // app/styles/menu.styles.css
-var menu_styles_default = "/build/_assets/menu.styles-MIR6E2GO.css";
+var menu_styles_default = "/build/_assets/menu.styles-BFHBYLAG.css";
 
 // app/components/mainMenu.component.jsx
 var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), menuItems = [
@@ -1121,16 +1121,16 @@ var brandingInfo_default = {
     noBreakdown: !1,
     breakdown: [{
       title: "Service",
-      text: "Rebrand"
+      text: "Logo Redesign"
     }, {
       title: "Story",
       text: "A logo created for a local producer of dog knee braces. I used elements from their original logo, paired with a fun, playful font to remind dog owners of their joyous dog and suggest that (with some help) they can have their energetic pup back. To accompany the logo, I also provided them with marketing collateral, business cards, and slips to include in their product packages."
     }],
-    hasOriginalLogo: !1,
+    hasOriginalLogo: !0,
     originalLogo: {
-      image: "",
-      alt: "",
-      placeholder: "",
+      image: "/images/brandImages/mutt/MuttKneeOriginalLogo.webp",
+      alt: "Original Mutt Knee Brace Logo",
+      placeholder: "/images/brandImages/mutt/MuttKneeOriginalLogo_LowRes.webp",
       size: "small"
     },
     shortDescription: "",
@@ -1314,11 +1314,11 @@ var brandingInfo_default = {
       title: "Included Services",
       text: "Brand Identity, Logo Design, Website, Stationary, Marketing Collateral, Copywriting"
     }],
-    hasOriginalLogo: !1,
+    hasOriginalLogo: !0,
     originalLogo: {
-      image: "",
-      alt: "",
-      placeholder: "",
+      image: "/images/specImages/bakerLaw/BakerLawOriginalLogo.webp",
+      alt: "Original Baker Law Logo",
+      placeholder: "/images/specImages/bakerLaw/BakerLawOriginalLogo_LowRes.webp",
       size: "small"
     },
     shortDescription: "",
@@ -1407,13 +1407,8 @@ var brandingInfo_default = {
       title: "Included Services",
       text: "Brand Identity, Logo Design, Point of Sale Design, Marketing Collateral, Copywriting, Application Design"
     }],
-    hasOriginalLogo: !0,
-    originalLogo: {
-      image: "",
-      alt: "",
-      placeholder: "",
-      size: "small"
-    },
+    hasOriginalLogo: !1,
+    originalLogo: {},
     shortDescription: "",
     images: [{
       image: "/images/specImages/5guys/5Guys_Sketches.webp",
@@ -1483,13 +1478,13 @@ var brandingInfo_default = {
       text: "Colorado Outfitters is a company I've worked with on their marketing collateral for several years. As part of a project pitch, I came up with an alternate brand identity to help modernize their look. While they chose to remain with their old identity, I'm still proud of the work done on this project, and wanted to put it forward as an example of the work I am capable of."
     }, {
       title: "Included Services",
-      text: "Brand Identity, Logo Design, Marketing Collateral, Sellable Items"
+      text: "Brand Identity, Logo Design, Marketing Collateral, Website, Sellable Items"
     }],
-    hasOriginalLogo: !1,
+    hasOriginalLogo: !0,
     originalLogo: {
-      image: "",
-      alt: "",
-      placeholder: "",
+      image: "/images/specImages/coOutfitters/CO_OutfittersOriginalLogo.webp",
+      alt: "Original Colorado Outfitters Logo",
+      placeholder: "/images/specImages/coOutfitters/CO_OutfittersOriginalLogo_LowRes.webp",
       size: "small"
     },
     shortDescription: "",
@@ -1644,7 +1639,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    shortDescription: "",
+    shortDescription: "A logo revamp done for a local cabinet company. They were looking to streamline their original logo and move away from the dreaded Papyrus font. Using a sleek, angular font, I worked to craft a modern image to fit with the company's high-end offerings, that also reflected the beauty of the Front Range.",
     images: [{
       image: "/images/brandImages/misc/SummitCabinetLogo.webp",
       alt: "Summit Cabinet Coatings Logo Design",
@@ -1659,7 +1654,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    shortDescription: "",
+    shortDescription: "A primarily digital platform exploring the Hebrew roots of Christianity, Illumination wanted a logo that represented both their Christian beliefs, as well as the Hebrew heritage of Christianity. Highlighting this using the 'shin' letter from the Hebrew alphabet, often associated with God, I worked to create an eye-catching and unique logo with a digital-first mentality.",
     images: [{
       image: "/images/brandImages/misc/IlluminationLogo.webp",
       alt: "Illumination Hebrew Insights Logo Design",
@@ -1689,7 +1684,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    shortDescription: "",
+    shortDescription: "A logo created for a small wall patching contractor. He was looking for a logo that would help him stand out from his competitors. For this design, I aimed to capture a casual, yet professional feel to match the owner's personality.",
     images: [{
       image: "/images/brandImages/misc/NoCoPatchProsLogo.webp",
       alt: "NoCo Patch Pros Logo Design",
@@ -4504,7 +4499,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-AMPVM4JZ.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-MHZ2H5VX.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-W7UWIPEJ.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-CUZDFHIV.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-M23J3E3D.js", imports: ["/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-EKSGU45S.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-TK42G26K.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-XHY75R6M.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-2HA2LG4Q.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0e8f7c00", hmr: void 0, url: "/build/manifest-0E8F7C00.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3ZVGWT3C.js", imports: ["/build/_shared/chunk-A2R3A2BK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-A2N534NP.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-L3OF6NSO.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-N3ATXCAO.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NYPZSFAM.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-GEZLYY7R.js", imports: ["/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-N2SVHZGI.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-XP4TJE5W.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-5J2FH2TC.js", imports: ["/build/_shared/chunk-BGZRSLIS.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-AYE5KWJN.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DCOZTFKF.js", "/build/_shared/chunk-A2R3A2BK.js", "/build/_shared/chunk-NCCVELCT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f1ea3a6a", hmr: void 0, url: "/build/manifest-F1EA3A6A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

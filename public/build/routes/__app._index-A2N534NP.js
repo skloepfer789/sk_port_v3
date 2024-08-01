@@ -9,7 +9,7 @@ import {
   MainMenu,
   links,
   require_scrollAnimation_min
-} from "/build/_shared/chunk-SOLCVJSR.js";
+} from "/build/_shared/chunk-NCCVELCT.js";
 import "/build/_shared/chunk-6SORIGQK.js";
 import {
   __commonJS,
@@ -821,4 +821,4 @@ export {
   links2 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app._index-AMPVM4JZ.js.map
+//# sourceMappingURL=/build/routes/__app._index-A2N534NP.js.map
