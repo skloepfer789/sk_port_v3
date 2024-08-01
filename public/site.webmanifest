@@ -1,9 +1,9 @@
 {
-    "name": "Evolving Graphic Design | Stephen Kloepfer | Branding & Design",
+    "name": "Graphic Design | Stephen Kloepfer",
     "short_name": "Kloepfer Branding & Design",
     "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" }, { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#e05210",
+    "background_color": "#e05210",
     "display": "standalone",
     "start_url": "https://stephenkloepfer.com"
 

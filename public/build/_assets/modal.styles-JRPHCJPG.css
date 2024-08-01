@@ -1,0 +1,192 @@
+/* app/styles/modal.styles.css */
+.modalBackground {
+  top: 0;
+  left: 0;
+}
+.openModal {
+  top: 0;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  z-index: 110;
+}
+.modalContain {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  background-color: #fafafa;
+  min-height: 100vh;
+  padding-top: 9vh;
+  padding-bottom: 9vh;
+}
+.modalImageContain {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.brandImage {
+  width: 100%;
+  padding: 0;
+  margin: 2% 0;
+}
+.breakdown {
+  width: 100%;
+  padding: 0;
+  margin: 2% 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.breakdownBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.modalContain h2 {
+  text-transform: uppercase;
+  color: var(--orangeMain);
+}
+.breakdown h2 {
+  margin-left: 30%;
+}
+.breakdownTitle {
+  margin-left: 5%;
+  color: var(--orangeMain);
+  width: 20%;
+  text-align: right;
+  text-transform: uppercase;
+}
+.breakdownText {
+  color: #272727;
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.originalLogo {
+  width: 40%;
+  margin-top: 10px;
+}
+.secondaryImage,
+.midImage {
+  box-sizing: border-box;
+  width: 48%;
+  padding: 0;
+  margin: 2% 0;
+}
+.closeModal {
+  display: none;
+}
+.buttonModal {
+  color: var(--orangeMain);
+  font-weight: 800;
+  font-size: 50px;
+  background-color: unset;
+  border: none;
+  z-index: 100;
+  transition: 2.5s;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .25);
+}
+.buttonModal:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: 2.5s;
+}
+.descrText {
+  color: #3a3a3a;
+  text-align: left;
+  line-height: 150%;
+  margin-left: 30%;
+  width: 60%;
+  font-size: 135%;
+}
+@media only screen and (max-width: 1500px) {
+  .modalContain {
+    position: relative;
+    box-sizing: border-box;
+    margin: -10vh 0 0;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 20vh;
+  }
+  .modalImageContain {
+    width: 80vw;
+  }
+  .brandImage-o {
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .secondaryImage {
+    width: 100%;
+    padding: 0;
+    margin: 2% 0;
+  }
+  .secondaryImage-o {
+    width: unset;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 20px 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .midImage {
+    width: 100%;
+    padding: 0;
+    margin: 2% 0;
+  }
+  .midImage-o {
+    width: unset;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 20px 0;
+    max-height: 95vh;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .buttonModal {
+    font-size: 30px;
+    top: 8px;
+    left: 8px;
+  }
+  .modalImageContain {
+    width: 90vw;
+  }
+  .modalContain {
+    padding-top: 15vh;
+  }
+  .breakdown h2 {
+    margin-left: 15px;
+  }
+  .breakdownBox {
+    flex-direction: column;
+  }
+  .breakdownTitle {
+    margin: 0 15px;
+    width: 100%;
+    text-align: left;
+  }
+  .breakdownText {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: -25px;
+  }
+  .descrText {
+    margin-left: 15px;
+    width: 80%;
+    font-size: 105%;
+    margin-top: -15px;
+  }
+}

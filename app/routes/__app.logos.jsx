@@ -18,7 +18,7 @@ export const links = () => [
 
 export const meta = () => {
   return [
-    {title: "Logo Design | Stephen Kloepfer Branding & Design?"} ,
+    {title: "Logo Design | Stephen Kloepfer Branding & Design"} ,
     {name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved."},
     {name: "description", content: "I specialize in creating logos in a wide variety of styles to create a unique and personalized look that draws your customers' eyes."},    
    {name: "og:title", content: "Stephen Kloepfer Logo Design"},

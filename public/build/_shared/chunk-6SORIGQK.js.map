@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/footer.component.jsx"],
+  "sourcesContent": ["import { Link } from '@remix-run/react'\n\nexport default function Footer() {\n    \n    return(\n        <footer>\n            <div className='contacts'>\n                <Link to='https://www.linkedin.com/in/stephenkloepfer-ft-collins' target=\"_blank\" rel='noreferrer'>\n                    linkedin\n                </Link>\n                <Link to='mailto:stevekloepferdesign@gmail.com'>\n                    e-mail\n                </Link>\n                <p>2023 - All Rights Reserved</p>\n            </div>\n        </footer>\n    )\n}"],
+  "mappings": ";;;;;;;AAOgB;AALD,SAAR,SAA0B;AAE7B,SACI,mDAAC,YACG,6DAAC,SAAI,WAAU,YACX;AAAA,uDAAC,QAAK,IAAG,0DAAyD,QAAO,UAAS,KAAI,cAAa,wBAAnG;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,QAAK,IAAG,wCAAuC,sBAAhD;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,OAAE,0CAAH;AAAA;AAAA;AAAA;AAAA,WAA6B;AAAA,OAPjC;AAAA;AAAA;AAAA;AAAA,SAQA,KATJ;AAAA;AAAA;AAAA;AAAA,SAUA;AAER;",
+  "names": []
+}

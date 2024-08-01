@@ -21,7 +21,7 @@ export const links = () => [
 
 export const meta = () => {
   return [
-    {title: "Who is Stephen Kloepfer?"} ,
+    {title: "Who is Steve | Stephen Kloepfer Branding & Design"} ,
     {name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved."},
     {name: "description", content: "A bit about me and my history in the fast-paced field of graphic design."},    
    {name: "og:title", content: "Stephen Kloepfer | Who am I?"},

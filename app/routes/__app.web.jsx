@@ -16,7 +16,7 @@ export const links = () => [
 
 export const meta = () => {
   return [
-    {title: "Web Design | Stephen Kloepfer Branding & Design?"} ,
+    {title: "Web Design | Stephen Kloepfer Branding & Design"} ,
     {name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved."},
     {name: "description", content: "Whether you need a simple Wordpress site for customers to land on, or full hand-coded websites with all the bells and whistles, I am here to help!"},    
    {name: "og:title", content: "Stephen Kloepfer Website Development"},
