@@ -309,16 +309,16 @@
         "noBreakdown": false,
         "breakdown": [{
             "title": "Service",
-            "text": "Rebrand"
+            "text": "Logo Redesign"
         }, {
             "title": "Story",
             "text": "A logo created for a local producer of dog knee braces. I used elements from their original logo, paired with a fun, playful font to remind dog owners of their joyous dog and suggest that (with some help) they can have their energetic pup back. To accompany the logo, I also provided them with marketing collateral, business cards, and slips to include in their product packages."
         }],
-        "hasOriginalLogo": false,
+        "hasOriginalLogo": true,
         "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
+            "image": "/images/brandImages/mutt/MuttKneeOriginalLogo.webp",
+            "alt": "Original Mutt Knee Brace Logo",
+            "placeholder": "/images/brandImages/mutt/MuttKneeOriginalLogo_LowRes.webp",
             "size": "small"
         },
         "shortDescription": "",
@@ -505,11 +505,11 @@
             "title": "Included Services",
             "text": "Brand Identity, Logo Design, Website, Stationary, Marketing Collateral, Copywriting"
         }],
-        "hasOriginalLogo": false,
+        "hasOriginalLogo": true,
         "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
+            "image": "/images/specImages/bakerLaw/BakerLawOriginalLogo.webp",
+            "alt": "Original Baker Law Logo",
+            "placeholder": "/images/specImages/bakerLaw/BakerLawOriginalLogo_LowRes.webp",
             "size": "small"
         },
         "shortDescription": "",
@@ -599,13 +599,8 @@
             "title": "Included Services",
             "text": "Brand Identity, Logo Design, Point of Sale Design, Marketing Collateral, Copywriting, Application Design"
         }],
-        "hasOriginalLogo": true,
-        "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
-        },
+        "hasOriginalLogo": false,
+        "originalLogo": {},
         "shortDescription": "",
         "images": [{
             "image": "/images/specImages/5guys/5Guys_Sketches.webp",
@@ -676,13 +671,13 @@
             "text": "Colorado Outfitters is a company I've worked with on their marketing collateral for several years. As part of a project pitch, I came up with an alternate brand identity to help modernize their look. While they chose to remain with their old identity, I'm still proud of the work done on this project, and wanted to put it forward as an example of the work I am capable of."
         }, {
             "title": "Included Services",
-            "text": "Brand Identity, Logo Design, Marketing Collateral, Sellable Items"
+            "text": "Brand Identity, Logo Design, Marketing Collateral, Website, Sellable Items"
         }],
-        "hasOriginalLogo": false,
+        "hasOriginalLogo": true,
         "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
+            "image": "/images/specImages/coOutfitters/CO_OutfittersOriginalLogo.webp",
+            "alt": "Original Colorado Outfitters Logo",
+            "placeholder": "/images/specImages/coOutfitters/CO_OutfittersOriginalLogo_LowRes.webp",
             "size": "small"
         },
         "shortDescription": "",
