@@ -84,13 +84,6 @@
     margin-top: 10px;
 }
 
-.brandImage-o {
-    max-width: 90vw;
-    max-height: 95vh;
-    padding: 10px 5vw;
-    margin: 2% auto 0;
-}
-
 .secondaryImage {
     box-sizing: border-box;
     width: 48%;
@@ -98,24 +91,10 @@
     margin: 2% 0;
 }
 
-.secondaryImage-o {
-    box-sizing: border-box;
-    width: 45vw;
-    padding: 5px 2.5vw;
-    margin: 2% 0;
-}
-
 .midImage {
     box-sizing: border-box;
     width: 48%;
     padding: 0;
-    margin: 2% 0;
-}
-
-.midImage-o {
-    box-sizing: border-box;
-    width: 45vw;
-    padding: 5px 2.5vw;
     margin: 2% 0;
 }
 
@@ -214,5 +193,27 @@
     }
     .modalContain {
         padding-top: 15vh;
+    }
+    .breakdown h2 {
+        margin-left: 15px;
+    }
+    .breakdownBox {
+        flex-direction: column;
+    }
+    .breakdownTitle {
+        margin: 0 15px;
+        width: 100%;
+        text-align: left;
+    }
+    .breakdownText {
+        width: 80%;
+        margin-left: 5%;
+        margin-top: -25px;
+    }
+    .descrText {
+        margin-left: 15px;
+        width: 80%;
+        font-size: 105%;
+        margin-top: -15px;
     }
 }
