@@ -1476,11 +1476,6 @@ var menuItems = [
     image: "/images/printImages/EliteEstheticianBooth.webp"
   },
   {
-    name: "playground",
-    link: "/spec",
-    image: "/images/specImages/coldstone/coldstone_Sketches.webp"
-  },
-  {
     name: "web design",
     link: "/web",
     image: "/images/HoodGuyMockup copy.webp"
@@ -1527,16 +1522,16 @@ function MainMenu(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "menuBackground", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(logoBleedOfflSVG_component_default, { className: "logoHeading", color: "#e05210", logoID: "logoHead" }, void 0, false, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 78,
+      lineNumber: 74,
       columnNumber: 19
     }, this) }, void 0, false, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 78,
+      lineNumber: 74,
       columnNumber: 6
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, false, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 79,
+      lineNumber: 75,
       columnNumber: 6
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -1550,7 +1545,7 @@ function MainMenu(props) {
       false,
       {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 80,
+        lineNumber: 76,
         columnNumber: 7
       },
       this
@@ -1559,7 +1554,7 @@ function MainMenu(props) {
       scrolling && props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(currentElement), onMouseLeave: unsetHover, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? `highlightImage` : `highlightImage offImage` }, void 0, false, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 89,
+          lineNumber: 85,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -1573,14 +1568,14 @@ function MainMenu(props) {
           false,
           {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 92,
+            lineNumber: 88,
             columnNumber: 15
           },
           this
         )
       ] }, void 0, true, {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 88,
+        lineNumber: 84,
         columnNumber: 9
       }, this) : props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
         "div",
@@ -1592,7 +1587,7 @@ function MainMenu(props) {
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? `highlightImage` : `highlightImage offImage` }, void 0, false, {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 106,
+              lineNumber: 102,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -1605,7 +1600,7 @@ function MainMenu(props) {
               false,
               {
                 fileName: "app/components/mainMenu.component.jsx",
-                lineNumber: 109,
+                lineNumber: 105,
                 columnNumber: 13
               },
               this
@@ -1616,7 +1611,7 @@ function MainMenu(props) {
         true,
         {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 100,
+          lineNumber: 96,
           columnNumber: 9
         },
         this
@@ -1625,7 +1620,7 @@ function MainMenu(props) {
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? `highlightImage` : `highlightImage offImage` }, void 0, false, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 121,
+            lineNumber: 117,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -1639,25 +1634,25 @@ function MainMenu(props) {
             false,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 124,
+              lineNumber: 120,
               columnNumber: 13
             },
             this
           )
         ] }, void 0, true, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 120,
+          lineNumber: 116,
           columnNumber: 11
         }, this) }, item.name, false, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 119,
+          lineNumber: 115,
           columnNumber: 9
         }, this)
       ) : newPages.map(
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? `highlightImage` : `highlightImage offImage` }, void 0, false, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 135,
+            lineNumber: 131,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -1671,30 +1666,30 @@ function MainMenu(props) {
             false,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 138,
+              lineNumber: 134,
               columnNumber: 13
             },
             this
           )
         ] }, item.name, true, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 134,
+          lineNumber: 130,
           columnNumber: 9
         }, this)
       )
     ] }, void 0, true, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 85,
+      lineNumber: 81,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Footer, {}, void 0, false, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 150,
+      lineNumber: 146,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/mainMenu.component.jsx",
-    lineNumber: 77,
+    lineNumber: 73,
     columnNumber: 5
   }, this);
 }
@@ -1728,4 +1723,4 @@ object-assign/index.js:
   @license MIT
   *)
 */
-//# sourceMappingURL=/build/_shared/chunk-HMAVY7XG.js.map
+//# sourceMappingURL=/build/_shared/chunk-SOLCVJSR.js.map

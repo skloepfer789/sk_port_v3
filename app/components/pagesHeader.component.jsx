@@ -15,9 +15,6 @@ const pageLinks = [
         link: "web",
         name: "web",
     },{
-        link: 'spec',
-        name: "playground",
-    },{
         link: "about",
         name: "about",
     }

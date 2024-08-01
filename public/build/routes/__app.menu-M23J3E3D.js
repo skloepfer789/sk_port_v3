@@ -1,7 +1,7 @@
 import {
   MainMenu,
   menu_styles_default
-} from "/build/_shared/chunk-HMAVY7XG.js";
+} from "/build/_shared/chunk-SOLCVJSR.js";
 import "/build/_shared/chunk-6SORIGQK.js";
 import {
   __toESM,
@@ -32,4 +32,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.menu-TYV6DL3S.js.map
+//# sourceMappingURL=/build/routes/__app.menu-M23J3E3D.js.map

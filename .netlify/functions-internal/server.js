@@ -354,10 +354,6 @@ var import_react4 = require("react"), import_jsx_dev_runtime4 = require("react/j
     name: "web"
   },
   {
-    link: "spec",
-    name: "playground"
-  },
-  {
     link: "about",
     name: "about"
   }
@@ -392,40 +388,40 @@ var PageHeader = (props) => {
         !1,
         {
           fileName: "app/components/pagesHeader.component.jsx",
-          lineNumber: 70,
+          lineNumber: 67,
           columnNumber: 29
         },
         this
       ) }, link.link, !1, {
         fileName: "app/components/pagesHeader.component.jsx",
-        lineNumber: 69,
+        lineNumber: 66,
         columnNumber: 11
       }, this)
     ) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 67,
+      lineNumber: 64,
       columnNumber: 17
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 65,
+      lineNumber: 62,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react3.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(logoBleedOfflSVG_component_default, { className: "headerLogo", color: logoColor }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 83,
+      lineNumber: 80,
       columnNumber: 21
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 82,
+      lineNumber: 79,
       columnNumber: 17
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 81,
+      lineNumber: 78,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/pagesHeader.component.jsx",
-    lineNumber: 64,
+    lineNumber: 61,
     columnNumber: 5
   }, this);
 }, pagesHeader_component_default = PageHeader, links2 = () => [
@@ -596,11 +592,6 @@ var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), menuItems = [
     image: "/images/printImages/EliteEstheticianBooth.webp"
   },
   {
-    name: "playground",
-    link: "/spec",
-    image: "/images/specImages/coldstone/coldstone_Sketches.webp"
-  },
-  {
     name: "web design",
     link: "/web",
     image: "/images/HoodGuyMockup copy.webp"
@@ -635,16 +626,16 @@ function MainMenu(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "menuBackground", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(logoBleedOfflSVG_component_default, { className: "logoHeading", color: "#e05210", logoID: "logoHead" }, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 78,
+      lineNumber: 74,
       columnNumber: 19
     }, this) }, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 78,
+      lineNumber: 74,
       columnNumber: 6
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 79,
+      lineNumber: 75,
       columnNumber: 6
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -658,7 +649,7 @@ function MainMenu(props) {
       !1,
       {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 80,
+        lineNumber: 76,
         columnNumber: 7
       },
       this
@@ -667,7 +658,7 @@ function MainMenu(props) {
       scrolling && props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(currentElement), onMouseLeave: unsetHover, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 89,
+          lineNumber: 85,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -681,14 +672,14 @@ function MainMenu(props) {
           !1,
           {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 92,
+            lineNumber: 88,
             columnNumber: 15
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 88,
+        lineNumber: 84,
         columnNumber: 9
       }, this) : props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
         "div",
@@ -700,7 +691,7 @@ function MainMenu(props) {
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 106,
+              lineNumber: 102,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -713,7 +704,7 @@ function MainMenu(props) {
               !1,
               {
                 fileName: "app/components/mainMenu.component.jsx",
-                lineNumber: 109,
+                lineNumber: 105,
                 columnNumber: 13
               },
               this
@@ -724,7 +715,7 @@ function MainMenu(props) {
         !0,
         {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 100,
+          lineNumber: 96,
           columnNumber: 9
         },
         this
@@ -733,7 +724,7 @@ function MainMenu(props) {
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 121,
+            lineNumber: 117,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -747,25 +738,25 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 124,
+              lineNumber: 120,
               columnNumber: 13
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 120,
+          lineNumber: 116,
           columnNumber: 11
         }, this) }, item.name, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 119,
+          lineNumber: 115,
           columnNumber: 9
         }, this)
       ) : newPages.map(
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 135,
+            lineNumber: 131,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -779,30 +770,30 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 138,
+              lineNumber: 134,
               columnNumber: 13
             },
             this
           )
         ] }, item.name, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 134,
+          lineNumber: 130,
           columnNumber: 9
         }, this)
       )
     ] }, void 0, !0, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 85,
+      lineNumber: 81,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(Footer, {}, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 150,
+      lineNumber: 146,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/mainMenu.component.jsx",
-    lineNumber: 77,
+    lineNumber: 73,
     columnNumber: 5
   }, this);
 }
@@ -934,7 +925,7 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/brandImages/rolling/FoodWrap_1.webp",
       alt: "Eyecatching Wraps to Draw New Customers",
@@ -1007,7 +998,7 @@ var brandingInfo_default = {
       placeholder: "/images/brandImages/rex/Rex_Orig_Logo_LowRes.webp",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/brandImages/rex/Rex Van.webp",
       alt: "Eyecatching Vehicles for Mobile Advertising",
@@ -1075,7 +1066,7 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/brandImages/aegir/AegirsWorkshopSite.webp",
       alt: "A Website To Draw Consumer's to Custom Goods",
@@ -1118,6 +1109,80 @@ var brandingInfo_default = {
       size: "small"
     }]
   }, {
+    name: "Mutt Knee Brace",
+    hero: {
+      image: "/images/brandImages/mutt/MuttKneeLogo.webp",
+      alt: "Mutt Knee Brace Logo Design",
+      placeholder: "/images/brandImages/mutt/MuttKneeLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Rebrand"
+    }, {
+      title: "Story",
+      text: "A logo created for a local producer of dog knee braces. I used elements from their original logo, paired with a fun, playful font to remind dog owners of their joyous dog and suggest that (with some help) they can have their energetic pup back. To accompany the logo, I also provided them with marketing collateral, business cards, and slips to include in their product packages."
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
+      alt: "Mutt Knee Brace Business Cards",
+      placeholder: "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/mutt/MuttKneeTrifold.webp",
+      alt: "Mutt Knee Brace Brochures",
+      placeholder: "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Four Seasons Business & Investment Solutions",
+    hero: {
+      image: "/images/brandImages/seasons/FourSeasonsLogo.webp",
+      alt: "Four Seasons Businesss Solutions Logo Design",
+      placeholder: "/images/brandImages/seasons/FourSeasonsLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Brand Identity"
+    }, {
+      title: "Story",
+      text: "A logo for a woman-owned investments solutions firm. Tory was searching for a logo that was both professional with a natural look that stood out from the blocky, 'masculine' look of her competitors. We worked to craft a logo that was inspired by the changing of the seasons, suggesting maintaing an edge in the investments market despite market changes and shift. To accompany her logo design, I worked on her stationary and brand kit, as well as se veral banners to advertise her new services."
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
+      alt: "Four Seasons Businesss Solutions Letterhead",
+      placeholder: "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/seasons/FourSeasons_BC.webp",
+      alt: "Four Seasons Businesss Solutions Business Cards",
+      placeholder: "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
+      size: "small"
+    }]
+  }, {
     name: "Coldstone Creamery",
     hero: {
       image: "/images/specImages/coldstone/coldstoneLogo.webp",
@@ -1148,7 +1213,7 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/specImages/coldstone/mixItUpSlogan.webp",
       alt: "Bold, Colorful, and Creative",
@@ -1256,7 +1321,7 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/specImages/bakerLaw/BakerLaw_Stationary_mockup.webp",
       alt: "Baker Law Stationary",
@@ -1349,7 +1414,7 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/specImages/5guys/5Guys_Sketches.webp",
       alt: "Five Guys Burgers & Fries Rebrand Sketches",
@@ -1397,28 +1462,28 @@ var brandingInfo_default = {
       size: "large"
     }]
   }, {
-    name: "name",
+    name: "Colorado Outfitters",
     hero: {
-      image: "",
-      alt: "",
-      placeholder: "",
-      size: "small"
+      image: "/images/specImages/coOutfitters/COOutfitters-Logo.webp",
+      alt: "Colorado Outfitters Rebrand Concept",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters-Logo_LowRes.webp",
+      size: "large"
     },
     heroAlsoFirstImage: !0,
     noDescription: !1,
     noBreakdown: !1,
     breakdown: [{
       title: "Service",
-      text: ""
+      text: "Speculative Rebrand"
     }, {
       title: "Mission",
-      text: ""
+      text: "Creating a modern look that still embraced the rustic, outdoorsman nature of their business, in hopes of creating more brand recognition in the Northern Colorado region."
     }, {
       title: "Brand Process",
-      text: ""
+      text: "Colorado Outfitters is a company I've worked with on their marketing collateral for several years. As part of a project pitch, I came up with an alternate brand identity to help modernize their look. While they chose to remain with their old identity, I'm still proud of the work done on this project, and wanted to put it forward as an example of the work I am capable of."
     }, {
       title: "Included Services",
-      text: ""
+      text: "Brand Identity, Logo Design, Marketing Collateral, Sellable Items"
     }],
     hasOriginalLogo: !1,
     originalLogo: {
@@ -1427,12 +1492,224 @@ var brandingInfo_default = {
       placeholder: "",
       size: "small"
     },
-    "short description": "",
+    shortDescription: "",
     images: [{
-      image: "/images/specImages/5guys/5Guys_Sketches.webp",
-      alt: "Five Guys Burgers & Fries Rebrand Sketches",
-      placeholder: "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+      image: "/images/specImages/coOutfitters/Outfitters_Sketches.webp",
+      alt: "Colorado Outfitters Rebrand Sketches",
+      placeholder: "/images/specImages/coOutfitters/Outfitters_Sketches_LowRes.webp",
       size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/Outfitters_Alternates.webp",
+      alt: "Colorado Outfitters Rebrand Alternate Options",
+      placeholder: "/images/specImages/coOutfitters/Outfitters_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfit_WebMockups.webp",
+      alt: "Colorado Outfitters Rebrand Website",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfit_WebMockups_LowRes.webp",
+      size: "large"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitter_Trifold.webp",
+      alt: "Colorado Outfitters Rebrand Trifolds",
+      placeholder: "/images/specImages/coOutfitters/COOutfitter_Trifold_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfitters_BCMockup.webp",
+      alt: "Colorado Outfitters Rebrand Business Cards",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfitters_BCMockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Hip Flask",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Travel Mug",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Tote Bag",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_ShotGlass.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Shot Glass",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_ShotGlass_LowRes.webp",
+      size: "mid"
+    }]
+  }, {
+    name: "Sleepy Siren Bath Co.",
+    hero: {
+      image: "/images/brandImages/siren/SleepySirenLogo.webp",
+      alt: "Sleepy Siren Bath Co. Logo Design",
+      placeholder: "/images/brandImages/siren/SleepySirenLogo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Brand Identity"
+    }, {
+      title: "Story",
+      text: "Created for a start-up boutique specializing in bath products, ths logo combined a Grecian flair with a modern art style. My objective was to find an image that fit Sleepy Siren\u2019s primarily digital marketplace, the exotic nature of their offerings, and the personality of the company's owner. Once the logo was complete, I also oversaw developing packaging for all outgoing products."
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/siren/SleepySirenSoapMockup.webp",
+      alt: "Sleepy Siren Bath Co. Soap Packaging",
+      placeholder: "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
+      alt: "Sleepy Siren Bath Co. Fragrance Bottle",
+      placeholder: "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
+      size: "small"
+    }]
+  }, {
+    name: "Ascendent Sales & Marketing",
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "Ascendent Sales came to me with a very simplistic logo depicting the mountains. My main focus in his brand revamp was crafting a logo with a sense of momentum, to go along with the sales and marketing field. Using the static mountains, I crafted a flowing stream, and used a trustworthy serif font that still had a touch of flair.",
+    images: [{
+      image: "/images/brandImages/misc/AscendentLogo.webp",
+      alt: "Ascendent Sales & Marketing Logo Design",
+      placeholder: "/images/brandImages/misc/AscendentLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "RetroFit Electric",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "I worked on this brand identity for an startup electrical outfit. The owner was looking for an image with a retro vibe, without sacrificing a modern, streamlined look to fit in with today's market. I worked to craft a look that was both unique, and easily legible for quick brand recognition.",
+    images: [{
+      image: "/images/brandImages/misc/RetroFit-Electric-Logo.webp",
+      alt: "RetroFit Electric Logo Design",
+      placeholder: "/images/brandImages/misc/RetroFit-Electric-Logo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "True North Sales & Marketing",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "Done in partnership with a local sales & consulting startup, I worked to craft a signature look that both reflected modern branding standards, and had a personal, classic touch. Working with a stylization of the compass rose, I paired it with a strong, bold font to reflect both the classical ideals of trustworthiness, as well as the bold outlook required to excel in sales.",
+    images: [{
+      image: "/images/brandImages/misc/TrueNorthLogo.webp",
+      alt: "True North Sales & Marketing Logo Design",
+      placeholder: "/images/brandImages/misc/TrueNorthLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Execute Multi Services",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "A logo created for a small restoration and contracting business. Their primary selling point is offering a vast array of services in home repair and construction. For this company, I tried to evoke a sense of their wide array of knowledge, and highlight the speed of their service, paired with a bold, masculine type selection.",
+    images: [{
+      image: "/images/brandImages/misc/ExecuteLogo.webp",
+      alt: "Execute Multi Services Logo Design",
+      placeholder: "/images/brandImages/misc/ExecuteLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Summit Cabinet Coatings",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/misc/SummitCabinetLogo.webp",
+      alt: "Summit Cabinet Coatings Logo Design",
+      placeholder: "/images/brandImages/misc/SummitCabinetLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Illumination Hebrew Insights Logo Design",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/misc/IlluminationLogo.webp",
+      alt: "Illumination Hebrew Insights Logo Design",
+      placeholder: "/images/brandImages/misc/IlluminationLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Jennifer Madrick Real Estate",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "Created for a local real estate agent, I aimed to create a styled logo that paired a traditional feel with a bit of playful spirit in order to fit the Fort Collins Real Estate market. For the font I selected a typeface that straddled playful and elegant, for a professional, and bold look for my client and paired it with iconography built from the letterforms to create an abstract key.",
+    images: [{
+      image: "/images/brandImages/misc/JenniferMadrickLogo.webp",
+      alt: "Jennifer Madrick Real Estate",
+      placeholder: "/images/brandImages/misc/JenniferMadrickLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "NoCo Patch Pros Logo Design",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "Sometimes our best work is speculative design work that never sees the light of day. A customer of mine requested a few attempts at modernizing their logo. While the higher-ups ended up deciding not to go with a rebrand, I felt this particular spec-work was worthy of inclusion, as it is a personal favorite of mine.",
+    images: [{
+      image: "/images/brandImages/misc/NoCoPatchProsLogo.webp",
+      alt: "NoCo Patch Pros Logo Design",
+      placeholder: "/images/brandImages/misc/NoCoPatchProsLogo_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Endodontics of the Rockies (speculative)",
+    heroAlsoFirstImage: !1,
+    noDescription: !1,
+    noBreakdown: !0,
+    breakdown: [],
+    hasOriginalLogo: !1,
+    originalLogo: {},
+    shortDescription: "Sometimes our best work is speculative design work that never sees the light of day. A customer of mine requested a few attempts at modernizing their logo. While the higher-ups ended up deciding not to go with a rebrand, I felt this particular spec-work was worthy of inclusion, as it is a personal favorite of mine.",
+    images: [{
+      image: "/images/brandImages/misc/EndoRockiesMockup.webp",
+      alt: "Endodontic of the Rockies Spec Logo Design",
+      placeholder: "/images/brandImages/misc/EndoRockiesMockup_LowRes.webp",
+      size: "large"
     }]
   }],
   print: [{
@@ -1449,7 +1726,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/printImages/TimbeHueMockupBC.webp",
       alt: "Timber Hue Business Cards",
@@ -1510,7 +1787,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/printImages/EliteEstheticianBooth.webp",
       alt: "Elite Esthetician Booth Setup",
@@ -1551,7 +1828,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/printImages/FreyaAbsinthe_MockUp.webp",
       alt: "Freya Absinthe Bottle",
@@ -1617,7 +1894,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/brandImages/rolling/FoodWrap_1.webp",
       alt: "Rolling Restaurant Vehicle Wrap",
@@ -1658,7 +1935,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/printImages/FossilBaseball_MagazineCover.webp",
       alt: "Fossil Ridge High School Player Guide Cover",
@@ -1704,7 +1981,7 @@ var brandingInfo_default = {
     breakdown: [],
     hasOriginalLogo: !1,
     originalLogo: {},
-    "short description": "",
+    shortDescription: "",
     images: [{
       image: "/images/printImages/Invitations_Gatefold.webp",
       alt: "Wedding Invitations",
@@ -2168,7 +2445,7 @@ var import_react11 = require("react");
 var import_react12 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-RF3OV7ZI.css";
+var modal_styles_default = "/build/_assets/modal.styles-HXFVG6DV.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props) => {
@@ -2202,85 +2479,116 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
           fileName: "app/components/modal.component.jsx",
           lineNumber: 19,
           columnNumber: 13
-        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
+        }, this) : data.images.length === 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          progressiveImage_component_default,
+          {
+            src: images[0].image,
+            placeholderSrc: images[0].placeholder,
+            classTitle: "brandImage",
+            alt: images[0].alt
+          },
+          images[0].image,
+          !1,
+          {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 29,
+            columnNumber: 17
+          },
+          this
+        ) }, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
           lineNumber: 28,
-          columnNumber: 13
+          columnNumber: 40
+        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 36,
+          columnNumber: 27
         }, this),
         data.noDescription ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 31,
+          lineNumber: 39,
           columnNumber: 13
-        }, this) : data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
+        }, this) : data.noBreakdown ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdown", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: data.name }, void 0, !1, {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 43,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "descrText", children: data.shortDescription }, void 0, !1, {
+            fileName: "app/components/modal.component.jsx",
+            lineNumber: 44,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, !0, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 34,
+          lineNumber: 42,
           columnNumber: 13
         }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdown", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: data.name }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 37,
+            lineNumber: 48,
             columnNumber: 29
           }, this),
           data.breakdown.map(
             (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: item.title }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 42,
+                lineNumber: 53,
                 columnNumber: 41
               }, this) }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 41,
+                lineNumber: 52,
                 columnNumber: 37
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: item.text }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 45,
+                lineNumber: 56,
                 columnNumber: 41
               }, this) }, void 0, !1, {
                 fileName: "app/components/modal.component.jsx",
-                lineNumber: 44,
+                lineNumber: 55,
                 columnNumber: 37
               }, this)
             ] }, void 0, !0, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 40,
+              lineNumber: 51,
               columnNumber: 15
             }, this)
           ),
           data.hasOriginalLogo ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownBox", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownTitle", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { children: "original logo" }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 53,
+              lineNumber: 64,
               columnNumber: 37
             }, this) }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 52,
+              lineNumber: 63,
               columnNumber: 33
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "breakdownText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("img", { src: data.originalLogo.image, className: "originalLogo", alt: "Original Logo" }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 56,
+              lineNumber: 67,
               columnNumber: 37
             }, this) }, void 0, !1, {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 55,
+              lineNumber: 66,
               columnNumber: 33
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 51,
+            lineNumber: 62,
             columnNumber: 15
           }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 59,
+            lineNumber: 70,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/modal.component.jsx",
-          lineNumber: 36,
+          lineNumber: 47,
           columnNumber: 13
         }, this),
-        images.map(
+        images.length > 1 ? images.map(
           (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
             progressiveImage_component_default,
             {
@@ -2293,12 +2601,16 @@ var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Modal = (props)
             !1,
             {
               fileName: "app/components/modal.component.jsx",
-              lineNumber: 66,
+              lineNumber: 77,
               columnNumber: 13
             },
             this
           )
-        )
+        ) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, {}, void 0, !1, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 86,
+          columnNumber: 17
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/components/modal.component.jsx",
         lineNumber: 17,
@@ -4192,7 +4504,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-TSZBJ4V4.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-B7TI4OAM.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-OKZJRIQT.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-RGU2CHVD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-TYV6DL3S.js", imports: ["/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-WH5P6RZQ.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-7Z3FA2TR.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-X3G4UR3K.js", imports: ["/build/_shared/chunk-3D2EJIPJ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-ARE5RXUE.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KN6FLPXY.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-HMAVY7XG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8020e1d3", hmr: void 0, url: "/build/manifest-8020E1D3.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EDRLHQR5.js", imports: ["/build/_shared/chunk-RDTA277U.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-FF5SXNRW.js", imports: ["/build/_shared/chunk-LPD6BGRT.js", "/build/_shared/chunk-6SORIGQK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-AMPVM4JZ.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-DN5J7TSF.js", imports: ["/build/_shared/chunk-6IXGK5EQ.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-7Z7MUMEO.js", imports: ["/build/_shared/chunk-LGW4NJSG.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-PYOSZGN6.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-M23J3E3D.js", imports: ["/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-WHCGJLHW.js", imports: ["/build/_shared/chunk-LGW4NJSG.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-TK42G26K.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-SWGPNLDE.js", imports: ["/build/_shared/chunk-LGW4NJSG.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-RASRH5AU.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-KRJFTU54.js", "/build/_shared/chunk-RDTA277U.js", "/build/_shared/chunk-SOLCVJSR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "3663b2db", hmr: void 0, url: "/build/manifest-3663B2DB.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

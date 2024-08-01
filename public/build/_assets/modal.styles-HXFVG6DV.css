@@ -49,9 +49,11 @@
   flex-direction: row;
   align-items: flex-start;
 }
-.breakdown h2 {
+.modalContain h2 {
   text-transform: uppercase;
   color: var(--orangeMain);
+}
+.breakdown h2 {
   margin-left: 30%;
 }
 .breakdownTitle {
@@ -126,8 +128,8 @@
   color: #3a3a3a;
   text-align: left;
   line-height: 150%;
-  width: 70%;
-  margin-left: 15%;
+  margin-left: 30%;
+  width: 60%;
   font-size: 135%;
 }
 @media only screen and (max-width: 1500px) {

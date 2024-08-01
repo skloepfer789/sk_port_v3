@@ -110,7 +110,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/brandImages/rolling/FoodWrap_1.webp",
             "alt": "Eyecatching Wraps to Draw New Customers",
@@ -184,7 +184,7 @@
             "placeholder": "/images/brandImages/rex/Rex_Orig_Logo_LowRes.webp",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/brandImages/rex/Rex Van.webp",
             "alt": "Eyecatching Vehicles for Mobile Advertising",
@@ -253,7 +253,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/brandImages/aegir/AegirsWorkshopSite.webp",
             "alt": "A Website To Draw Consumer's to Custom Goods",
@@ -297,6 +297,82 @@
         }]
 
     }, {
+        "name": "Mutt Knee Brace",
+        "hero": {
+            "image": "/images/brandImages/mutt/MuttKneeLogo.webp",
+            "alt": "Mutt Knee Brace Logo Design",
+            "placeholder": "/images/brandImages/mutt/MuttKneeLogo_LowRes.webp",
+            "size": "large"
+        },
+        "heroAlsoFirstImage": true,
+        "noDescription": false,
+        "noBreakdown": false,
+        "breakdown": [{
+            "title": "Service",
+            "text": "Rebrand"
+        }, {
+            "title": "Story",
+            "text": "A logo created for a local producer of dog knee braces. I used elements from their original logo, paired with a fun, playful font to remind dog owners of their joyous dog and suggest that (with some help) they can have their energetic pup back. To accompany the logo, I also provided them with marketing collateral, business cards, and slips to include in their product packages."
+        }],
+        "hasOriginalLogo": false,
+        "originalLogo": {
+            "image": "",
+            "alt": "",
+            "placeholder": "",
+            "size": "small"
+        },
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
+            "alt": "Mutt Knee Brace Business Cards",
+            "placeholder": "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/mutt/MuttKneeTrifold.webp",
+            "alt": "Mutt Knee Brace Brochures",
+            "placeholder": "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
+            "size": "small"
+        }]
+
+    }, {
+        "name": "Four Seasons Business & Investment Solutions",
+        "hero": {
+            "image": "/images/brandImages/seasons/FourSeasonsLogo.webp",
+            "alt": "Four Seasons Businesss Solutions Logo Design",
+            "placeholder": "/images/brandImages/seasons/FourSeasonsLogo_LowRes.webp",
+            "size": "large"
+        },
+        "heroAlsoFirstImage": true,
+        "noDescription": false,
+        "noBreakdown": false,
+        "breakdown": [{
+            "title": "Service",
+            "text": "Brand Identity"
+        }, {
+            "title": "Story",
+            "text": "A logo for a woman-owned investments solutions firm. Tory was searching for a logo that was both professional with a natural look that stood out from the blocky, 'masculine' look of her competitors. We worked to craft a logo that was inspired by the changing of the seasons, suggesting maintaing an edge in the investments market despite market changes and shift. To accompany her logo design, I worked on her stationary and brand kit, as well as se veral banners to advertise her new services."
+        }],
+        "hasOriginalLogo": false,
+        "originalLogo": {
+            "image": "",
+            "alt": "",
+            "placeholder": "",
+            "size": "small"
+        },
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
+            "alt": "Four Seasons Businesss Solutions Letterhead",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/seasons/FourSeasons_BC.webp",
+            "alt": "Four Seasons Businesss Solutions Business Cards",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
+            "size": "small"
+        }]
+
+    }, {
         "name": "Coldstone Creamery",
         "hero": {
             "image": "/images/specImages/coldstone/coldstoneLogo.webp",
@@ -327,7 +403,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/specImages/coldstone/mixItUpSlogan.webp",
             "alt": "Bold, Colorful, and Creative",
@@ -436,7 +512,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/specImages/bakerLaw/BakerLaw_Stationary_mockup.webp",
             "alt": "Baker Law Stationary",
@@ -530,7 +606,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/specImages/5guys/5Guys_Sketches.webp",
             "alt": "Five Guys Burgers & Fries Rebrand Sketches",
@@ -609,7 +685,7 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/specImages/coOutfitters/Outfitters_Sketches.webp",
             "alt": "Colorado Outfitters Rebrand Sketches",
@@ -658,28 +734,22 @@
         }]
 
     }, {
-        "name": "name",
+        "name": "Sleepy Siren Bath Co.",
         "hero": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
+            "image": "/images/brandImages/siren/SleepySirenLogo.webp",
+            "alt": "Sleepy Siren Bath Co. Logo Design",
+            "placeholder": "/images/brandImages/siren/SleepySirenLogo_LowRes.webp",
+            "size": "large"
         },
         "heroAlsoFirstImage": true,
         "noDescription": false,
         "noBreakdown": false,
         "breakdown": [{
             "title": "Service",
-            "text": ""
+            "text": "Brand Identity"
         }, {
-            "title": "Mission",
-            "text": ""
-        }, {
-            "title": "Brand Process",
-            "text": ""
-        }, {
-            "title": "Included Services",
-            "text": ""
+            "title": "Story",
+            "text": "Created for a start-up boutique specializing in bath products, ths logo combined a Grecian flair with a modern art style. My objective was to find an image that fit Sleepy Siren’s primarily digital marketplace, the exotic nature of their offerings, and the personality of the company's owner. Once the logo was complete, I also oversaw developing packaging for all outgoing products."
         }],
         "hasOriginalLogo": false,
         "originalLogo": {
@@ -688,90 +758,161 @@
             "placeholder": "",
             "size": "small"
         },
-        "short description": "",
+        "shortDescription": "",
         "images": [{
-            "image": "/images/specImages/5guys/5Guys_Sketches.webp",
-            "alt": "Five Guys Burgers & Fries Rebrand Sketches",
-            "placeholder": "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+            "image": "/images/brandImages/siren/SleepySirenSoapMockup.webp",
+            "alt": "Sleepy Siren Bath Co. Soap Packaging",
+            "placeholder": "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
+            "alt": "Sleepy Siren Bath Co. Fragrance Bottle",
+            "placeholder": "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
             "size": "small"
         }]
 
     }, {
-        "name": "name",
-        "hero": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
-        },
+        "name": "Ascendent Sales & Marketing",
         "heroAlsoFirstImage": true,
         "noDescription": false,
-        "noBreakdown": false,
-        "breakdown": [{
-            "title": "Service",
-            "text": ""
-        }, {
-            "title": "Mission",
-            "text": ""
-        }, {
-            "title": "Brand Process",
-            "text": ""
-        }, {
-            "title": "Included Services",
-            "text": ""
-        }],
+        "noBreakdown": true,
+        "breakdown": [],
         "hasOriginalLogo": false,
-        "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
-        },
-        "short description": "",
+        "originalLogo": {},
+        "shortDescription": "Ascendent Sales came to me with a very simplistic logo depicting the mountains. My main focus in his brand revamp was crafting a logo with a sense of momentum, to go along with the sales and marketing field. Using the static mountains, I crafted a flowing stream, and used a trustworthy serif font that still had a touch of flair.",
         "images": [{
-            "image": "/images/specImages/5guys/5Guys_Sketches.webp",
-            "alt": "Five Guys Burgers & Fries Rebrand Sketches",
-            "placeholder": "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
-            "size": "small"
+            "image": "/images/brandImages/misc/AscendentLogo.webp",
+            "alt": "Ascendent Sales & Marketing Logo Design",
+            "placeholder": "/images/brandImages/misc/AscendentLogo_LowRes.webp",
+            "size": "large"
         }]
 
     }, {
-        "name": "name",
-        "hero": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
-        },
-        "heroAlsoFirstImage": true,
+        "name": "RetroFit Electric",
+        "heroAlsoFirstImage": false,
         "noDescription": false,
-        "noBreakdown": false,
-        "breakdown": [{
-            "title": "Service",
-            "text": ""
-        }, {
-            "title": "Mission",
-            "text": ""
-        }, {
-            "title": "Brand Process",
-            "text": ""
-        }, {
-            "title": "Included Services",
-            "text": ""
-        }],
+        "noBreakdown": true,
+        "breakdown": [],
         "hasOriginalLogo": false,
-        "originalLogo": {
-            "image": "",
-            "alt": "",
-            "placeholder": "",
-            "size": "small"
-        },
-        "short description": "",
+        "originalLogo": {},
+        "shortDescription": "I worked on this brand identity for an startup electrical outfit. The owner was looking for an image with a retro vibe, without sacrificing a modern, streamlined look to fit in with today's market. I worked to craft a look that was both unique, and easily legible for quick brand recognition.",
         "images": [{
-            "image": "/images/specImages/5guys/5Guys_Sketches.webp",
-            "alt": "Five Guys Burgers & Fries Rebrand Sketches",
-            "placeholder": "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
-            "size": "small"
+            "image": "/images/brandImages/misc/RetroFit-Electric-Logo.webp",
+            "alt": "RetroFit Electric Logo Design",
+            "placeholder": "/images/brandImages/misc/RetroFit-Electric-Logo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "True North Sales & Marketing",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "Done in partnership with a local sales & consulting startup, I worked to craft a signature look that both reflected modern branding standards, and had a personal, classic touch. Working with a stylization of the compass rose, I paired it with a strong, bold font to reflect both the classical ideals of trustworthiness, as well as the bold outlook required to excel in sales.",
+        "images": [{
+            "image": "/images/brandImages/misc/TrueNorthLogo.webp",
+            "alt": "True North Sales & Marketing Logo Design",
+            "placeholder": "/images/brandImages/misc/TrueNorthLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Execute Multi Services",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "A logo created for a small restoration and contracting business. Their primary selling point is offering a vast array of services in home repair and construction. For this company, I tried to evoke a sense of their wide array of knowledge, and highlight the speed of their service, paired with a bold, masculine type selection.",
+        "images": [{
+            "image": "/images/brandImages/misc/ExecuteLogo.webp",
+            "alt": "Execute Multi Services Logo Design",
+            "placeholder": "/images/brandImages/misc/ExecuteLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Summit Cabinet Coatings",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/misc/SummitCabinetLogo.webp",
+            "alt": "Summit Cabinet Coatings Logo Design",
+            "placeholder": "/images/brandImages/misc/SummitCabinetLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Illumination Hebrew Insights Logo Design",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/misc/IlluminationLogo.webp",
+            "alt": "Illumination Hebrew Insights Logo Design",
+            "placeholder": "/images/brandImages/misc/IlluminationLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Jennifer Madrick Real Estate",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "Created for a local real estate agent, I aimed to create a styled logo that paired a traditional feel with a bit of playful spirit in order to fit the Fort Collins Real Estate market. For the font I selected a typeface that straddled playful and elegant, for a professional, and bold look for my client and paired it with iconography built from the letterforms to create an abstract key.",
+        "images": [{
+            "image": "/images/brandImages/misc/JenniferMadrickLogo.webp",
+            "alt": "Jennifer Madrick Real Estate",
+            "placeholder": "/images/brandImages/misc/JenniferMadrickLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "NoCo Patch Pros Logo Design",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/misc/NoCoPatchProsLogo.webp",
+            "alt": "NoCo Patch Pros Logo Design",
+            "placeholder": "/images/brandImages/misc/NoCoPatchProsLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Endodontics of the Rockies (speculative)",
+        "heroAlsoFirstImage": false,
+        "noDescription": false,
+        "noBreakdown": true,
+        "breakdown": [],
+        "hasOriginalLogo": false,
+        "originalLogo": {},
+        "shortDescription": "Sometimes our best work is speculative design work that never sees the light of day. A customer of mine requested a few attempts at modernizing their logo. While the higher-ups ended up deciding not to go with a rebrand, I felt this particular spec-work was worthy of inclusion, as it is a personal favorite of mine.",
+        "images": [{
+            "image": "/images/brandImages/misc/EndoRockiesMockup.webp",
+            "alt": "Endodontic of the Rockies Spec Logo Design",
+            "placeholder": "/images/brandImages/misc/EndoRockiesMockup_LowRes.webp",
+            "size": "large"
         }]
 
     }],
@@ -789,7 +930,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/printImages/TimbeHueMockupBC.webp",
             "alt": "Timber Hue Business Cards",
@@ -851,7 +992,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/printImages/EliteEstheticianBooth.webp",
             "alt": "Elite Esthetician Booth Setup",
@@ -893,7 +1034,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/printImages/FreyaAbsinthe_MockUp.webp",
             "alt": "Freya Absinthe Bottle",
@@ -960,7 +1101,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/brandImages/rolling/FoodWrap_1.webp",
             "alt": "Rolling Restaurant Vehicle Wrap",
@@ -1002,7 +1143,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/printImages/FossilBaseball_MagazineCover.webp",
             "alt": "Fossil Ridge High School Player Guide Cover",
@@ -1049,7 +1190,7 @@
         "breakdown": [],
         "hasOriginalLogo": false,
         "originalLogo": {},
-        "short description": "",
+        "shortDescription": "",
         "images": [{
             "image": "/images/printImages/Invitations_Gatefold.webp",
             "alt": "Wedding Invitations",

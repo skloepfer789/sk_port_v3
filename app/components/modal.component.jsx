@@ -25,13 +25,24 @@ const Modal = (props) => {
                     alt={hero.alt}
                 />                
                     </>)
-                : (<></>)
+                : data.images.length === 1 ? (<>
+                <ProgressiveImg 
+                    key={images[0].image}
+                    src={images[0].image}
+                    placeholderSrc={images[0].placeholder}
+                    classTitle='brandImage'
+                    alt={images[0].alt}
+                />                
+                    </>) : (<></>)
                 }
                 {data.noDescription ? (
                 <></>
                 ): data.noBreakdown ? 
                 (
-                        <p className='descrText'>{data.shortDescription}</p>
+                        <div className='breakdown'>
+                            <h2>{data.name}</h2>
+                            <p className='descrText'>{data.shortDescription}</p>
+                        </div>
                 ):(
                         <div className='breakdown'>
                             <h2>{data.name}</h2>
@@ -62,7 +73,7 @@ const Modal = (props) => {
                         </div>
                 )
                 }
-                {images.map((image) => (
+                {images.length > 1 ? images.map((image) => (
                     <ProgressiveImg 
                         key={image.image}
                         src={image.image}
@@ -72,7 +83,7 @@ const Modal = (props) => {
                         }
                         alt={image.alt}
                     />
-                ))}
+                )):(<></>)}
                 </div>
             </div>
             </div>

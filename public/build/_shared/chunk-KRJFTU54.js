@@ -1,6 +1,6 @@
 import {
   logoBleedOfflSVG_component_default
-} from "/build/_shared/chunk-HMAVY7XG.js";
+} from "/build/_shared/chunk-SOLCVJSR.js";
 import {
   Link,
   __toESM,
@@ -26,10 +26,6 @@ var pageLinks = [
   {
     link: "web",
     name: "web"
-  },
-  {
-    link: "spec",
-    name: "playground"
   },
   {
     link: "about",
@@ -80,40 +76,40 @@ var PageHeader = (props) => {
         false,
         {
           fileName: "app/components/pagesHeader.component.jsx",
-          lineNumber: 70,
+          lineNumber: 67,
           columnNumber: 29
         },
         this
       ) }, link.link, false, {
         fileName: "app/components/pagesHeader.component.jsx",
-        lineNumber: 69,
+        lineNumber: 66,
         columnNumber: 11
       }, this)
     ) }, void 0, false, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 67,
+      lineNumber: 64,
       columnNumber: 17
     }, this) }, void 0, false, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 65,
+      lineNumber: 62,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(logoBleedOfflSVG_component_default, { className: "headerLogo", color: logoColor }, void 0, false, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 83,
+      lineNumber: 80,
       columnNumber: 21
     }, this) }, void 0, false, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 82,
+      lineNumber: 79,
       columnNumber: 17
     }, this) }, void 0, false, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 81,
+      lineNumber: 78,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/pagesHeader.component.jsx",
-    lineNumber: 64,
+    lineNumber: 61,
     columnNumber: 5
   }, this);
 };
@@ -130,4 +126,4 @@ export {
   links,
   page_styles_default
 };
-//# sourceMappingURL=/build/_shared/chunk-KN6FLPXY.js.map
+//# sourceMappingURL=/build/_shared/chunk-KRJFTU54.js.map
