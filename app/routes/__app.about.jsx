@@ -113,7 +113,7 @@ const About = () => {
                 <h2 className='historyText'>Work History</h2>
               </div>
               <div className='aboutRow'>            
-                <Timeline aboutInfo={aboutInfo} selector='about' heightBlock='60vh' />            
+                <Timeline aboutInfo={aboutInfo} selector='about' heightBlock='70vh' />            
               </div>
             </div>
         </div>
