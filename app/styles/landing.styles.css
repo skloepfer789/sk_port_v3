@@ -18,10 +18,10 @@
 }
 
 .spacer {
-    width: 400px;
+    width: 200px;
     height: 100vh;
     background-color: var(--orangeMain);
-    margin-left: -30vw;
+    margin-left: -20vw;
     z-index: -1;
 }
 
@@ -68,12 +68,18 @@
     line-height: 30px;
 }
 
+@media only screen and (max-width: 1250px) {
+    .spacer {
+        width: 300px;
+        margin-left: -30vw;
+        z-index: -1;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .spacer {
         width: 300px;
-        height: 100vh;
-        background-color: var(--orangeMain);
-        margin-left: -20vw;
+        margin-left: -30vw;
         z-index: -1;
     }
 }
