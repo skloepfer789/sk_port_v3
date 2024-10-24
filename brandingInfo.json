@@ -208,7 +208,7 @@
         }, {
             "image": "/images/brandImages/rex/RexBC.webp",
             "alt": "Business Cards to Drum Up Business",
-            "placeholder": "/images/brandImages/rex/RexBCs_LowRes.webp",
+            "placeholder": "/images/brandImages/rex/RexBC_LowRes.webp",
             "size": "mid"
         }, {
             "image": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
@@ -220,6 +220,70 @@
             "alt": "A New Face For Rex",
             "placeholder": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11_LowRes.webp",
             "size": "large"
+        }]
+
+    }, {
+        "name": "Comida Guatemalteca",
+        "hero": {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-Logo.webp",
+            "alt": "Comida Guatemalteca Brand",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-Logo_LowRes.webp",
+            "size": "large"
+        },
+        "heroAlsoFirstImage": true,
+        "noDescription": false,
+        "noBreakdown": false,
+        "breakdown": [{
+            "title": "Service",
+            "text": "Brand Identity"
+        }, {
+            "title": "Mission",
+            "text": "One of my long-time customers, an owner of a Mexican chain of local restaurants, was looking to branch into Guatemalan cuisine. We worked to find a unique brand, that spoke to the storied South American history of the Guatemalan culture, and set it apart from the variety of Mexian themed restaurants in our area."
+        }, {
+            "title": "Brand Process",
+            "text": "Our city is saturated in Mexican restaraunts, so a primary objective with this identity was forging a unique look to accompany the unique offerings of Guatemalan food. To achieve this, I worked to steer clear of many of the classic 'Latin' branding tropes, and tried to draw from Guatemala's rich culture. Incorporating their country's blue for the logo, and inspired by their world-renknowned pyramids, I crafted a look that was both culturally relavant, and unique."
+        }, {
+            "title": "Included Services",
+            "text": "Brand Identity, Logo Design, Menus, Packaging"
+        }],
+        "hasOriginalLogo": false,
+        "originalLogo": {
+            "image": "",
+            "alt": "",
+            "placeholder": "",
+            "size": "small"
+        },
+        "shortDescription": "",
+        "images": [{
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-Sketches.webp",
+            "alt": "Crafting the Brand Identity",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-Sketches_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-Alternates.webp",
+            "alt": "Alternate Logos in the Brainstorming Stage",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-Alternates_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-Menu.webp",
+            "alt": "A Menu to Catch the Eye",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-Menu_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-FoodPackaging.webp",
+            "alt": "Branded To-Go Containers",
+            "placeholder": "/images/brandImages/aegir/ComidaGuatemalteca-FoodPackaging_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-BC.webp",
+            "alt": "Business Cards to Drum Up Sales",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-BC_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/comida/ComidaGuatemalteca-Coasters.webp",
+            "alt": "Branded Coasters for the Tables",
+            "placeholder": "/images/brandImages/comida/ComidaGuatemalteca-Coasters_LowRes.webp",
+            "size": "small"
         }]
 
     }, {

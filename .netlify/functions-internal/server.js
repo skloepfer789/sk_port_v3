@@ -1036,6 +1036,69 @@ var brandingInfo_default = {
       size: "large"
     }]
   }, {
+    name: "Comida Guatemalteca",
+    hero: {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-Logo.webp",
+      alt: "Comida Guatemalteca Brand",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-Logo_LowRes.webp",
+      size: "large"
+    },
+    heroAlsoFirstImage: !0,
+    noDescription: !1,
+    noBreakdown: !1,
+    breakdown: [{
+      title: "Service",
+      text: "Brand Identity"
+    }, {
+      title: "Mission",
+      text: "One of my long-time customers, an owner of a Mexican chain of local restaurants, was looking to branch into Guatemalan cuisine. We worked to find a unique brand, that spoke to the storied South American history of the Guatemalan culture, and set it apart from the variety of Mexian themed restaurants in our area."
+    }, {
+      title: "Brand Process",
+      text: "Our city is saturated in Mexican restaraunts, so a primary objective with this identity was forging a unique look to accompany the unique offerings of Guatemalan food. To achieve this, I worked to steer clear of many of the classic 'Latin' branding tropes, and tried to draw from Guatemala's rich culture. Incorporating their country's blue for the logo, and inspired by their world-renknowned pyramids, I crafted a look that was both culturally relavant, and unique."
+    }, {
+      title: "Included Services",
+      text: "Brand Identity, Logo Design, Menus, Packaging"
+    }],
+    hasOriginalLogo: !1,
+    originalLogo: {
+      image: "",
+      alt: "",
+      placeholder: "",
+      size: "small"
+    },
+    shortDescription: "",
+    images: [{
+      image: "/images/brandImages/comida/ComidaGuatemalteca-Sketches.webp",
+      alt: "Crafting the Brand Identity",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-Sketches_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-Alternates.webp",
+      alt: "Alternate Logos in the Brainstorming Stage",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-Menu.webp",
+      alt: "A Menu to Catch the Eye",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-Menu_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-FoodPackaging.webp",
+      alt: "Branded To-Go Containers",
+      placeholder: "/images/brandImages/aegir/ComidaGuatemalteca-FoodPackaging_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-BC.webp",
+      alt: "Business Cards to Drum Up Sales",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-BC_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/brandImages/comida/ComidaGuatemalteca-Coasters.webp",
+      alt: "Branded Coasters for the Tables",
+      placeholder: "/images/brandImages/comida/ComidaGuatemalteca-Coasters_LowRes.webp",
+      size: "small"
+    }]
+  }, {
     name: "\xC6GIR\u2019 S WORKSHOP",
     hero: {
       image: "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
@@ -1161,7 +1224,7 @@ var brandingInfo_default = {
       text: "Brand Identity"
     }, {
       title: "Story",
-      text: "A logo for a woman-owned investments solutions firm. Tory was searching for a logo that was both professional with a natural look that stood out from the blocky, 'masculine' look of her competitors. We worked to craft a logo that was inspired by the changing of the seasons, suggesting maintaing an edge in the investments market despite market changes and shift. To accompany her logo design, I worked on her stationary and brand kit, as well as se veral banners to advertise her new services."
+      text: "A logo for a woman-owned investments solutions firm. Tory was searching for a logo that was both professional with a natural look that stood out from the blocky, 'masculine' look of her competitors. We worked to craft a logo that was inspired by the changing of the seasons, suggesting maintaing an edge in the investments market despite market changes and shift. To accompany her logo design, I worked on her stationary and brand kit, as well as several banners to advertise her new services."
     }],
     hasOriginalLogo: !1,
     originalLogo: {
